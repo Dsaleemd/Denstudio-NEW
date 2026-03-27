@@ -70,12 +70,12 @@ export default function CosmeticConsultPage() {
   return (
     <>
       {/* ══ HERO: White card (left) + Vertical Wistia video (right) ══ */}
-      <section className="relative bg-[#012406] pt-24 pb-0 md:pt-28 overflow-hidden min-h-screen">
-        <div className="mx-auto max-w-7xl px-4 md:px-6 h-full">
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,540px)_1fr] gap-6 items-stretch">
+      <section className="relative bg-[#012406] pt-24 pb-6 md:pt-28 md:pb-8 overflow-hidden">
+        <div className="mx-auto max-w-7xl px-4 md:px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,540px)_1fr] gap-6 lg:items-center">
 
             {/* Left: White info card with form */}
-            <div className="bg-white rounded-xl px-8 py-10 md:px-9 md:py-11 my-4 lg:my-6 overflow-y-auto max-h-[calc(100vh-140px)]">
+            <div className="bg-white rounded-xl px-8 py-10 md:px-9 md:py-11">
               <h1 className="text-[2rem] md:text-[2rem] font-bold leading-[1.2] text-[#1a1a1a] mb-3">
                 Transform Your Smile with Natural-Looking Composite Bonding and Invisalign
               </h1>
@@ -132,16 +132,18 @@ export default function CosmeticConsultPage() {
               </div>
             </div>
 
-            {/* Right: Vertical Wistia video — full height */}
-            <div className="relative rounded-xl overflow-hidden my-4 lg:my-6 min-h-[500px] lg:min-h-0 bg-black">
-              <iframe
-                src="https://fast.wistia.net/embed/iframe/2zjyjee20j?seo=true&videoFoam=true&playbar=true"
-                title="Denstudio Cosmetic Consultation"
-                allow="autoplay; fullscreen"
-                frameBorder="0"
-                scrolling="no"
-                className="absolute inset-0 w-full h-full"
-              />
+            {/* Right: Vertical Wistia video — 9:16 native ratio, centred with card */}
+            <div className="flex items-center justify-center">
+              <div className="relative w-full rounded-xl overflow-hidden bg-black" style={{ aspectRatio: "9/16", maxHeight: "820px" }}>
+                <iframe
+                  src="https://fast.wistia.net/embed/iframe/2zjyjee20j?seo=true&videoFoam=false"
+                  title="Denstudio Cosmetic Consultation"
+                  allow="autoplay; fullscreen"
+                  frameBorder="0"
+                  scrolling="no"
+                  className="absolute inset-0 w-full h-full"
+                />
+              </div>
             </div>
 
           </div>
