@@ -9,42 +9,42 @@ const treatments = [
     description:
       "Natural-looking porcelain veneers, using the best quality laboratories",
     href: "/porcelain-veneers",
-    image: "/images/porcelain-veneers/clinical-1.webp",
+    image: "/images/homepage/treatments/veneers-before-after.webp",
   },
   {
     title: "Invisalign",
     description:
       "Discreet and convenient alternative to traditional braces. We can guarantee you a price match with anywhere in London",
     href: "/teeth-straightening",
-    image: "/images/teeth-straightening/hero.webp",
+    image: "/images/homepage/treatments/treatment-2.jpeg",
   },
   {
     title: "General Dentistry",
     description:
       "Comprehensive general dentistry services focused on maintaining your oral health",
     href: "/general",
-    image: "/images/general/hero.webp",
+    image: "/images/homepage/treatments/treatment-3.jpeg",
   },
   {
     title: "Composite Bonding",
     description:
       "Improve the appearance of chipped, stained, or misshapen teeth",
     href: "/composite-bonding",
-    image: "/images/composite-bonding/hero.webp",
+    image: "/images/homepage/treatments/treatment-4.webp",
   },
   {
     title: "Teeth Whitening",
     description:
       "Brighten your smile safely and effectively with our professional whitening systems",
     href: "/teeth-whitening",
-    image: "/images/teeth-whitening/hero.webp",
+    image: "/images/homepage/treatments/treatment-5.webp",
   },
   {
     title: "Airflow Polish",
     description:
       "Advanced cleaning system to remove stains and leave teeth ultra-smooth",
     href: "/hygiene",
-    image: "/images/hygiene/hero.webp",
+    image: "/images/homepage/treatments/treatment-6.webp",
   },
 ];
 
@@ -74,29 +74,29 @@ const steps = [
     step: "Step One",
     description:
       "Book your consultation with a Doctor Denzel cosmetic dental expert at Denstudio",
-    image: "/images/general/consultation.webp",
+    image: "/images/homepage/process/step-1.jpeg",
   },
   {
     step: "Step Two",
     description:
       "Create your tailored treatment plan - Start your journey to your dream smile",
-    image: "/images/teeth-straightening/dr-jana-press.webp",
+    image: "/images/homepage/process/step-2.jpeg",
   },
   {
     step: "Step Three",
     description:
       "Enjoy and maintain a healthy, lasting smile - Walk away with your stunning new smile",
-    image: "/images/composite-bonding/patient-6.webp",
+    image: "/images/homepage/gallery/photo-feb-26.webp",
   },
 ];
 
 const galleryImages = [
-  { src: "/images/porcelain-veneers/clinical-1.webp", alt: "Porcelain veneers clinical result 1" },
-  { src: "/images/porcelain-veneers/clinical-2.webp", alt: "Porcelain veneers clinical result 2" },
-  { src: "/images/composite-bonding/patient-1.webp", alt: "Composite bonding patient result 1" },
-  { src: "/images/composite-bonding/patient-2.webp", alt: "Composite bonding patient result 2" },
-  { src: "/images/composite-bonding/patient-3.webp", alt: "Composite bonding patient result 3" },
-  { src: "/images/composite-bonding/patient-4.webp", alt: "Composite bonding patient result 4" },
+  { src: "/images/homepage/gallery/clinical-cases.webp", alt: "Smile transformation result" },
+  { src: "/images/homepage/gallery/clinical-cases-2.webp", alt: "Before and after veneers" },
+  { src: "/images/homepage/gallery/photo-feb-26.webp", alt: "Patient smile makeover" },
+  { src: "/images/homepage/gallery/photo-feb-26-2.jpg", alt: "Cosmetic dentistry result" },
+  { src: "/images/homepage/gallery/photo-feb-26-3.jpg", alt: "Teeth transformation" },
+  { src: "/images/homepage/gallery/dr-jana-cosmetic-dentist.jpg", alt: "Dr Jana Denzel cosmetic result" },
 ];
 
 const btnClasses =
@@ -109,7 +109,7 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         {/* Background image */}
         <div className="absolute inset-0">
-          <Image src="/images/porcelain-veneers/hero.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover" priority />
+          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover" priority />
         </div>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/30" />
@@ -172,7 +172,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
-              <Image src="/images/about/dr-jana-1.webp" alt="Dr Jana Denzel" fill className="object-cover" />
+              <Image src="/images/homepage/dr-jana/dr-jana-landing.webp" alt="Dr Jana Denzel" fill className="object-cover" />
             </div>
 
             <div>
