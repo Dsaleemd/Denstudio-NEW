@@ -68,6 +68,30 @@ export default function BlogArticleLayout({
                 Teeth Straightening
               </Link>
             </li>
+            <li>
+              <Link
+                href="/blog"
+                className="inline-block border border-[#012406] text-[#012406] rounded-full px-5 py-2 text-sm font-medium hover:bg-[#012406] hover:text-white transition-colors duration-300"
+              >
+                Back to All Articles
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/fees"
+                className="inline-block border border-[#012406] text-[#012406] rounded-full px-5 py-2 text-sm font-medium hover:bg-[#012406] hover:text-white transition-colors duration-300"
+              >
+                View Our Pricing
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/whats-your-concern"
+                className="inline-block border border-[#012406] text-[#012406] rounded-full px-5 py-2 text-sm font-medium hover:bg-[#012406] hover:text-white transition-colors duration-300"
+              >
+                What&apos;s Your Concern?
+              </Link>
+            </li>
           </ul>
         </nav>
 

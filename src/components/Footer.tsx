@@ -20,6 +20,13 @@ const aboutLinks = [
   { label: "Contact Us", href: "/contact-us" },
 ];
 
+const resourceLinks = [
+  { label: "Blog", href: "/blog" },
+  { label: "Treatments Hub", href: "/treatments" },
+  { label: "Veneers Landing", href: "/veneers" },
+  { label: "CPD Webinar", href: "/cpd" },
+];
+
 const legalLinks = [
   { label: "Terms and Conditions", href: "/terms-conditions" },
   { label: "Cookie Policy", href: "/cookie-policy" },
@@ -37,7 +44,7 @@ export default function Footer() {
     <footer className="bg-dark-green text-white">
       <div className="mx-auto max-w-7xl px-6 py-16">
         {/* Columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8">
           {/* Column 1: Brand */}
           <div>
             <h3 className="text-xl font-bold tracking-[0.1em] mb-4">
@@ -105,7 +112,26 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Legal */}
+          {/* Column 4: Resources */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4">
+              Resources
+            </h4>
+            <ul className="space-y-2.5">
+              {resourceLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-white/70 hover:text-gold transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Column 5: Legal */}
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4">
               Legal

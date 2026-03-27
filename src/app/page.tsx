@@ -301,6 +301,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── From Our Blog ── */}
+      <section className="py-24 md:py-32 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">INSIGHTS</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+            From Our Blog
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              { title: "Porcelain Veneers Aftercare Guide", href: "/porcelain-veneers-aftercare-guide" },
+              { title: "Smile Makeover Process: Step-by-Step Guide", href: "/smile-makeover-process-step-by-step-guide" },
+              { title: "Slow Dentistry in London: Denstudio Harley Street", href: "/slow-dentistry-london-harley-street" },
+              { title: "Turkey Teeth: The Real Risks of Veneers Abroad", href: "/turkey-teeth-risks-veneers-abroad" },
+            ].map((post) => (
+              <Link
+                key={post.href}
+                href={post.href}
+                className="group block bg-[#fafafa] rounded-xl border border-[#e5e5e5] p-6 hover:shadow-md hover:border-[#012406]/20 transition-all duration-300"
+              >
+                <h3 className="text-base font-medium text-[#222222] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-3">
+                  {post.title}
+                </h3>
+                <span className="text-sm font-medium text-[#012406]">
+                  Read more &rarr;
+                </span>
+              </Link>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link href="/blog" className="text-sm font-medium text-[#012406] hover:underline">
+              View all articles &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── Section 8: Three-Step Process ── */}
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
