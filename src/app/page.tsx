@@ -118,8 +118,8 @@ export default function Home() {
         <div className="relative z-10 w-full px-6 md:px-12 lg:px-16 pb-12 md:pb-16">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-8">
             {/* Left: Text content */}
-            <div className="max-w-xl">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-[#222222] leading-[1.08] mb-6">
+            <div className="max-w-2xl">
+              <h1 className="text-5xl md:text-6xl lg:text-[5.5rem] font-semibold text-[#222222] leading-[1.05] mb-6">
                 Redefining the future of aesthetic dentistry
               </h1>
               <p className="text-base md:text-lg text-[#444444] leading-relaxed mb-8 max-w-md">
