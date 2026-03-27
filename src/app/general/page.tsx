@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import Accordion from "@/components/Accordion";
@@ -78,26 +79,31 @@ export default function GeneralPage() {
       {/* Hero */}
       <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-4">
-              General Dentistry Harley Street
-            </h1>
-            <h2 className="text-xl md:text-2xl text-[#333333] font-medium mb-6">
-              What Is General Dentistry?
-            </h2>
-            <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
-              General dentistry covers the essential treatments and preventative
-              care that keep your teeth and gums healthy. From routine check-ups
-              and fillings to more complex procedures like root canals and
-              extractions, our experienced team provides comprehensive dental
-              care in a comfortable, modern environment.
-            </p>
-            <Link
-              href="/contact-us"
-              className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
-            >
-              Book Now
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-4">
+                General Dentistry Harley Street
+              </h1>
+              <h2 className="text-xl md:text-2xl text-[#333333] font-medium mb-6">
+                What Is General Dentistry?
+              </h2>
+              <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
+                General dentistry covers the essential treatments and preventative
+                care that keep your teeth and gums healthy. From routine check-ups
+                and fillings to more complex procedures like root canals and
+                extractions, our experienced team provides comprehensive dental
+                care in a comfortable, modern environment.
+              </p>
+              <Link
+                href="/contact-us"
+                className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+              >
+                Book Now
+              </Link>
+            </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/general/hero.webp" alt="General Dentistry" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -110,34 +116,44 @@ export default function GeneralPage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Step 1 */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-[#eeeeee]">
-              <div className="w-12 h-12 rounded-full bg-[#012406] text-white flex items-center justify-center text-lg font-bold mb-6">
-                1
+            <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-[#eeeeee]">
+              <div className="relative aspect-[16/9]">
+                <Image src="/images/general/consultation.webp" alt="Consultation" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-[#222222] mb-4">
-                Consultation
-              </h3>
-              <p className="text-[#333333] leading-relaxed">
-                Your journey begins with a thorough oral health assessment. We
-                take digital X-rays, examine your teeth and gums, and discuss
-                any concerns you may have. From there, we create a personalised
-                treatment plan tailored to your needs.
-              </p>
+              <div className="p-8">
+                <div className="w-12 h-12 rounded-full bg-[#012406] text-white flex items-center justify-center text-lg font-bold mb-6">
+                  1
+                </div>
+                <h3 className="text-xl font-bold text-[#222222] mb-4">
+                  Consultation
+                </h3>
+                <p className="text-[#333333] leading-relaxed">
+                  Your journey begins with a thorough oral health assessment. We
+                  take digital X-rays, examine your teeth and gums, and discuss
+                  any concerns you may have. From there, we create a personalised
+                  treatment plan tailored to your needs.
+                </p>
+              </div>
             </div>
             {/* Step 2 */}
-            <div className="bg-white rounded-2xl p-8 shadow-sm border border-[#eeeeee]">
-              <div className="w-12 h-12 rounded-full bg-[#012406] text-white flex items-center justify-center text-lg font-bold mb-6">
-                2
+            <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-[#eeeeee]">
+              <div className="relative aspect-[16/9]">
+                <Image src="/images/teeth-straightening/hero.webp" alt="Treatment" fill className="object-cover" />
               </div>
-              <h3 className="text-xl font-bold text-[#222222] mb-4">
-                Treatment
-              </h3>
-              <p className="text-[#333333] leading-relaxed">
-                We carry out your treatment plan with precision and care, using
-                the latest technology and techniques. Whether it is a simple
-                filling or a more complex procedure, we ensure your comfort
-                every step of the way.
-              </p>
+              <div className="p-8">
+                <div className="w-12 h-12 rounded-full bg-[#012406] text-white flex items-center justify-center text-lg font-bold mb-6">
+                  2
+                </div>
+                <h3 className="text-xl font-bold text-[#222222] mb-4">
+                  Treatment
+                </h3>
+                <p className="text-[#333333] leading-relaxed">
+                  We carry out your treatment plan with precision and care, using
+                  the latest technology and techniques. Whether it is a simple
+                  filling or a more complex procedure, we ensure your comfort
+                  every step of the way.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -146,9 +162,12 @@ export default function GeneralPage() {
       {/* Why Choose Denstudio */}
       <section className="py-24 md:py-32 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-14 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-8 text-center">
             Why Choose denstudio
           </h2>
+          <div className="relative aspect-[21/9] rounded-2xl overflow-hidden mb-14 max-w-4xl mx-auto">
+            <Image src="/images/general/why-choose.webp" alt="Why Choose Denstudio" fill className="object-cover" />
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {

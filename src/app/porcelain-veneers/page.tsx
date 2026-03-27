@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 
@@ -38,10 +39,8 @@ export default function PorcelainVeneersPage() {
                 Book Now
               </Link>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd]">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/porcelain-veneers/hero.webp" alt="Porcelain Veneers" fill className="object-cover" />
             </div>
           </div>
         </div>

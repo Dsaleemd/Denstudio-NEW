@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const treatmentItems = [
   { label: "General", href: "/general" },
@@ -47,11 +48,15 @@ export default function Header() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-[rgba(255,255,255,0.55)] backdrop-blur-[20px] border-b border-light-grey/40">
         <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-xl font-bold tracking-[0.15em] text-off-black"
-          >
-            DENSTUDIO
+          <Link href="/" className="relative">
+            <Image
+              src="/images/logos/denstudio-logo.webp"
+              alt="DENSTUDIO"
+              width={160}
+              height={40}
+              className="h-8 w-auto"
+              priority
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -161,6 +166,17 @@ export default function Header() {
       {/* Mobile Overlay */}
       {mobileOpen && (
         <div className="fixed inset-0 z-40 bg-white pt-20 overflow-y-auto lg:hidden">
+          <div className="px-6 pt-4 pb-2">
+            <Link href="/" onClick={() => setMobileOpen(false)} className="relative inline-block">
+              <Image
+                src="/images/logos/denstudio-logo.webp"
+                alt="DENSTUDIO"
+                width={160}
+                height={40}
+                className="h-8 w-auto"
+              />
+            </Link>
+          </div>
           <nav className="flex flex-col px-6 py-8 gap-1">
             {/* Treatments Accordion */}
             <button

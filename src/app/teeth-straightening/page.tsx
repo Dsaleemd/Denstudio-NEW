@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import Accordion from "@/components/Accordion";
@@ -42,8 +43,11 @@ export default function TeethStraighteningPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-[#012406] pt-32 pb-20 md:pt-40 md:pb-28">
-        <div className="mx-auto max-w-7xl px-6">
+      <section className="relative bg-[#012406] pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image src="/images/teeth-straightening/hero.webp" alt="Teeth Straightening" fill className="object-cover opacity-30" />
+        </div>
+        <div className="relative mx-auto max-w-7xl px-6">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-[1.1] mb-4">
               Invisalign Teeth Straightening
@@ -94,8 +98,8 @@ export default function TeethStraighteningPage() {
                 everything is progressing beautifully.
               </p>
             </div>
-            <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd] flex items-center justify-center">
-              <span className="text-sm text-[#999999]">Image Placeholder</span>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/teeth-straightening/dr-jana-press.webp" alt="Your Journey to Straight Teeth" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -108,14 +112,12 @@ export default function TeethStraighteningPage() {
             Before &amp; After
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {Array.from({ length: 3 }).map((_, i) => (
+            {[1, 2, 3].map((i) => (
               <div
                 key={i}
-                className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd] flex items-center justify-center"
+                className="relative aspect-[4/3] rounded-2xl overflow-hidden"
               >
-                <span className="text-sm text-[#999999]">
-                  Before/After {i + 1}
-                </span>
+                <Image src={`/images/teeth-straightening/before-after-${i}.webp`} alt={`Before and After ${i}`} fill className="object-cover" />
               </div>
             ))}
           </div>

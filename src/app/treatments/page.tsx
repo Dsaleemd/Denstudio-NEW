@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,24 +14,28 @@ const treatments = [
     description:
       "Reshape, repair and enhance your teeth with hand-sculpted composite resin for a natural, seamless result — often in a single appointment.",
     href: "/composite-bonding",
+    image: "/images/composite-bonding/hero.webp",
   },
   {
     title: "Porcelain Veneers",
     description:
       "Ultra-thin, handcrafted ceramic shells designed to transform the shape, colour and alignment of your smile with stunning, long-lasting results.",
     href: "/porcelain-veneers",
+    image: "/images/porcelain-veneers/clinical-1.webp",
   },
   {
     title: "Teeth Straightening",
     description:
       "Discreet Invisalign clear aligners to gently and effectively correct crowding, spacing and bite issues for a perfectly aligned smile.",
     href: "/teeth-straightening",
+    image: "/images/teeth-straightening/hero.webp",
   },
   {
     title: "General Dentistry",
     description:
       "Comprehensive dental care including check-ups, hygiene, fillings and preventive treatments to keep your smile healthy for life.",
     href: "/general",
+    image: "/images/general/hero.webp",
   },
 ];
 
@@ -59,11 +64,8 @@ export default function TreatmentsPage() {
                 href={treatment.href}
                 className="group bg-white rounded-2xl border border-[#e5e5e5] overflow-hidden hover:shadow-lg transition-shadow duration-300"
               >
-                {/* Image placeholder */}
-                <div className="aspect-[16/9] bg-[#f0f0ee] flex items-center justify-center">
-                  <span className="text-sm text-[#999999]">
-                    Image Placeholder
-                  </span>
+                <div className="relative aspect-[16/9]">
+                  <Image src={treatment.image} alt={treatment.title} fill className="object-cover" />
                 </div>
                 <div className="p-8">
                   <h3 className="text-xl font-semibold text-[#222222] mb-3 group-hover:text-[#012406] transition-colors duration-300">
@@ -86,10 +88,8 @@ export default function TreatmentsPage() {
       <section className="py-20 md:py-28 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-[#dddddd] max-w-md mx-auto lg:mx-0">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden max-w-md mx-auto lg:mx-0">
+              <Image src="/images/about/dr-jana-1.webp" alt="Dr Jana Denzel" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#222222] mb-6">

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 
@@ -31,10 +32,8 @@ export default function VeneersLandingPage() {
                 Book Your Consultation
               </Link>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd]">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/porcelain-veneers/hero.webp" alt="Porcelain veneers at DENSTUDIO" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -68,10 +67,8 @@ export default function VeneersLandingPage() {
       <section className="py-20 md:py-28 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-[#dddddd] max-w-md mx-auto lg:mx-0">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[3/4] rounded-2xl overflow-hidden max-w-md mx-auto lg:mx-0">
+              <Image src="/images/porcelain-veneers/clinical-1.webp" alt="Dr Jana Denzel" fill className="object-cover" />
             </div>
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-[#222222] mb-6">

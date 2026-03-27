@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import Accordion from "@/components/Accordion";
@@ -46,8 +47,11 @@ export default function CompositeBondingPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative bg-[#012406] pt-32 pb-20 md:pt-40 md:pb-28">
-        <div className="mx-auto max-w-7xl px-6">
+      <section className="relative bg-[#012406] pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image src="/images/composite-bonding/hero.webp" alt="Composite Bonding" fill className="object-cover opacity-30" />
+        </div>
+        <div className="relative mx-auto max-w-7xl px-6">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white leading-[1.1] mb-4">
               Composite Bonding Harley Street
@@ -97,14 +101,12 @@ export default function CompositeBondingPage() {
             Dr Jana&apos;s Patients
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {Array.from({ length: 6 }).map((_, i) => (
+            {[1, 2, 3, 4, 5, 6].map((i) => (
               <div
                 key={i}
-                className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd] flex items-center justify-center"
+                className="relative aspect-[4/3] rounded-2xl overflow-hidden"
               >
-                <span className="text-sm text-[#999999]">
-                  Image Placeholder {i + 1}
-                </span>
+                <Image src={`/images/composite-bonding/patient-${i}.webp`} alt={`Composite Bonding Patient ${i}`} fill className="object-cover" />
               </div>
             ))}
           </div>

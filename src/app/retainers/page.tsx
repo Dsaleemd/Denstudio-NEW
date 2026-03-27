@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,23 +14,28 @@ export default function RetainersPage() {
       {/* Hero */}
       <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-6">
-              Retainers
-            </h1>
-            <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
-              After investing time and effort into straightening your teeth, it
-              is essential to maintain your results. Retainers are custom-made
-              appliances designed to hold your teeth in their new, straight
-              position and prevent them from gradually shifting back over time.
-              They are a vital part of any orthodontic treatment plan.
-            </p>
-            <Link
-              href="/contact-us"
-              className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
-            >
-              Book Now
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-6">
+                Retainers
+              </h1>
+              <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
+                After investing time and effort into straightening your teeth, it
+                is essential to maintain your results. Retainers are custom-made
+                appliances designed to hold your teeth in their new, straight
+                position and prevent them from gradually shifting back over time.
+                They are a vital part of any orthodontic treatment plan.
+              </p>
+              <Link
+                href="/contact-us"
+                className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+              >
+                Book Now
+              </Link>
+            </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/teeth-straightening/hero.webp" alt="Retainers" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

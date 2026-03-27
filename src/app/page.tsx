@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import LogoCarousel from "@/components/LogoCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
 
@@ -8,36 +9,42 @@ const treatments = [
     description:
       "Natural-looking porcelain veneers, using the best quality laboratories",
     href: "/porcelain-veneers",
+    image: "/images/porcelain-veneers/clinical-1.webp",
   },
   {
     title: "Invisalign",
     description:
       "Discreet and convenient alternative to traditional braces. We can guarantee you a price match with anywhere in London",
     href: "/teeth-straightening",
+    image: "/images/teeth-straightening/hero.webp",
   },
   {
     title: "General Dentistry",
     description:
       "Comprehensive general dentistry services focused on maintaining your oral health",
     href: "/general",
+    image: "/images/general/hero.webp",
   },
   {
     title: "Composite Bonding",
     description:
       "Improve the appearance of chipped, stained, or misshapen teeth",
     href: "/composite-bonding",
+    image: "/images/composite-bonding/hero.webp",
   },
   {
     title: "Teeth Whitening",
     description:
       "Brighten your smile safely and effectively with our professional whitening systems",
     href: "/teeth-whitening",
+    image: "/images/teeth-whitening/hero.webp",
   },
   {
     title: "Airflow Polish",
     description:
       "Advanced cleaning system to remove stains and leave teeth ultra-smooth",
     href: "/hygiene",
+    image: "/images/hygiene/hero.webp",
   },
 ];
 
@@ -67,17 +74,29 @@ const steps = [
     step: "Step One",
     description:
       "Book your consultation with a Doctor Denzel cosmetic dental expert at Denstudio",
+    image: "/images/general/consultation.webp",
   },
   {
     step: "Step Two",
     description:
       "Create your tailored treatment plan - Start your journey to your dream smile",
+    image: "/images/teeth-straightening/dr-jana-press.webp",
   },
   {
     step: "Step Three",
     description:
       "Enjoy and maintain a healthy, lasting smile - Walk away with your stunning new smile",
+    image: "/images/composite-bonding/patient-6.webp",
   },
+];
+
+const galleryImages = [
+  { src: "/images/porcelain-veneers/clinical-1.webp", alt: "Porcelain veneers clinical result 1" },
+  { src: "/images/porcelain-veneers/clinical-2.webp", alt: "Porcelain veneers clinical result 2" },
+  { src: "/images/composite-bonding/patient-1.webp", alt: "Composite bonding patient result 1" },
+  { src: "/images/composite-bonding/patient-2.webp", alt: "Composite bonding patient result 2" },
+  { src: "/images/composite-bonding/patient-3.webp", alt: "Composite bonding patient result 3" },
+  { src: "/images/composite-bonding/patient-4.webp", alt: "Composite bonding patient result 4" },
 ];
 
 const btnClasses =
@@ -88,8 +107,10 @@ export default function Home() {
     <>
       {/* ── Section 1: Hero ── */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-        {/* Background placeholder with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#1a3a1c] via-[#0d2810] to-[#012406]" />
+        {/* Background image */}
+        <div className="absolute inset-0">
+          <Image src="/images/porcelain-veneers/hero.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover" priority />
+        </div>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/30" />
 
@@ -126,8 +147,9 @@ export default function Home() {
                 href={t.href}
                 className="group min-w-[280px] md:min-w-[320px] bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
               >
-                {/* Image placeholder */}
-                <div className="h-52 bg-gradient-to-br from-[#e8ece9] to-[#d0d8d2]" />
+                <div className="relative h-52">
+                  <Image src={t.image} alt={t.title} fill className="object-cover" />
+                </div>
                 <div className="p-6 flex flex-col flex-1">
                   <h3 className="text-xl font-medium text-[#222222] mb-2 group-hover:text-[#012406] transition-colors">
                     {t.title}
@@ -149,8 +171,9 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            {/* Image placeholder */}
-            <div className="aspect-[4/5] rounded-2xl bg-gradient-to-br from-[#e8ece9] to-[#d0d8d2]" />
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
+              <Image src="/images/about/dr-jana-1.webp" alt="Dr Jana Denzel" fill className="object-cover" />
+            </div>
 
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">ABOUT DR JANA</p>
@@ -242,11 +265,13 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {Array.from({ length: 6 }).map((_, i) => (
+            {galleryImages.map((img) => (
               <div
-                key={i}
-                className="aspect-[4/3] rounded-xl bg-gradient-to-br from-[#e8ece9] to-[#d0d8d2]"
-              />
+                key={img.src}
+                className="relative aspect-[4/3] rounded-xl overflow-hidden"
+              >
+                <Image src={img.src} alt={img.alt} fill className="object-cover" />
+              </div>
             ))}
           </div>
 
@@ -282,8 +307,9 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-10 md:gap-12">
             {steps.map((s) => (
               <div key={s.step} className="text-center">
-                {/* Image placeholder */}
-                <div className="w-full aspect-square rounded-2xl bg-gradient-to-br from-[#e8ece9] to-[#d0d8d2] mb-8" />
+                <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8">
+                  <Image src={s.image} alt={s.step} fill className="object-cover" />
+                </div>
                 <h3 className="text-xl font-medium text-[#222222] mb-3">
                   {s.step}
                 </h3>

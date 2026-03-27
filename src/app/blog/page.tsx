@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -41,11 +42,8 @@ export default function BlogPage() {
               href={post.href}
               className="group block bg-white rounded-2xl border border-[#e5e5e5] overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
-              {/* Image placeholder */}
-              <div className="aspect-[16/9] bg-[#f0f0ee] flex items-center justify-center">
-                <span className="text-sm text-[#999999]">
-                  Image Placeholder
-                </span>
+              <div className="relative aspect-[16/9]">
+                <Image src="/images/teeth-whitening/hero.webp" alt={post.title} fill className="object-cover" />
               </div>
 
               <div className="p-6">

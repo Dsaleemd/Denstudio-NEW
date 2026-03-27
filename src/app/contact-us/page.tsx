@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
@@ -40,10 +41,8 @@ export default function ContactUsPage() {
             </div>
 
             {/* Image placeholder */}
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#dddddd] hidden lg:block">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden hidden lg:block">
+              <Image src="/images/contact/hero.webp" alt="Contact DENSTUDIO" fill className="object-cover" />
             </div>
           </div>
         </div>

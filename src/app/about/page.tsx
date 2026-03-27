@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ const teamMembers = [
     name: "Dr Jana Denzel Nandakumar",
     role: "Dentist",
     gdc: "285525",
+    image: "/images/about/dr-jana-1.webp",
     bio: "Dr Jana Denzel is the founder and principal dentist at DENSTUDIO, known for her meticulous attention to detail and unwavering commitment to excellence. With a focus on cosmetic and restorative dentistry, she has built a reputation for creating natural, stunning smiles that transform lives.",
     features: [
       "Over 100 smile makeovers completed",
@@ -23,6 +25,7 @@ const teamMembers = [
     name: "Paige Combe",
     role: "Patient Care Lead",
     gdc: null,
+    image: "/images/about/dr-jana-2.webp",
     bio: "Paige is the first point of contact for all DENSTUDIO patients. Warm, professional and incredibly organised, she is dedicated to welcoming and supporting every patient from the moment they enquire to the completion of their treatment journey.",
     features: [],
   },
@@ -30,6 +33,7 @@ const teamMembers = [
     name: "Emma Gates",
     role: "Dental Nurse",
     gdc: "303351",
+    image: "/images/about/emma-gates.webp",
     bio: "Emma ensures every appointment runs smoothly, working closely alongside Dr Denzel to deliver the highest standard of care. Calm, reassuring and attentive, she helps patients feel comfortable and at ease throughout their treatment.",
     features: [],
   },
@@ -108,10 +112,8 @@ export default function AboutPage() {
                 Book a consultation
               </Link>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#dddddd]">
-              <div className="absolute inset-0 flex items-center justify-center text-[#999999]">
-                <span className="text-sm">Image Placeholder</span>
-              </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/about/hero.webp" alt="Award winning dentistry at DENSTUDIO" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -134,8 +136,8 @@ export default function AboutPage() {
                 key={member.name}
                 className="bg-[#f8f8f6] rounded-2xl overflow-hidden"
               >
-                <div className="aspect-[3/4] bg-[#dddddd] flex items-center justify-center text-[#999999]">
-                  <span className="text-sm">Photo Placeholder</span>
+                <div className="relative aspect-[3/4]">
+                  <Image src={member.image} alt={member.name} fill className="object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-2xl md:text-3xl font-normal text-[#222222] mb-1">
@@ -228,20 +230,25 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-16 text-center">
             Why You Should Choose Denstudio
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {whyChoose.map((item) => (
-              <div
-                key={item.title}
-                className="bg-[#f8f8f6] rounded-2xl p-8"
-              >
-                <h3 className="text-2xl md:text-3xl font-normal text-[#222222] mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-[#333333] leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
-            ))}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/about/why-choose.webp" alt="Why choose DENSTUDIO" fill className="object-cover" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {whyChoose.map((item) => (
+                <div
+                  key={item.title}
+                  className="bg-[#f8f8f6] rounded-2xl p-8"
+                >
+                  <h3 className="text-2xl md:text-3xl font-normal text-[#222222] mb-3">
+                    {item.title}
+                  </h3>
+                  <p className="text-[#333333] leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

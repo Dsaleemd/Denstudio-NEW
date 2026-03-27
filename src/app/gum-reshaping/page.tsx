@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Accordion from "@/components/Accordion";
 
@@ -70,24 +71,29 @@ export default function GumReshapingPage() {
       {/* Hero */}
       <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-6">
-              Gum Reshaping &amp; Gummy Smile Treatment in Harley Street,
-              London
-            </h1>
-            <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
-              If you feel self-conscious about showing too much gum when you
-              smile, you are not alone. A gummy smile is one of the most common
-              cosmetic dental concerns, and the good news is there are several
-              effective treatments available to help you achieve a more balanced,
-              confident smile.
-            </p>
-            <Link
-              href="/contact-us"
-              className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
-            >
-              Book Now
-            </Link>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-6">
+                Gum Reshaping &amp; Gummy Smile Treatment in Harley Street,
+                London
+              </h1>
+              <p className="text-[#333333] leading-relaxed mb-8 max-w-xl">
+                If you feel self-conscious about showing too much gum when you
+                smile, you are not alone. A gummy smile is one of the most common
+                cosmetic dental concerns, and the good news is there are several
+                effective treatments available to help you achieve a more balanced,
+                confident smile.
+              </p>
+              <Link
+                href="/contact-us"
+                className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+              >
+                Book Now
+              </Link>
+            </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/gum-reshaping/hero.webp" alt="Gum Reshaping" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -104,6 +110,9 @@ export default function GumReshapingPage() {
             to the underlying cause of your gummy smile, ensuring the most
             effective and natural-looking results.
           </p>
+          <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-8">
+            <Image src="/images/gum-reshaping/types.webp" alt="Gummy Smile Types" fill className="object-cover" />
+          </div>
           <p className="text-[#333333] leading-relaxed mb-6 font-medium">
             Our treatment options include:
           </p>

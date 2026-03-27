@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -33,29 +34,36 @@ export default function PriceMatchPromisePage() {
     <>
       {/* Hero */}
       <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#222222] leading-tight mb-6">
-            PRICE MATCH PROMISE
-          </h1>
-          <p className="text-[#333333] leading-relaxed text-lg max-w-2xl mx-auto mb-6">
-            Price is what you pay, but the experience is what you get. At
-            DENSTUDIO, we are so confident in the quality, care and value we
-            deliver that we are happy to put our money where our mouth is.
-          </p>
-          <p className="text-[#333333] leading-relaxed text-lg max-w-2xl mx-auto mb-10">
-            If you have received a quote for the same treatment from another
-            UK-registered dental clinic, we will match or beat it &ndash; no
-            questions asked.
-          </p>
-          <p className="text-2xl md:text-3xl font-bold text-[#012406] mb-10">
-            Challenge us to BEAT YOUR QUOTE
-          </p>
-          <Link
-            href="/contact-us"
-            className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
-          >
-            Get in Touch
-          </Link>
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h1 className="text-4xl md:text-5xl font-bold text-[#222222] leading-tight mb-6">
+                PRICE MATCH PROMISE
+              </h1>
+              <p className="text-[#333333] leading-relaxed text-lg mb-6">
+                Price is what you pay, but the experience is what you get. At
+                DENSTUDIO, we are so confident in the quality, care and value we
+                deliver that we are happy to put our money where our mouth is.
+              </p>
+              <p className="text-[#333333] leading-relaxed text-lg mb-10">
+                If you have received a quote for the same treatment from another
+                UK-registered dental clinic, we will match or beat it &ndash; no
+                questions asked.
+              </p>
+              <p className="text-2xl md:text-3xl font-bold text-[#012406] mb-10">
+                Challenge us to BEAT YOUR QUOTE
+              </p>
+              <Link
+                href="/contact-us"
+                className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+              >
+                Get in Touch
+              </Link>
+            </div>
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+              <Image src="/images/about/hero.webp" alt="DENSTUDIO Price Match Promise" fill className="object-cover" />
+            </div>
+          </div>
         </div>
       </section>
 

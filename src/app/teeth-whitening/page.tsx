@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -13,7 +14,8 @@ export default function TeethWhiteningPage() {
       {/* Hero */}
       <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-[#222222] leading-[1.1] mb-4">
               Teeth Whitening Harley Street, London
             </h1>
@@ -55,14 +57,19 @@ export default function TeethWhiteningPage() {
               Book Now
             </Link>
           </div>
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover" />
+          </div>
+          </div>
         </div>
       </section>
 
       {/* The Perfect Way */}
       <section className="py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="max-w-3xl mx-auto">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-8 text-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-8">
               The Perfect Way to Get a Glowing White Smile
             </h2>
             <p className="text-[#333333] leading-relaxed mb-6">
@@ -85,6 +92,10 @@ export default function TeethWhiteningPage() {
               end of your treatment cycle.
             </p>
           </div>
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
+            <Image src="/images/teeth-whitening/treatment.webp" alt="Teeth Whitening Treatment" fill className="object-cover" />
+          </div>
+          </div>
         </div>
       </section>
 
@@ -95,6 +106,9 @@ export default function TeethWhiteningPage() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-8">
               Whiter Teeth, Brighter Life
             </h2>
+            <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-10">
+              <Image src="/images/teeth-whitening/results.webp" alt="Teeth Whitening Results" fill className="object-cover" />
+            </div>
             <p className="text-[#333333] leading-relaxed mb-6">
               Our FreshGel whitening formula is gentle on sensitive teeth while
               delivering powerful, long-lasting results. The unique formulation
