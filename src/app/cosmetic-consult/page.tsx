@@ -329,6 +329,43 @@ export default function CosmeticConsultPage() {
         </div>
       </section>
 
+      {/* ══ Bottom Patient Gallery — "Life is too short not to smile" ══ */}
+      <section className="py-24 md:py-32 bg-[#f8f8f6]">
+        <div className="mx-auto max-w-7xl px-6">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Transformations</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-4">
+            Life is too short not to smile
+          </h2>
+          <p className="text-[#555555] text-center mb-12 max-w-2xl mx-auto">
+            Real results from real patients at Denstudio, Harley Street
+          </p>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {[
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-01.webp", alt: "Patient smile transformation" },
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-02.webp", alt: "Before and after composite bonding" },
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-03.webp", alt: "Teeth straightening result" },
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-04.webp", alt: "Smile makeover result" },
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-05.webp", alt: "Composite bonding transformation" },
+              { src: "/images/cosmetic-consult/bottom-gallery/patient-06.webp", alt: "Invisalign and bonding result" },
+            ].map((img, i) => (
+              <div key={i} className="relative aspect-[4/5] rounded-xl overflow-hidden group">
+                <Image src={img.src} alt={img.alt} fill className="object-cover transition-transform duration-500 group-hover:scale-105" />
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="#hero-form"
+              className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+            >
+              Book Your Free Consultation
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* ══ Footer CTA ══ */}
       <section className="py-24 md:py-32 bg-[#012406] text-white text-center">
         <div className="mx-auto max-w-3xl px-6">
