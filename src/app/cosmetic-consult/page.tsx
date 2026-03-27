@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import ReviewCarousel from "@/components/ReviewCarousel";
+import LogoCarousel from "@/components/LogoCarousel";
 
 export const metadata: Metadata = {
   title: "Cosmetic Consultation — DENSTUDIO",
@@ -8,80 +10,177 @@ export const metadata: Metadata = {
     "Transform your smile with natural-looking composite bonding and Invisalign at Denstudio, Harley Street. Packages from £1,400. Book your free consultation.",
 };
 
+const galleryItems = [
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-01-composite-bonding-invisalign.jpg", alt: "Composite bonding and Invisalign result" },
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-02-before-after-transformation.webp", alt: "Before and after smile transformation" },
+  { type: "wistia" as const, id: "2zjyjee20j" },
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-03-composite-bonding-result.webp", alt: "Composite bonding result" },
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-04-veneers-bonding.webp", alt: "Veneers and bonding result" },
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-05-invisalign-result.webp", alt: "Invisalign teeth straightening result" },
+  { type: "image" as const, src: "/images/cosmetic-consult/gallery-06-additional-transformation.webp", alt: "Smile transformation" },
+  { type: "wistia" as const, id: "xefeokz2bq" },
+];
+
+const packages = [
+  {
+    name: "Basic Bonding",
+    badge: "10% Discount",
+    detail: "4 Teeth",
+    price: "£1,400",
+    monthly: "£31.80/mo",
+    features: ["4 teeth composite bonding"],
+    highlight: false,
+  },
+  {
+    name: "Advanced Bonding",
+    badge: "10% Discount",
+    detail: "Free Whitening + 6 Teeth",
+    price: "£2,100",
+    monthly: "£42.40/mo",
+    features: ["6 teeth composite bonding", "Professional whitening kit"],
+    highlight: false,
+  },
+  {
+    name: "Ultimate Bonding",
+    badge: "10% Discount",
+    detail: "Free Whitening + 8 Teeth",
+    price: "£2,520",
+    monthly: "£53.00/mo",
+    features: ["8 teeth composite bonding", "Professional whitening kit"],
+    highlight: false,
+  },
+  {
+    name: "Smile Makeover Special",
+    badge: "50% Discount",
+    detail: "Complete transformation",
+    price: "£3,790",
+    oldPrice: "£7,580",
+    monthly: "£74.20/mo · 0% interest",
+    features: [
+      "Full Invisalign treatment",
+      "Unlimited composite bonding",
+      "Dental exam",
+      "Hygiene appointment",
+      "Professional whitening",
+      "Retainers included",
+    ],
+    highlight: true,
+  },
+];
+
+const reviews = [
+  { name: "Harish", text: "Been seeing Jana regularly. The service he provides is always of the highest standard." },
+  { name: "Lula", text: "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease." },
+  { name: "James", text: "What an incredible service from start to finish. My teeth and smile have been transformed!" },
+  { name: "Melissa", text: "Dr. Jana is not only an incredibly skilled and knowledgeable dentist but also one of the kindest and most gracious people I\u2019ve ever met." },
+  { name: "Sri", text: "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing." },
+];
+
 export default function CosmeticConsultPage() {
   return (
     <>
-      {/* Hero */}
-      <section className="relative bg-[#f8f8f6] pt-32 pb-20 md:pt-40 md:pb-28">
+      {/* Hero with Wistia Video */}
+      <section className="relative bg-[#012406] pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-[#222222] leading-tight mb-6">
-                Transform Your Smile with Natural-Looking Composite Bonding and
-                Invisalign
+              <div className="inline-flex items-center gap-2 mb-6">
+                <Image
+                  src="/images/cosmetic-consult/hero-london-underground-stations.webp"
+                  alt="Regent's Park, Great Portland St, Baker St"
+                  width={120}
+                  height={30}
+                  className="opacity-80"
+                />
+              </div>
+              <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] font-semibold text-white leading-[1.08] mb-6">
+                Transform Your Smile with Natural-Looking Composite Bonding and Invisalign
               </h1>
-              <p className="text-lg text-[#333333] leading-relaxed mb-8">
-                Achieve a stunning, natural smile without invasive procedures.
-                Dr Jana Denzel combines composite bonding and Invisalign to
-                deliver beautiful results — often in just a few appointments.
+              <p className="text-lg text-white/80 leading-relaxed mb-4">
+                Twice awarded Best Young Dentist in the UK
               </p>
+              <ul className="space-y-2 mb-8">
+                {[
+                  "Pain-free, no injections or drilling",
+                  "Same-day & next-day appointments",
+                  "0% finance available",
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-white/70 text-sm">
+                    <svg className="w-4 h-4 shrink-0 text-white/60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {item}
+                  </li>
+                ))}
+              </ul>
               <Link
-                href="/contact-us"
-                className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
+                href="#consult"
+                className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
               >
                 Book Your Free Consultation
               </Link>
             </div>
-            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image src="/images/composite-bonding/hero.webp" alt="Composite bonding and Invisalign at DENSTUDIO" fill className="object-cover" />
+
+            {/* Wistia Video Embed */}
+            <div className="relative aspect-video rounded-2xl overflow-hidden bg-black/20">
+              <div
+                className="wistia_responsive_padding"
+                style={{ padding: "56.25% 0 0 0", position: "relative" }}
+              >
+                <div
+                  className="wistia_responsive_wrapper"
+                  style={{ height: "100%", left: 0, position: "absolute", top: 0, width: "100%" }}
+                >
+                  <iframe
+                    src="https://fast.wistia.net/embed/iframe/2zjyjee20j?seo=true&videoFoam=true"
+                    title="Denstudio Cosmetic Consultation"
+                    allow="autoplay; fullscreen"
+                    frameBorder="0"
+                    scrolling="no"
+                    className="w-full h-full absolute top-0 left-0"
+                    style={{ width: "100%", height: "100%" }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Dr Jana Credentials */}
-      <section className="py-20 md:py-28">
+      {/* Logo Strip */}
+      <section className="border-y border-[#eeeeee] bg-white">
+        <LogoCarousel />
+      </section>
+
+      {/* Meet Dr Jana Denzel */}
+      <section className="py-24 md:py-32">
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden max-w-md mx-auto lg:mx-0">
-              <Image src="/images/about/dr-jana-1.webp" alt="Dr Jana Denzel" fill className="object-cover" />
+              <Image src="/images/cosmetic-consult/dr-jana-denzel-profile.webp" alt="Dr Jana Denzel" fill className="object-cover" />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#222222] mb-6">
-                Your Smile, Designed by Dr Jana Denzel
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">Meet Your Dentist</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-6">
+                Dr Jana Denzel
               </h2>
               <p className="text-[#333333] leading-relaxed mb-4">
-                Dr Jana Denzel is an internationally recognised cosmetic
-                dentist, BBC Apprentice star and twice-awarded Best Young
-                Dentist in the UK. Named among the world&apos;s top 32 dentists
-                and a Global Ambassador for Slow Dentistry.
+                Dr Jana Denzel is an internationally recognised cosmetic dentist, BBC Apprentice star and twice-awarded Best Young Dentist in the UK. Named among the world&apos;s top 32 dentists and a Global Ambassador for Slow Dentistry.
               </p>
-              <p className="text-[#333333] leading-relaxed mb-4">
-                With a meticulous eye for detail and a passion for
-                natural-looking results, Dr Denzel has transformed thousands of
-                smiles at her Harley Street practice. Every treatment is
-                personally planned and delivered to the highest standard.
+              <p className="text-[#333333] leading-relaxed mb-6">
+                With a meticulous eye for detail and a passion for natural-looking results, Dr Denzel has transformed thousands of smiles at the Harley Street practice. Every treatment is personally planned and delivered to the highest standard.
               </p>
-              <ul className="space-y-3 mt-6">
+              <ul className="space-y-3">
                 {[
                   "Twice-awarded Best Young Dentist UK",
-                  "BBC Apprentice finalist",
+                  "BBC Apprentice star",
                   "Global Ambassador for Slow Dentistry",
-                  "World top 32 dentists",
+                  "Named among world\u2019s top 32 dentists",
+                  "Guest Lecturer at Oxford University",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3">
-                    <svg
-                      className="w-5 h-5 shrink-0 text-[#012406]"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-5 h-5 shrink-0 text-[#012406]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <span className="text-[#333333]">{item}</span>
                   </li>
@@ -92,46 +191,69 @@ export default function CosmeticConsultPage() {
         </div>
       </section>
 
-      {/* 3-Step Process */}
-      <section className="py-20 md:py-28 bg-[#f8f8f6]">
+      {/* Patient Gallery */}
+      <section className="py-24 md:py-32 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#222222] mb-12 text-center">
-            Your 3-Step Smile Transformation
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Results</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-4">
+            Dr Jana&apos;s Patients
+          </h2>
+          <p className="text-[#555555] text-center mb-12 max-w-2xl mx-auto">
+            Join hundreds of patients that have transformed their smiles with Dr Jana&apos;s unique transformation protocol
+          </p>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {galleryItems.map((item, i) =>
+              item.type === "image" ? (
+                <div key={i} className="relative aspect-square rounded-xl overflow-hidden">
+                  <Image src={item.src!} alt={item.alt!} fill className="object-cover" />
+                </div>
+              ) : (
+                <div key={i} className="relative aspect-square rounded-xl overflow-hidden bg-black">
+                  <iframe
+                    src={`https://fast.wistia.net/embed/iframe/${item.id}?seo=false&videoFoam=true`}
+                    title={`Patient video ${i}`}
+                    allow="autoplay; fullscreen"
+                    frameBorder="0"
+                    scrolling="no"
+                    className="absolute inset-0 w-full h-full"
+                  />
+                </div>
+              )
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* 3-Step Process */}
+      <section className="py-24 md:py-32">
+        <div className="mx-auto max-w-7xl px-6">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">How It Works</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-12 text-center">
+            3 Step Action Plan
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
                 step: "01",
-                title: "Free Consultation",
-                description:
-                  "Meet Dr Denzel for a comprehensive smile assessment. We discuss your goals, examine your teeth and recommend the best treatment plan.",
+                title: "Consultation",
+                description: "We\u2019ll evaluate your smile, talk through your expectations, and select the most suitable shape and shade.",
               },
               {
                 step: "02",
-                title: "Treatment",
-                description:
-                  "Your personalised treatment begins — whether that is Invisalign aligners, composite bonding or a combination of both for optimal results.",
+                title: "Teeth Preparation",
+                description: "Your teeth are carefully whitened to boost brightness before the bonding procedure.",
               },
               {
                 step: "03",
-                title: "Your New Smile",
-                description:
-                  "Reveal your transformed smile. We ensure you are completely happy with the results and provide aftercare guidance to maintain your new look.",
+                title: "Application",
+                description: "Premium composite material is applied, shaped, and polished directly onto your teeth for instant results.",
               },
             ].map((item) => (
-              <div
-                key={item.step}
-                className="bg-white rounded-2xl p-8 text-center"
-              >
-                <span className="inline-block text-4xl font-bold text-[#012406] mb-4">
-                  {item.step}
-                </span>
-                <h3 className="text-xl font-semibold text-[#222222] mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-[#555555] leading-relaxed text-sm">
-                  {item.description}
-                </p>
+              <div key={item.step} className="bg-[#f8f8f6] rounded-2xl p-8 text-center">
+                <span className="inline-block text-4xl font-bold text-[#012406] mb-4">{item.step}</span>
+                <h3 className="text-xl font-semibold text-[#222222] mb-3">{item.title}</h3>
+                <p className="text-[#555555] leading-relaxed text-sm">{item.description}</p>
               </div>
             ))}
           </div>
@@ -139,125 +261,48 @@ export default function CosmeticConsultPage() {
       </section>
 
       {/* Pricing Packages */}
-      <section className="py-20 md:py-28">
+      <section className="py-24 md:py-32 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#222222] mb-4 text-center">
-            Pricing Packages
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Pricing</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-4 text-center">
+            Our Packages
           </h2>
           <p className="text-[#555555] text-center mb-12 max-w-2xl mx-auto">
-            Transparent pricing with no hidden costs. Choose the package that
-            suits your goals.
+            Transparent pricing with no hidden costs. 0% finance available on all packages.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {/* Basic */}
-            <div className="bg-white rounded-2xl p-6 border border-[#e5e5e5] flex flex-col">
-              <h3 className="text-lg font-semibold text-[#222222] mb-1">
-                Basic Bonding
-              </h3>
-              <p className="text-sm text-[#555555] mb-4">4 teeth</p>
-              <span className="text-3xl font-bold text-[#012406] mb-4">
-                £1,400
-              </span>
-              <ul className="space-y-2 text-sm text-[#555555] flex-1">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  4 teeth composite bonding
-                </li>
-              </ul>
-            </div>
-
-            {/* Advanced */}
-            <div className="bg-white rounded-2xl p-6 border border-[#e5e5e5] flex flex-col">
-              <h3 className="text-lg font-semibold text-[#222222] mb-1">
-                Advanced
-              </h3>
-              <p className="text-sm text-[#555555] mb-4">
-                6 teeth + whitening
-              </p>
-              <span className="text-3xl font-bold text-[#012406] mb-4">
-                £2,100
-              </span>
-              <ul className="space-y-2 text-sm text-[#555555] flex-1">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  6 teeth composite bonding
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Professional whitening kit
-                </li>
-              </ul>
-            </div>
-
-            {/* Ultimate */}
-            <div className="bg-white rounded-2xl p-6 border border-[#e5e5e5] flex flex-col">
-              <h3 className="text-lg font-semibold text-[#222222] mb-1">
-                Ultimate
-              </h3>
-              <p className="text-sm text-[#555555] mb-4">
-                8 teeth + whitening
-              </p>
-              <span className="text-3xl font-bold text-[#012406] mb-4">
-                £2,520
-              </span>
-              <ul className="space-y-2 text-sm text-[#555555] flex-1">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  8 teeth composite bonding
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Professional whitening kit
-                </li>
-              </ul>
-            </div>
-
-            {/* Smile Makeover Special */}
-            <div className="bg-white rounded-2xl p-6 border-2 border-[#012406] flex flex-col relative">
-              <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#012406] text-white text-xs font-medium px-4 py-1 rounded-full">
-                Best Value
-              </span>
-              <h3 className="text-lg font-semibold text-[#222222] mb-1">
-                Smile Makeover Special
-              </h3>
-              <p className="text-sm text-[#555555] mb-4">
-                Complete transformation
-              </p>
-              <div className="mb-1">
-                <span className="text-sm text-[#999999] line-through">
-                  Was £7,580
+            {packages.map((pkg) => (
+              <div
+                key={pkg.name}
+                className={`bg-white rounded-2xl p-6 flex flex-col relative ${
+                  pkg.highlight ? "border-2 border-[#012406]" : "border border-[#e5e5e5]"
+                }`}
+              >
+                {pkg.highlight && (
+                  <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#012406] text-white text-xs font-medium px-4 py-1 rounded-full">
+                    Best Value
+                  </span>
+                )}
+                <span className="inline-block text-xs font-medium text-[#012406] bg-[#012406]/10 px-3 py-1 rounded-full mb-3 self-start">
+                  {pkg.badge}
                 </span>
+                <h3 className="text-lg font-semibold text-[#222222] mb-1">{pkg.name}</h3>
+                <p className="text-sm text-[#555555] mb-4">{pkg.detail}</p>
+                {pkg.oldPrice && (
+                  <span className="text-sm text-[#999999] line-through">{pkg.oldPrice}</span>
+                )}
+                <span className="text-3xl font-bold text-[#012406] mb-1">{pkg.price}</span>
+                <span className="text-xs text-[#555555] mb-4">{pkg.monthly}</span>
+                <ul className="space-y-2 text-sm text-[#555555] flex-1">
+                  {pkg.features.map((f) => (
+                    <li key={f} className="flex items-start gap-2">
+                      <span className="text-[#012406] mt-0.5">&#10003;</span>
+                      {f}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <span className="text-3xl font-bold text-[#012406] mb-4">
-                £3,790
-              </span>
-              <ul className="space-y-2 text-sm text-[#555555] flex-1">
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Full Invisalign treatment
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Composite bonding
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Dental exam
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Hygiene appointment
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Professional whitening
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-[#012406] mt-0.5">&#10003;</span>
-                  Retainers included
-                </li>
-              </ul>
-            </div>
+            ))}
           </div>
           <div className="text-center mt-10">
             <Link
@@ -270,15 +315,66 @@ export default function CosmeticConsultPage() {
         </div>
       </section>
 
+      {/* Reviews */}
+      <section className="py-24 md:py-32">
+        <div className="mx-auto max-w-7xl px-6">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Testimonials</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-12">
+            What Dr Jana&apos;s Patients Say
+          </h2>
+          <ReviewCarousel />
+        </div>
+      </section>
+
+      {/* Consultation Form Placeholder */}
+      <section id="consult" className="py-24 md:py-32 bg-[#f8f8f6]">
+        <div className="mx-auto max-w-3xl px-6 text-center">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-6">
+            Book Your Free Consultation
+          </h2>
+          <p className="text-[#555555] leading-relaxed mb-10 max-w-xl mx-auto">
+            Take the first step towards your dream smile. Fill in your details below and our team will be in touch to arrange your personalised consultation.
+          </p>
+          {/* Form placeholder — replace with booking widget when ready */}
+          <div className="bg-white rounded-2xl p-8 border border-[#e5e5e5] text-left max-w-lg mx-auto">
+            <div className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-[#333333] mb-1">Full Name</label>
+                <input type="text" placeholder="Your name" className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] transition-colors" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-[#333333] mb-1">Email</label>
+                <input type="email" placeholder="you@email.com" className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] transition-colors" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-[#333333] mb-1">Phone</label>
+                <input type="tel" placeholder="Your phone number" className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] transition-colors" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-[#333333] mb-1">Treatment Interest</label>
+                <select className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm text-[#555] focus:outline-none focus:border-[#012406] transition-colors">
+                  <option>Composite Bonding</option>
+                  <option>Invisalign</option>
+                  <option>Smile Makeover</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <button className="w-full bg-[#012406] hover:bg-[#023a09] text-white py-3.5 rounded-full font-medium transition-all duration-300">
+                Book Free Consultation
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer CTA */}
-      <section className="py-20 md:py-28 bg-[#012406] text-white text-center">
+      <section className="py-24 md:py-32 bg-[#012406] text-white text-center">
         <div className="mx-auto max-w-3xl px-6">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-light mb-6">
             Ready to Transform Your Smile?
           </h2>
           <p className="text-white/80 leading-relaxed mb-10 text-lg">
-            Book your free cosmetic consultation at our Harley Street practice
-            and discover what composite bonding and Invisalign can do for you.
+            Book your free cosmetic consultation at our Harley Street practice and discover what composite bonding and Invisalign can do for you.
           </p>
           <Link
             href="/contact-us"
