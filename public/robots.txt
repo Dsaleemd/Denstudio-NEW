@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /thank-you-cosmetic-consult
+Disallow: /schedule-cosmetic
+
+# Host
+Host: https://denstudio.co.uk
+
+# Sitemaps
+Sitemap: https://denstudio.co.uk/sitemap.xml

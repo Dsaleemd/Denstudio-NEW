@@ -1,0 +1,904 @@
+================================================================================
+PAGE: https://denstudio.co.uk/about
+================================================================================
+TITLE: About | Enhance Your Smile Today — DENSTUDIO
+META DESCRIPTION: Discover award-winning, personalized dentistry at DENSTUDIO in London, specializing in cosmetic, general, and transformative dental treatments. Book your consultation today.
+CANONICAL: https://denstudio.co.uk/about
+
+
+--- SECTION 1 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d27e0453-c543-4eb4-b210-7c364bd978ff/Denstudio+Image.webp" alt=""
+  [H3] Award Winning Dentistry In Central London
+  [P] A visit to us is unlike any experience you’ve previously had with a dentist. We combine life-changing treatments with a luxurious environment. Above all, our focus is always on you – the patient.
+  [P] Dr Denzel has had the privilege of transforming the smiles of Grammy Award-winning music artists, global sports athletes, esteemed Warner Brothers film directors, and distinguished royalty from Dubai and the UAE.
+  [CTA BUTTON] Book a consultation -> /contact-us
+
+--- SECTION 2 (theme: white) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/596cf908-c6dc-44b2-a2c3-72836baf6e6d/Image+from+Dropbox+%282%29+%281%29.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/c6865a85-a093-44b9-b086-8be0d4ff72dd/Image+from+Dropbox+%281%29+%281%29.webp" alt=""
+  [H3] Dr Jana Denzel Nandakumar
+  [H4] Dentist
+  [P] GDC: 285525
+  [P] Dr Jana Denzel is the founder and principal dentist at Denstudio, known for hismeticulous attention to detail andpatient-first approach. He has a strong focus oncosmetic and restorative dentistry, combining clinical precision with an understandingof facial harmony to deliver natural, confidence-boosting results.
+  [FEATURE] ✓ Over 100 smile makeovers designed with digital precision.
+  [FEATURE] ✓ Specialist in Invisalign, bonding & EMAX porcelain veneers.
+  [FEATURE] ✓ Preserves the beauty of your natural teeth.
+  [P] Over 100 smile makeovers designed with digital precision.
+  [P] Specialist in Invisalign, bonding & EMAX porcelain veneers.
+  [P] Preserves the beauty of your natural teeth.
+  [H3] Paige Combe
+  [H4] Patient Care Lead
+  [P] Paige Combe is the Patient Care Lead at Denstudio and is often the first point of contact for patients beginning their treatment journey. She is dedicated to ensuring every patient feels welcomed, supported, and fully informed from the first enquiry through to the completion of treatment. Paige takes time to clearly explain treatment options, appointment planning, and costs, helping patients feel confident and at ease with their decisions. Her approachable and compassionate manner ensures each patient’s experience at Denstudio is smooth, supportive, and stress-free.
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/6b201212-157e-4640-95e2-1a1d2e11216d/Image+from+Dropbox+%282%29.webp" alt=""
+  [H3] Emma Gates
+  [H4] Dental Nurse
+  [P] GDC: 303351
+  [P] Emma Gates is a registered dental nurse who plays an essential role in ensuring every appointment at Denstudio runs smoothly and comfortably. She works closely alongside the dentist to support clinical procedures while maintaining a calm and reassuring presence for patients. Emma is known for her friendly and attentive approach, helping patients feel relaxed from the moment they sit in the chair. She takes pride in maintaining the highest standards of hygiene and patient care, and is always happy to answer questions or provide reassurance throughout treatment.
+
+--- SECTION 3 (theme: white) ---
+  [H2] Awards and Recognition:
+  [P] Honoured to have won the Best Young Dentist in London in 2021 and then again Best Young Dentist in South of the Uk in 2024, Dr Denzel's commitment to excellence in dentistry has continuously garnered accolades within the industry and among his peers.
+  [H2] Global Influence:
+  [P] Selected as one of the 32 top dentists in the world, Dr Denzel proudly serves as a Slow Dentistry Global Ambassador. This role reflects his dedication to providing informed, precise, and personalised care to every patient.
+  [H2] Educational Prowess
+  [P] Having lectured at the number one ranked university globally, Oxford University, Dr Denzel brings the latest advancements in dentistry to the forefront. His commitment to education ensures that his practice remains at the cutting edge of dental innovation.
+
+--- SECTION 4 (theme: default) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/502f8328-d484-478c-a4f1-7bb4b7167c8d/Image+from+Dropbox+%281%29.jpg" alt=""
+  [H2] Why You Should Choose Denstudio
+  [H2] Experience with Icons:
+  [P] Having worked with renowned artists, directors, and royalty, Dr Denzel understands the unique needs of patients seeking not just dental care but a transformative experience.
+  [H2] Global Recognition:
+  [P] As one of the top dentists globally, his practice is shaped by international standards of excellence, ensuring every patient receives world-class care.
+  [H2] Innovative Dentistry:
+  [P] Staying at the forefront of dental innovation, Denstudio London is a hub for cutting-edge techniques and technologies, guaranteeing you the best that modern dentistry has to offer.
+  [H2] Your Smile, Our Masterpiece:
+  [P] Your smile is a masterpiece, and Dr Denzel will craft it with precision, passion, and artistry. Welcome to a dental experience where excellence is the standard, and patient satisfaction is our primary focus.
+--- FOOTER SECTION ---
+  [H2] Denstudio
+  Exceptional Private, General And Cosmetic Dentistry
+  139 Harley Street, London, W1G 6BG
+  Email: hello@denstudio.co.uk
+  Phone: 020 3883 0588
+  Social: Facebook (facebook.com/DoctorDenzel), Twitter (twitter.com/drjanadenzel), Instagram (instagram.com/doctor.denzel), Youtube (youtube.com/c/doctordenzel)
+  Copyright: 2025 DENSTUDIO All Rights Reserved | Website Maintained By Dentell Ltd
+  Legal Links: Terms and Conditions, Cookie Policy, Privacy Notice, Complaints Policy, Booking and Cancellation Policy, Regulatory Details
+  Treatment Links: General, Veneers, Composite Bonding, Teeth Straightening/Invisalign, Teeth Whitening, Hygiene, Gum Reshaping
+  About Links: Home, About, Fees, What's Your Concern?, Smile Package Offers, Smile Quiz, Contact Us
+
+================================================================================
+PAGE: https://denstudio.co.uk/fees
+================================================================================
+TITLE: Fees | Schedule Your Consultation Today — DENSTUDIO
+META DESCRIPTION: Explore transparent fees for cosmetic and general dental treatments at DENSTUDIO, including whitening, veneers, braces, and smile makeovers with flexible payment options.
+CANONICAL: https://denstudio.co.uk/fees
+
+
+--- SECTION 1 (theme: bright) ---
+  [H1] Dental Price List & Payment Options
+  [P] We want our treatments to be financially accessible to you, so we offer a range of membership plans and 0% interest payment schemes. This means you can achieve your dream smile in the way that suits you best.
+  [CTA BUTTON] Book Now -> /contact-us
+  [CTA BUTTON] Price Match Promise -> /price-match-promise
+
+--- SECTION 2 (theme: bright) ---
+  [H2] Treatment Fees
+  [H3] Consultations
+  [LIST]
+    - New Client Consultation (Inc X-Rays)£195
+    - Routine Consultation£175
+    - Teeth Whitening Consultation£145
+    - Children’s Initial Consultation£175
+    - Children Routine Examination£175
+    - OPG X-Ray£180
+    - CT Scan From£200
+  [H3] Restorative / Cosmetic
+  [LIST]
+    - White Fillings From£350
+    - Crowns£1200/tooth
+    - Porcelain Veneers£1200/tooth
+    - Bridges From£1200
+    - Composite Bonding£350/tooth
+  [H3] Orthodontics
+  [LIST]
+    - Clear Aligners From£3,950
+  [H3] Hygiene
+  [LIST]
+    - Scale & Polish£195
+  [H3] Whitening
+  [LIST]
+    - Professional Teeth Whitening £395–795 (White Teeth or money back guarantee*)
+
+--- SECTION 3 (theme: default) ---
+  [H2] Smile Makeover Packages
+  [H3] ABC: ALIGN, BRIGHTEN AND CONTOUR
+  [LIST]
+    - Examination£195
+    - Comprehensive Hygiene£195
+    - Invisalign£3,950
+    - Home Whitening£395
+    - Composite Edge Bonding 4 Teeth£1,400
+    - Retainers (Viveras)£600
+    - TOTAL£6,735
+  [P] DISCOUNT: £2,000
+  [H3] PORCELAIN SMILE MAKEOVER
+  [LIST]
+    - Wax Up/Trial Smile Upper 10 Teeth£850
+    - Premium Porcelain 10 Veneers£10,500
+    - Night Guard£750
+    - TOTAL£12,885
+  [P] DISCOUNT: £2,895
+  [H3] FULL MOUTH PREMIUM PORCELAIN
+  [LIST]
+    - Wax Up/Trial Smile 20 Teeth£1,700
+    - Premium Porcelain 20 Veneers£19,000
+    - TOTAL£22,235
+  [P] DISCOUNT: £2,790
+  [H3] WEDDING SMILE PACKAGES
+  [H4] The Heirloom Smile Collection (6-12 months away)
+  [LIST]
+    - Composite Bonding Upper 10 Teeth£3,500
+    - Retainers£600
+    - TOTAL£8,835
+  [H4] The Redefined Radiance Package (1-3 months away)
+  [LIST]
+    - Comprehensive Hygiene£190
+    - Invisalign Lite£3,500
+    - TOTAL£8,385
+  [P] DISCOUNT: £2,190
+  [H4] The White Glove Touch (1 month away)
+  [LIST]
+    - TOTAL£4,690
+  [P] DISCOUNT: £1,690
+
+--- SECTION 4 (theme: bright) ---
+  [H2] Finance Calculator
+  [H3] Total Summary
+  [CTA BUTTON] Book Now -> /contact-us
+
+================================================================================
+PAGE: https://denstudio.co.uk/contact-us
+================================================================================
+TITLE: Contact Us | Schedule Your Dental Visit Today — DENSTUDIO
+META DESCRIPTION: Contact DENSTUDIO for expert dental services including veneers, teeth whitening, and straightening. Book your personalized consultation today in London.
+CANONICAL: https://denstudio.co.uk/contact-us
+
+
+--- SECTION 1 (theme: light) ---
+  [H1] Contact us
+  [P] Booking your consultation
+  [P] Contact Us Today! We’re here to help – just leave us a few quick details using the form below, and a member of our team will be in touch with you shortly to arrange your personalised consultation.
+  [P] Or give us a call on 020 3883 0588
+    [LINK] 020 3883 0588 -> tel:020%203883%200588
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/41e24b80-840d-4d3c-94e3-2461eb37309a/Gemini+Generated+Image+%281%29.png" alt=""
+
+================================================================================
+PAGE: https://denstudio.co.uk/porcelain-veneers
+================================================================================
+TITLE: Porcelain Veneers | Harley Street | Dentist Near Me — DENSTUDIO
+META DESCRIPTION: Discover custom porcelain veneers at Denstudio in Harley Street, London, to enhance your smile's appearance and regain confidence with expert cosmetic dental solutions.
+CANONICAL: https://denstudio.co.uk/porcelain-veneers
+
+
+--- SECTION 1 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/47ca71eb-4153-4f15-9472-40e53c938667/Photo+Feb+26+2014.jpg" alt=""
+  [H1] Porcelain Veneers in Harley Street, London
+  [H2] Get a Straight, Ultra-White Celebrity Smile with Porcelain Veneers
+  [P] Are you ready to rediscover the magic of your smile? Our cutting-edge approach to porcelain veneers is your ticket to reclaiming your radiance.
+  [P] At Denstudio, we’ve revolutionised the journey to revitalise your smile. We understand that your smile is as unique as you are, and that’s why we’ve fine-tuned every step of the process, granting you control over the aesthetics and appeal of your teeth.
+    [LINK] . -> https://maps.app.goo.gl/6Pup3CAqg12zPJp99
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 2 (theme: bright) ---
+  [H2] What are Porcelain Veneers?
+  [P] Porcelain veneers are ultra-thin ceramic shells that are permanently bonded to the front surface of the teeth to improve their shape, colour, alignment and overall appearance.
+  [P] They are custom designed for each patient and crafted to mimic the natural translucency and texture of real enamel, resulting in a refined yet natural-looking smile.At Denstudio, we create bespoke porcelain veneers in Harley Street, London to create balanced, facially harmonious results, whether you are looking to enhance a single tooth or transform your entire smile.
+  [P] Veneers are commonly used to correct:- Discolouration that does not respond to whitening- Chipped, worn or uneven teeth- Gaps between teeth- Mild crowding or misalignment- Irregular tooth shape or proportions​
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/bee4d196-3279-4ac3-847d-1d36fe3c4910/Clinical+Cases+Image+%281%29.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/b9608d80-0c31-47c0-9c54-88b25d5a56e2/Clinical+Cases.webp" alt=""
+  [H4] Custom-made and cover your teeth with high-grade porcelain, for a perfectly natural smile. For outstanding porcelain veneers, choose Denstudio.
+
+--- SECTION 3 (theme: default) ---
+  [H3] Dental veneers
+  [H2] The Best Way to Reshape, Resize And Renew Your Teeth
+  [P] The best labs + the best ceramic = your best smile.
+  [P] Veneers are your ticket to reclaiming the you that’s been hiding beneath years of wear and tear. Imagine looking in the mirror and seeing that vibrant, confident smile that used to light up your world. Our veneers are more than just a cosmetic enhancement – they’re a time machine that transports you back to the era of your most dazzling grin. At Denstudio, the maths are simple:
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8e657ab1-596b-41a6-9085-a6db7a0495ec/Image+from+Dropbox+%281%29.webp" alt=""
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 4 (theme: black) ---
+  [REVIEW] "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing. He knew exactly what I needed and has a great aesthetic eye. Love the results, thanks doc." -- Sri
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Been seeing Jana regularly. The service he provides is always of the highest standard, he explains everything with complete clarity and I always leave satisfied with the results." -- Harish
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "What an incredible service from start to finish. My teeth and smile have been transformed! Can't thank Dr Denzel enough for my new smile." -- James
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Had whitening here with great results — just two weeks and a huge change. Thanks Jana, will be back soon!" -- Mayuran
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease. Very personable and professional — highly recommend!" -- Lula
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "5 stars all around — Dr Jana is great and I wouldn't go anywhere else. Thanks to the team for the great service." -- Bavan
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Lives up to the great reviews — it was easy to book, the staff were professional and Dr Jana was very thorough and personable. Best dental experience I've had." -- Hishanth
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "I have never received such excellent service at a dentist. The attention to detail from Dr Jana and the team was exceptional. I felt cared for and safe — and the results are amazing!" -- Diyar
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Dr Denzel is always professional, informative and calming. He ensures you fully understand everything and welcomes questions. Would definitely recommend." -- Babac
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "I saw Dr Jana Denzel for dental hygiene and whitening — incredible results. The service and professionalism were the best I've had. Highly recommend!" -- Vithya
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+
+================================================================================
+PAGE: https://denstudio.co.uk/composite-bonding
+================================================================================
+TITLE: Composite Bonding | Transform Your Smile Today — DENSTUDIO
+META DESCRIPTION: Discover expert composite bonding treatments at DENSTUDIO. Enhance your smile quickly, pain-free, and with lasting results. Book your consultation today.
+CANONICAL: https://denstudio.co.uk/composite-bonding
+
+
+--- SECTION 1 (theme: dark) ---
+  [BACKGROUND IMG] https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/7c9822cc-78ba-4ee1-92be-93abe0880436/Figma+Design+Image+%281%29.webp
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/7c9822cc-78ba-4ee1-92be-93abe0880436/Figma+Design+Image+%281%29.webp" alt=""
+  [H1] Composite Bonding Harley Street
+  [H2] Transform Your Smile
+  [LIST]
+    - Repairs damaged, gapped & uneven teeth.
+    - Does not permanently alter your natural teeth.
+    - Pain-free procedure, no injections or drilling.
+    - Same-day & next-day appointments available.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 2 (theme: light) ---
+  [H2] Dr Jana’s Patients
+  [P] Join 100s of patients that have transformed their smiles with Dr Jana's unique transformation protocol!
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8cee9366-e128-4ab4-b896-b6368699d289/Denstudio-bonding.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/23e43ba3-73a4-4b3c-bec5-c5c07412ec21/Figma+Design+Image+%284%29.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8b0cd51f-018b-499b-b93e-1f2401ac402b/Image+from+Dropbox+%281%29.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/1fde86e4-0f24-498d-be8e-5b44df3a5193/Design+Image+from+Figma.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/5b863dee-fadd-4bd9-8ddf-205e151e619c/Figma+Design+Image+%281%29.jpg" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/0308ac73-0dba-407f-8785-524221feb38b/Figma+Design+Image.webp" alt=""
+
+--- SECTION 3 (theme: light) ---
+  [H2] Composite Bonding? We’ve got the answers.
+  [P] If your teeth are chipped, discoloured or uneven, there’s no need to put up with a smile that makes you self-conscious. Composite bonding at DenStudio offers a smart, modern fix. This guide will cover what composite bonding involves, who it suits, what to expect at each step, and the long-term benefits.
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [CTA BUTTON] Book Now -> /contact-us
+  [LIST]
+    - What is composite bonding? Think of composite bonding as the dental equivalent of a skilled artist’s touch-up work. It uses mouldable dental resin to fix all sorts of imperfections in your teeth. Whether you’re dealing with chips, cracks, gaps, or discolouration, this clever treatment can sort them all out in one go.Composite bonding is actually an umbrella term that covers several different treatments:Composite veneers: These go right across the front of your teeth for a complete smile makeoverEdge bonding: Perfect for closing annoying gaps between teeth Composite fillings: The invisible way to repair cavitiesTooth repair: Fixes chips, cracks and other damageInlays and onlays: Sorts out damage on the biting surfaces of your back teeth
+    - How does composite bonding actually work? The process is surprisingly straightforward. You’ll start by picking the exact shade of resin that matches your teeth (or the colour you want them to be). Your dentist then carefully applies this material by hand over each tooth, leaving your original tooth completely untouched underneath. The magic happens when they cure the resin using ultraviolet light, making it rock-hard. After that, it’s all about the finishing touches: your dentist sculpts and polishes each tooth until you get that perfect, natural look.Am I eligible for composite bonding?Here’s the thing about composite bonding: your mouth needs to be in good nick before you can have it done. That means no gum disease, no missing teeth, and definitely no untreated cavities lurking about. If you do have any existing problems, don’t worry. We’ll need to sort these out first, though this might add to your treatment time and costs. The best way to find out where you stand is to book a consultation. This comprehensive check-up includes X-rays, photographs, a thorough examination, and a personalised treatment plan.Why composite bonding is brilliantComposite bonding has become hugely popular, and it’s easy to see why. This quick and affordable treatment has helped thousands of people get the smile they’ve always wanted.Here’s what makes it so good:Fixes practically everything: chips, cracks, gaps, uneven teeth, wear, and discolourationMakes short teeth longer, giving you a more natural biteYou get complete control over the colour, size, and shape of your new teethMuch cheaper than porcelain veneersThe fastest way to get whiter teeth, and the results last up to eight years.Completely reversible because it doesn’t change your natural teeth.Can even improve the look of mildly crooked or overlapping teeth
+    - Composite bonding process Composite bonding processCompleted in just a few hours, the composite bonding process mixes art with science to handcraft your new smile. To start the process…Submit your enquiry Send your composite bonding enquiry to our customer service team. We will review your information and call you back. This could be the same day or following day.A quick call We will call you to discuss your treatment options, provide an idea of pricing and finance and to answer your questions. If you are happy to proceed, book right in.Visit & oral health-check While visiting us you will have a thorough oral health check. This includes an oral examination, X-rays, CT scan, photographs and consultation with your dentist. They will identify any issues that could prevent your treatment from being successful. We will highlight the best treatment plan for you – even if that is or is not composite bonding.Remedial workIf issues have been discovered, you can discuss your treatment options and costs before booking in for these remedial procedures.Teeth whiteningTo get the best result your composite resin is matched to the colour of your natural teeth. We recommend having your teeth whitened before proceeding to achieve a beautiful white smile. Composite can not be whitened after it is in place, but you can always top-up your teeth whitening with the extra gels provided.Composite bonding procedure dayOn the day of your composite bonding procedure your appointment usually lasts between 2-3 hours.You will discuss your treatment plan and specify the shape and colour of your new smile.Your teeth are prepared and a bonding agent applied so that the resin bonds securely to the enamel of your teeth.Your dentist will apply the Composite Bonding procedure to your teeth. Each tooth is individually sculpted to correct any flaws.The sculpt is hardened using ultraviolet light.Once the dental resin has hardened, your teeth are hand finished to make them appear just like natural teeth. This can involve grinding to alter the shape, and polishing to make them gleam.Leave with your new smile.AftercareYour dentist will give you tips to help you to maintain your new smile. This can include:Brush twice a day with a fluoride toothpaste. Make sure to clean along the gum line.Use floss or interdental brushes to clean between teeth. Be careful not to pick your composite off your teeth.Attend regular dental check-ups to make sure your bonding is in good condition.Avoid biting into anything hard.Avoid foods and drink that can stain your teeth. If you do, rinse with water throughout your meal.If you experience any issues contact your dentist.
+      [LINK] Submit your enquiry -> http://www.denstudio.co.uk/contact-us
+    - Does composite bonding damage teeth? No, composite bonding does not damage teeth. A standard treatment is applied over your natural teeth without modification.In some extreme cases of malocclusion, crooked or overlapping teeth can be modified, allowing composite treatments to be successful. This typically involves filing down protruding edges so that they can effectively be covered by a composite veneer.Is composite bonding bad for your teeth?No, composite bonding is not bad for your teeth when applied professionally with care. In most cases this treatment does not alter your natural teeth. To further preserve the natural tooth, your dentist will ensure no bacteria can enter between your veneer and your enamel. This prevents decay. To ensure this bond remains resilient, please attend regular dental check-ups.
+    - How much does composite bonding cost? The cost of composite bonding depends on the scale of treatment required. All treatments require an oral health check to be done prior to the procedure. This costs £195 and includes X-rays, CT scan, photographs, an oral examination and the creation of your treatment plan.How much is composite bonding per tooth?Composite bonding costs £350 per tooth (+£195 for your oral health check). This allows you to easily work out a treatment cost based on the number of teeth you think require treatment. Contact us now to book your consultation.How much do composite veneers cost?The cost of composite veneers depends on the number of teeth requiring treatment. This is typically dictated by the number of teeth that you show when smiling. You should also consider whether you want just your upper or both upper and lower teeth treated.As an example, our most popular composite bonding treatment covers your top 8 teeth, costing just £3960 (+£95 for your oral health check). Contact us now to book your consultation.How much does composite bonding cost for a full mouth?A full mouth of up to 20 teeth costs just £9900 (+£195 for your oral health check). This gives you a brand new smile on both your top and bottom 10 teeth. Contact us now to book your consultation.How much is composite bonding on my front teeth?The cost of composite bonding on your front teeth depends on the number of teeth requiring treatment. As mentioned above, most people opt to have composite bonding on the teeth are are visible when you smile.Our most popular composite bonding treatment covers your top 8 teeth, costing just £3000 (+£195 for your oral health check). Contact us now to book your consultation.If cost is an issue, consider having your top 6 teeth bonded for just £2970 (+£195 for your oral health check). Contact us now to book your consultation.Can I get composite bonding on finance?Discuss composite bonding on finance. We are not tied to any one lender. This means we can shop the market to find the best finance package for you.If you have CCJs, a low credit score or other financial issues please let us know. We can perform soft-checks that do not impact your credit score and find lenders that specialise in financing treatments for people like you. Contact us now to book your consultation.How to get cheap composite bondingComposite bonding is a cosmetic treatment and not available from low cost providers such as the NHS. This means a private dentist is your only choice for this treatment.To make composite bonding affordable you should have good oral hygiene and not need any treatment for gum disease, plaque, tartar, cavities or receding gums. This prevents additional charges needed to fix these issues before your treatment can proceed. You can also limit treatments to only teeth that are visible when you smile. For most people this means the top 6-8 teeth.
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+      [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+    - Composite bonding aftercare Brush twice a day using a good quality fluoride toothpaste and a soft bristled toothbrush. Pay particular attention to your gums.Floss or use an interdental brush to clean between your teeth. Be careful not to pick-off your composite.Attend regular dental check-ups and hygiene appointments. This allows your dentist to find and fix issues before they become major challenges.Avoid food and drink that can discolour your teeth. If this is unavoidable, rinse your mouth with water throughout your meal.Do not bit anything hard. This can cause your composite to chip.Foods to avoid after composite bondingThe foods to avoid after composite bonding fall into several categories. These include tomato-based sauces e.g. curry, passata, bolognaise; coloured drinks e.g. blackcurrant, red wine, cola; hard foods including chilled chocolate, nuts and boiled sweets.In the first 48 hoursIn the first 48 hours after your composite bonding treatment the bonding agent is still curing. During this period stick to soft foods such as pasta, rice, noodles and soups to preserve your smile. Avoid crusty bread and any sticky or crunchy foods such as toffee, chewing gum, peanut butter, nuts, granola.Pro Tip: Instead of biting into foods with your composite covered front teeth, break/cut off small pieces of food before putting it into your mouth, and chew with your back teeth.Composite bonding after 5 yearsAfter 5 years your composite bonding will naturally become dull. Edges can be visibly worn and you may have minor chips. At this time you should consider renewing your composite bonding.Like when you originally had your treatment, removing and replacing composite bonding is a fast and pain-free procedure. Your dentist will de-bond your composite, clean the tooth and reapply resin to your teeth, giving you a fresh new look.
+    - Can you whiten composite bonding? No, composite bonding cannot be whitened using over the counter, at-home or online teeth whitening kits that use peroxide or bleaching agents. Similarly, teeth whitening strips, toothpaste and mouthwash will have no effect.How to whiten composite bondingTo have your composite bonding whitened visit your dentist who will re-polish your teeth to remove surface stains. Contact us for details.How quickly does composite bonding stain?The speed at which your composite bonding will stain and discolour depends on your lifestyle choices. A diet filled with tomato-based sauces, cola, red wine and berries will find teeth becoming duller pretty fast.Make good choices and take care of your composite bonding. Prevent stains and give your new smile up to 8 years of life before needing renewal.How to whiten composite bonding at home?Composite bonding cannot be whitened at home. There are no peroxide, bleach, natural or homeopathic treatments that can whiten composite bonding.
+      [LINK] Contact us -> http://www.denstudio.co.uk/contact-us
+  [H4] What is composite bonding?
+  [P] Think of composite bonding as the dental equivalent of a skilled artist’s touch-up work. It uses mouldable dental resin to fix all sorts of imperfections in your teeth. Whether you’re dealing with chips, cracks, gaps, or discolouration, this clever treatment can sort them all out in one go.
+  [P] Composite bonding is actually an umbrella term that covers several different treatments:
+  [LIST]
+    - Composite veneers: These go right across the front of your teeth for a complete smile makeover
+    - Edge bonding: Perfect for closing annoying gaps between teeth Composite fillings: The invisible way to repair cavities
+    - Tooth repair: Fixes chips, cracks and other damage
+    - Inlays and onlays: Sorts out damage on the biting surfaces of your back teeth
+  [H4] How does composite bonding actually work?
+  [P] The process is surprisingly straightforward. You’ll start by picking the exact shade of resin that matches your teeth (or the colour you want them to be). Your dentist then carefully applies this material by hand over each tooth, leaving your original tooth completely untouched underneath. The magic happens when they cure the resin using ultraviolet light, making it rock-hard. After that, it’s all about the finishing touches: your dentist sculpts and polishes each tooth until you get that perfect, natural look.
+  [P] Am I eligible for composite bonding?Here’s the thing about composite bonding: your mouth needs to be in good nick before you can have it done. That means no gum disease, no missing teeth, and definitely no untreated cavities lurking about. If you do have any existing problems, don’t worry. We’ll need to sort these out first, though this might add to your treatment time and costs. The best way to find out where you stand is to book a consultation. This comprehensive check-up includes X-rays, photographs, a thorough examination, and a personalised treatment plan.Why composite bonding is brilliantComposite bonding has become hugely popular, and it’s easy to see why. This quick and affordable treatment has helped thousands of people get the smile they’ve always wanted.Here’s what makes it so good:
+  [LIST]
+    - Fixes practically everything: chips, cracks, gaps, uneven teeth, wear, and discolouration
+    - Makes short teeth longer, giving you a more natural bite
+    - You get complete control over the colour, size, and shape of your new teeth
+    - Much cheaper than porcelain veneers
+    - The fastest way to get whiter teeth, and the results last up to eight years.
+    - Completely reversible because it doesn’t change your natural teeth.
+    - Can even improve the look of mildly crooked or overlapping teeth
+  [H4] Composite bonding process
+  [P] Completed in just a few hours, the composite bonding process mixes art with science to handcraft your new smile. To start the process…
+  [LIST]
+    - Submit your enquiry Send your composite bonding enquiry to our customer service team. We will review your information and call you back. This could be the same day or following day.
+      [LINK] Submit your enquiry -> http://www.denstudio.co.uk/contact-us
+    - A quick call We will call you to discuss your treatment options, provide an idea of pricing and finance and to answer your questions. If you are happy to proceed, book right in.
+    - Visit & oral health-check While visiting us you will have a thorough oral health check. This includes an oral examination, X-rays, CT scan, photographs and consultation with your dentist. They will identify any issues that could prevent your treatment from being successful. We will highlight the best treatment plan for you – even if that is or is not composite bonding.Remedial workIf issues have been discovered, you can discuss your treatment options and costs before booking in for these remedial procedures.
+    - Teeth whiteningTo get the best result your composite resin is matched to the colour of your natural teeth. We recommend having your teeth whitened before proceeding to achieve a beautiful white smile. Composite can not be whitened after it is in place, but you can always top-up your teeth whitening with the extra gels provided.
+    - Composite bonding procedure dayOn the day of your composite bonding procedure your appointment usually lasts between 2-3 hours.You will discuss your treatment plan and specify the shape and colour of your new smile.Your teeth are prepared and a bonding agent applied so that the resin bonds securely to the enamel of your teeth.Your dentist will apply the Composite Bonding procedure to your teeth. Each tooth is individually sculpted to correct any flaws.The sculpt is hardened using ultraviolet light.Once the dental resin has hardened, your teeth are hand finished to make them appear just like natural teeth. This can involve grinding to alter the shape, and polishing to make them gleam.Leave with your new smile.
+    - AftercareYour dentist will give you tips to help you to maintain your new smile. This can include:Brush twice a day with a fluoride toothpaste. Make sure to clean along the gum line.Use floss or interdental brushes to clean between teeth. Be careful not to pick your composite off your teeth.Attend regular dental check-ups to make sure your bonding is in good condition.Avoid biting into anything hard.Avoid foods and drink that can stain your teeth. If you do, rinse with water throughout your meal.If you experience any issues contact your dentist.
+  [P] Visit & oral health-check While visiting us you will have a thorough oral health check. This includes an oral examination, X-rays, CT scan, photographs and consultation with your dentist. They will identify any issues that could prevent your treatment from being successful. We will highlight the best treatment plan for you – even if that is or is not composite bonding.
+  [P] Remedial workIf issues have been discovered, you can discuss your treatment options and costs before booking in for these remedial procedures.
+  [P] Composite bonding procedure dayOn the day of your composite bonding procedure your appointment usually lasts between 2-3 hours.
+  [P] You will discuss your treatment plan and specify the shape and colour of your new smile.
+  [P] Your teeth are prepared and a bonding agent applied so that the resin bonds securely to the enamel of your teeth.
+  [P] Your dentist will apply the Composite Bonding procedure to your teeth. Each tooth is individually sculpted to correct any flaws.
+  [P] The sculpt is hardened using ultraviolet light.
+  [P] Once the dental resin has hardened, your teeth are hand finished to make them appear just like natural teeth. This can involve grinding to alter the shape, and polishing to make them gleam.
+  [P] Leave with your new smile.
+  [P] AftercareYour dentist will give you tips to help you to maintain your new smile. This can include:
+  [P] Brush twice a day with a fluoride toothpaste. Make sure to clean along the gum line.
+  [P] Use floss or interdental brushes to clean between teeth. Be careful not to pick your composite off your teeth.
+  [P] Attend regular dental check-ups to make sure your bonding is in good condition.
+  [P] Avoid biting into anything hard.
+  [P] Avoid foods and drink that can stain your teeth. If you do, rinse with water throughout your meal.
+  [P] If you experience any issues contact your dentist.
+  [H4] Does composite bonding damage teeth?
+  [P] No, composite bonding does not damage teeth. A standard treatment is applied over your natural teeth without modification.
+  [P] In some extreme cases of malocclusion, crooked or overlapping teeth can be modified, allowing composite treatments to be successful. This typically involves filing down protruding edges so that they can effectively be covered by a composite veneer.
+  [P] Is composite bonding bad for your teeth?
+  [P] No, composite bonding is not bad for your teeth when applied professionally with care. In most cases this treatment does not alter your natural teeth. To further preserve the natural tooth, your dentist will ensure no bacteria can enter between your veneer and your enamel. This prevents decay. To ensure this bond remains resilient, please attend regular dental check-ups.
+  [H4] How much does composite bonding cost?
+  [P] The cost of composite bonding depends on the scale of treatment required. All treatments require an oral health check to be done prior to the procedure. This costs £195 and includes X-rays, CT scan, photographs, an oral examination and the creation of your treatment plan.
+  [P] How much is composite bonding per tooth?
+  [P] Composite bonding costs £350 per tooth (+£195 for your oral health check). This allows you to easily work out a treatment cost based on the number of teeth you think require treatment. Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] How much do composite veneers cost?
+  [P] The cost of composite veneers depends on the number of teeth requiring treatment. This is typically dictated by the number of teeth that you show when smiling. You should also consider whether you want just your upper or both upper and lower teeth treated.
+  [P] As an example, our most popular composite bonding treatment covers your top 8 teeth, costing just £3960 (+£95 for your oral health check). Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] How much does composite bonding cost for a full mouth?
+  [P] A full mouth of up to 20 teeth costs just £9900 (+£195 for your oral health check). This gives you a brand new smile on both your top and bottom 10 teeth. Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] How much is composite bonding on my front teeth?
+  [P] The cost of composite bonding on your front teeth depends on the number of teeth requiring treatment. As mentioned above, most people opt to have composite bonding on the teeth are are visible when you smile.
+  [P] Our most popular composite bonding treatment covers your top 8 teeth, costing just £3000 (+£195 for your oral health check). Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] If cost is an issue, consider having your top 6 teeth bonded for just £2970 (+£195 for your oral health check). Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] Can I get composite bonding on finance?
+  [P] Discuss composite bonding on finance. We are not tied to any one lender. This means we can shop the market to find the best finance package for you.
+  [P] If you have CCJs, a low credit score or other financial issues please let us know. We can perform soft-checks that do not impact your credit score and find lenders that specialise in financing treatments for people like you. Contact us now to book your consultation.
+    [LINK] Contact us now -> http://www.denstudio.co.uk/contact-us
+  [P] How to get cheap composite bonding
+  [P] Composite bonding is a cosmetic treatment and not available from low cost providers such as the NHS. This means a private dentist is your only choice for this treatment.
+  [P] To make composite bonding affordable you should have good oral hygiene and not need any treatment for gum disease, plaque, tartar, cavities or receding gums. This prevents additional charges needed to fix these issues before your treatment can proceed. You can also limit treatments to only teeth that are visible when you smile. For most people this means the top 6-8 teeth.
+  [H4] Composite bonding aftercare
+  [LIST]
+    - Brush twice a day using a good quality fluoride toothpaste and a soft bristled toothbrush. Pay particular attention to your gums.
+    - Floss or use an interdental brush to clean between your teeth. Be careful not to pick-off your composite.
+    - Attend regular dental check-ups and hygiene appointments. This allows your dentist to find and fix issues before they become major challenges.
+    - Avoid food and drink that can discolour your teeth. If this is unavoidable, rinse your mouth with water throughout your meal.
+    - Do not bit anything hard. This can cause your composite to chip.
+  [P] Foods to avoid after composite bonding
+  [P] The foods to avoid after composite bonding fall into several categories. These include tomato-based sauces e.g. curry, passata, bolognaise; coloured drinks e.g. blackcurrant, red wine, cola; hard foods including chilled chocolate, nuts and boiled sweets.
+  [P] In the first 48 hours
+  [P] In the first 48 hours after your composite bonding treatment the bonding agent is still curing. During this period stick to soft foods such as pasta, rice, noodles and soups to preserve your smile. Avoid crusty bread and any sticky or crunchy foods such as toffee, chewing gum, peanut butter, nuts, granola.
+  [P] Pro Tip: Instead of biting into foods with your composite covered front teeth, break/cut off small pieces of food before putting it into your mouth, and chew with your back teeth.
+  [P] Composite bonding after 5 years
+  [P] After 5 years your composite bonding will naturally become dull. Edges can be visibly worn and you may have minor chips. At this time you should consider renewing your composite bonding.
+  [P] Like when you originally had your treatment, removing and replacing composite bonding is a fast and pain-free procedure. Your dentist will de-bond your composite, clean the tooth and reapply resin to your teeth, giving you a fresh new look.
+  [H4] Can you whiten composite bonding?
+  [P] No, composite bonding cannot be whitened using over the counter, at-home or online teeth whitening kits that use peroxide or bleaching agents. Similarly, teeth whitening strips, toothpaste and mouthwash will have no effect.
+  [P] How to whiten composite bonding
+  [P] To have your composite bonding whitened visit your dentist who will re-polish your teeth to remove surface stains. Contact us for details.
+    [LINK] Contact us -> http://www.denstudio.co.uk/contact-us
+  [P] How quickly does composite bonding stain?
+  [P] The speed at which your composite bonding will stain and discolour depends on your lifestyle choices. A diet filled with tomato-based sauces, cola, red wine and berries will find teeth becoming duller pretty fast.
+  [P] Make good choices and take care of your composite bonding. Prevent stains and give your new smile up to 8 years of life before needing renewal.
+  [P] How to whiten composite bonding at home?
+  [P] Composite bonding cannot be whitened at home. There are no peroxide, bleach, natural or homeopathic treatments that can whiten composite bonding.
+
+--- SECTION 4 (theme: light) ---
+  [REVIEW] "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing. He knew exactly what I needed and has a great aesthetic eye. Love the results, thanks doc." -- Sri
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Been seeing Jana regularly. The service he provides is always of the highest standard, he explains everything with complete clarity and I always leave satisfied with the results." -- Harish
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "What an incredible service from start to finish. My teeth and smile have been transformed! Can't thank Dr Denzel enough for my new smile." -- James
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Had whitening here with great results — just two weeks and a huge change. Thanks Jana, will be back soon!" -- Mayuran
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease. Very personable and professional — highly recommend!" -- Lula
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "5 stars all around — Dr Jana is great and I wouldn't go anywhere else. Thanks to the team for the great service." -- Bavan
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Lives up to the great reviews — it was easy to book, the staff were professional and Dr Jana was very thorough and personable. Best dental experience I've had." -- Hishanth
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "I have never received such excellent service at a dentist. The attention to detail from Dr Jana and the team was exceptional. I felt cared for and safe — and the results are amazing!" -- Diyar
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "Dr Denzel is always professional, informative and calming. He ensures you fully understand everything and welcomes questions. Would definitely recommend." -- Babac
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+  [REVIEW] "I saw Dr Jana Denzel for dental hygiene and whitening — incredible results. The service and professionalism were the best I've had. Highly recommend!" -- Vithya
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d305a3b7-be4e-4c26-b185-a7a3d727263b/Instagram+Post+Logo+%281%29.webp?format=250w" alt="Google logo"
+
+================================================================================
+PAGE: https://denstudio.co.uk/teeth-straightening
+================================================================================
+TITLE: Teeth Straightening | Achieve Your Perfect Smile Today — DENSTUDIO
+META DESCRIPTION: Discover effective, discreet teeth straightening options at DENSTUDIO. Book your consultation today for a confident, radiant smile.
+CANONICAL: https://denstudio.co.uk/teeth-straightening
+
+
+--- SECTION 1 (theme: dark) ---
+  [BACKGROUND IMG] https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/21204434-eaf8-481e-9343-1fb8e2959bef/Gi7+Pl4g.webp
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/21204434-eaf8-481e-9343-1fb8e2959bef/Gi7+Pl4g.webp" alt=""
+  [H1] Invisalign
+  [H1] Teeth Straightening
+  [CTA BUTTON] Book Now -> /contact-us
+  [H3] The Fast & Affordable Way for Adults to fix Crooked Teeth Without Compromise
+  [P] Want straighter teeth? Want a before and after result that will put a smile on your face? At Denstudio, we’re experts at teeth straightening, using the latest lab-designed aligners that are comfortable to wear and discreet, but still highly effective. We’ll help you say goodbye to crooked teeth and get you grinning ear to ear.
+
+--- SECTION 2 (theme: bright) ---
+  [H4] Teeth Straightening Near Me
+  [H2] Your Journey to Straight Teeth
+  [P] Comfortable, virtually invisible and hugely effective – no-one ever said this about traditional braces. Say goodbye to clunky metal braces that hurt, need tightening and can be seen by everyone. Our aligners will give you the same results as braces, and are in a different league to cheap direct-to-home aligners.
+    [LINK] . -> https://maps.app.goo.gl/6Pup3CAqg12zPJp99
+  [CTA BUTTON] Book Now -> /contact-us
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d6e614e1-66e1-47cc-88af-78fa4ec4a62a/Jana+Press.webp" alt=""
+
+--- SECTION 3 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/4e6d2869-3f06-4486-b856-4cdf97e39ad6/YJ61+L1w.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8d3ef409-d645-4504-bd49-4b4be2bbfeef/Clinical+Cases+%281%29.webp" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/97af455b-75fe-4bb3-8143-b3e5e4717819/Image+from+Dropbox.jpeg" alt=""
+
+--- SECTION 4 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8bb65646-be06-4a1d-ac10-44470e543480/Invisalign.png" alt=""
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/54d5bff5-ba6d-4e48-a2fd-6275c195a8ee/Invisalign+Logo.webp" alt=""
+  [H4] Clear Aligners Harley Street
+  [H2] Why Choose Aligners For Crooked Teeth
+  [P] Unlike traditional visible braces that can feel bulky and conspicuous, aligners offer a discreet and comfortable alternative that seamlessly fits into your lifestyle. Imagine having the power to straighten your teeth without the world even knowing. With aligners, you’ll enjoy the freedom to smile confidently during every step of your journey. Our aligners are bespoke to your teeth. Dentists overseeing your treatment – unlike the corner-cutting ‘direct-to-home’ aligners.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 5 (theme: default) ---
+  [REVIEW] "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing. He knew exactly what I needed and has a great aesthetic eye. Love the results, thanks doc." -- Sri
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Been seeing Jana regularly. The service he provides is always of the highest standard, he explains everything with complete clarity and I always leave satisfied with the results." -- Harish
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "What an incredible service from start to finish. My teeth and smile have been transformed! Can't thank Dr Denzel enough for my new smile." -- James
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Had whitening here with great results — just two weeks and a huge change. Thanks Jana, will be back soon!" -- Mayuran
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease. Very personable and professional — highly recommend!" -- Lula
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "5 stars all around — Dr Jana is great and I wouldn't go anywhere else. Thanks to the team for the great service." -- Bavan
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Lives up to the great reviews — it was easy to book, the staff were professional and Dr Jana was very thorough and personable. Best dental experience I've had." -- Hishanth
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "I have never received such excellent service at a dentist. The attention to detail from Dr Jana and the team was exceptional. I felt cared for and safe — and the results are amazing!" -- Diyar
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Dr Denzel is always professional, informative and calming. He ensures you fully understand everything and welcomes questions. Would definitely recommend." -- Babac
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "I saw Dr Jana Denzel for dental hygiene and whitening — incredible results. The service and professionalism were the best I've had. Highly recommend!" -- Vithya
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+
+--- SECTION 6 (theme: bright) ---
+  [H2] Teeth Straightening FAQs
+  [P] We’ve done our best to answer all your questions about our aligners, but if you have any more, please get in touch with us.
+  [CTA BUTTON] Book Now -> /contact-us
+  [LIST]
+    - What Are Aligners? Our polymer clear aligners fit closely to your teeth and apply gradual pressure, gently adjusting your teeth into the desired position, achieving the same effect as braces, but with none of the stigma.The aligner market is growing in popularity because they are so much more comfortable to wear than traditional braces. You won’t have to have them tightened, and they are much less visible to everyone else.Your aligners will be replaced every few weeks, and by the time you reach the final aligner, your teeth will be perfectly positioned.
+    - How Does The Treatment Process Work? One of our orthodontic specialists will take impressions and photographs of your teeth. Using this information, a digital plan will be constructed. This models how your teeth will move into place as the treatment progresses.Your set of aligners will be designed to apply the right amount of pressure at every stage of the process. Once your aligners have been made, you can get started with the treatment immediately. Your dentist will be by your side every step of the way to monitor your progress.
+    - What Is The Average Treatment Time? Since every patient has their own custom treatment plan, the time it takes to complete the process varies. Treatment time depends on a number of factors, such as how far your teeth need to move and your general oral health..When you book in for an aligner consultation, one of our team will let you know exactly how long your treatment will take. A full aligning cycle typically takes between 4 and 12 months. You’ll start seeing results almost immediately after starting the treatment.
+    - Is Teeth Straightening Painful? Since the alignment process is very gradual, discomfort is kept to a minimum throughout.Some people report tenderness, especially after switching to a new aligner. It’s unlikely that you’ll experience any severe pain, but we’ll be on hand to help if you do.The best way to limit discomfort is to keep the aligners in place for as much of the day as possible. Regularly removing the aligners is the most common cause of pain. We recommend only taking them out for eating. Keeping them in for longer will also give your treatment the best chance of being more effective.
+    - How Do Aligners Compare To Fixed Braces? Our aligners will achieve a similar end result to braces. It’s in the journey towards the final result where the two methods differ.The aligners that we use, are removable and almost invisible. Braces are fixed in place for the duration of the treatment. For this reason, aligners have become massively popular among adults.When you begin treatment, you’ll be given bespoke trays that gradually shift your teeth into position. Braces are tightened less gradually, which can make your teeth tender after each dentist visit.
+  [P] What Are Aligners?
+  [P] Our polymer clear aligners fit closely to your teeth and apply gradual pressure, gently adjusting your teeth into the desired position, achieving the same effect as braces, but with none of the stigma.
+  [P] The aligner market is growing in popularity because they are so much more comfortable to wear than traditional braces. You won’t have to have them tightened, and they are much less visible to everyone else.
+  [P] Your aligners will be replaced every few weeks, and by the time you reach the final aligner, your teeth will be perfectly positioned.
+  [P] How Does The Treatment Process Work?
+  [P] One of our orthodontic specialists will take impressions and photographs of your teeth. Using this information, a digital plan will be constructed. This models how your teeth will move into place as the treatment progresses.
+  [P] Your set of aligners will be designed to apply the right amount of pressure at every stage of the process. Once your aligners have been made, you can get started with the treatment immediately. Your dentist will be by your side every step of the way to monitor your progress.
+  [P] What Is The Average Treatment Time?
+  [P] Since every patient has their own custom treatment plan, the time it takes to complete the process varies. Treatment time depends on a number of factors, such as how far your teeth need to move and your general oral health..
+  [P] When you book in for an aligner consultation, one of our team will let you know exactly how long your treatment will take. A full aligning cycle typically takes between 4 and 12 months. You’ll start seeing results almost immediately after starting the treatment.
+  [P] Is Teeth Straightening Painful?
+  [P] Since the alignment process is very gradual, discomfort is kept to a minimum throughout.
+  [P] Some people report tenderness, especially after switching to a new aligner. It’s unlikely that you’ll experience any severe pain, but we’ll be on hand to help if you do.
+  [P] The best way to limit discomfort is to keep the aligners in place for as much of the day as possible. Regularly removing the aligners is the most common cause of pain. We recommend only taking them out for eating. Keeping them in for longer will also give your treatment the best chance of being more effective.
+  [P] How Do Aligners Compare To Fixed Braces?
+  [P] Our aligners will achieve a similar end result to braces. It’s in the journey towards the final result where the two methods differ.
+  [P] The aligners that we use, are removable and almost invisible. Braces are fixed in place for the duration of the treatment. For this reason, aligners have become massively popular among adults.
+  [P] When you begin treatment, you’ll be given bespoke trays that gradually shift your teeth into position. Braces are tightened less gradually, which can make your teeth tender after each dentist visit.
+
+================================================================================
+PAGE: https://denstudio.co.uk/teeth-whitening
+================================================================================
+TITLE: Teeth Whitening | Achieve Dazzling Results Today — DENSTUDIO
+META DESCRIPTION: Get professional teeth whitening services at DENSTUDIO in London for a brighter, more confident smile. Safe, effective treatments with long-lasting results.
+CANONICAL: https://denstudio.co.uk/teeth-whitening
+
+
+--- SECTION 1 (theme: light) ---
+  [H1] Teeth Whitening Harley Street, London
+  [H2] Confidence starts
+  [H2] with your smile
+  [LIST]
+    - Professional teeth whitening at a dentist.
+    - 32x stronger than over the counter treatments.
+    - Wear nightly for white teeth in 7-14 days.
+    - Custom trays created from 3D scans.
+    - Prescription 16% Carbamide Peroxide gel.
+    - Top up at-home with the extra gels provided.
+    - Total cost £395
+  [CTA BUTTON] Book Now -> /contact-us
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/95f8c7fb-7f3f-4854-85bd-ceee985aac28/37.png+from+Squoosh.webp" alt=""
+
+--- SECTION 2 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/4acdfa06-2fa7-4f94-97f1-015921b31766/Figma+Design+Image+%286%29.webp" alt=""
+  [H4] Teeth Whitening
+  [H2] The Perfect Way to Get a Glowing White Smile That Really Lasts
+  [P] Whether your teeth have lost their lustre due to staining or discolouration, our specialised approach combines skill and cutting-edge techniques to unveil a more brilliant version of your grin. We use our own SuperFit™ cosmetic teeth whitening trays and 16% carbamide peroxide whitening gel for guaranteed great results. The results will leave you beaming.
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 3 (theme: default) ---
+  [H3] Best Teeth Whitening
+  [H2] Whiter Teeth, Brighter Life – Unlock a Dazzling Smile
+  [P] A whiter, brighter smile can be a real game-changer when it comes to confidence – but how do you get one that lasts? At home whitening kits use low-concentration whitening gel that will have you topping up every few weeks.
+  [P] We don’t do that. Our kit, developed and crafted by top dentists, delivers results that shine on for a stunning 3 years. We do this with FreshGel™, the unrivalled whitening formula with the highest viscosity in the market. This means it adheres to your whitening trays like no other, ensuring lightning-fast teeth whitening.
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [H4] The best labs + the best ceramic = your best smile.
+  [CTA BUTTON] Book Now -> /contact-us
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/3da8a71a-f186-42f3-b5a2-9c5750423e61/Image+from+Dropbox+%282%29.webp" alt=""
+
+================================================================================
+PAGE: https://denstudio.co.uk/general
+================================================================================
+TITLE: General | Schedule Your Dental Checkup Today — DENSTUDIO
+META DESCRIPTION: Experience expert general dentistry at Denstudio Harley Street. Offering routine check-ups, restorations, and personalized dental care for all ages.
+CANONICAL: https://denstudio.co.uk/general
+
+
+--- SECTION 1 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/675c8a08-70ca-4396-9987-0b1544712085/Figma+Design+Image+%287%29.webp" alt=""
+  [H1] General Dentistry Harley Street
+  [H2] What Is General Dentistry?
+  [P] At Denstudio, located in the heart of Harley Street, London, we provide exceptional general dentistry services for patients of all ages. From routine check-ups and cleanings to advanced restorative treatments, our mission is to keep your smile healthy, confident, and long-lasting. Whether you’re looking for a private dentist in London for everyday care or require complex treatment, our highly skilled team delivers expert care with a gentle touch.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 2 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/53de7cbd-3650-4d70-97be-0af73f7f7867/Image+from+Dropbox+%284%29.webp" alt=""
+  [H4] STEP ONE: CONSULTATION
+  [P] The consultation allows us to fully understand your smile goals. We use advanced scanning technology to create a 3D model of your teeth and plan your treatment accordingly.
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/21204434-eaf8-481e-9343-1fb8e2959bef/Gi7+Pl4g.webp" alt=""
+  [H4] STEP TWO: TREATMENT
+  [P] Our expert dentists will carry out treatment directly, taking the first steps towards a healthy mouth and perfect smile.
+
+--- SECTION 3 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/f135a239-1655-4255-8125-c8c705d75949/Image+from+Dropbox+%281%29.webp" alt=""
+  [H2] Why Choose denstudio for General Dentistry
+  [P] Your comfort and confidence are at the heart of everything we do. As a trusted Harley Street dental clinic, Denstudio combines clinical excellence with a boutique patient experience.
+  [P] Experienced Team: Our dentists and hygienists are trained in both general and cosmetic dentistry, ensuring you receive expert care no matter your needs.
+  [P] Advanced Technology: From 3D scans to pain-free injections and digital X-rays, we use cutting-edge tools to make every visit efficient and comfortable.
+  [P] Personalised Approach: Every treatment plan is tailored to your goals, lifestyle, and budget.
+  [P] Relaxed, Modern Environment: Our tranquil practice offers a calm and private setting in one of London’s most prestigious dental locations.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 4 (theme: bright) ---
+  [REVIEW] "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing. He knew exactly what I needed and has a great aesthetic eye. Love the results, thanks doc." -- Sri
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Been seeing Jana regularly. The service he provides is always of the highest standard, he explains everything with complete clarity and I always leave satisfied with the results." -- Harish
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "What an incredible service from start to finish. My teeth and smile have been transformed! Can't thank Dr Denzel enough for my new smile." -- James
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Had whitening here with great results — just two weeks and a huge change. Thanks Jana, will be back soon!" -- Mayuran
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease. Very personable and professional — highly recommend!" -- Lula
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "5 stars all around — Dr Jana is great and I wouldn't go anywhere else. Thanks to the team for the great service." -- Bavan
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Lives up to the great reviews — it was easy to book, the staff were professional and Dr Jana was very thorough and personable. Best dental experience I've had." -- Hishanth
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "I have never received such excellent service at a dentist. The attention to detail from Dr Jana and the team was exceptional. I felt cared for and safe — and the results are amazing!" -- Diyar
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "Dr Denzel is always professional, informative and calming. He ensures you fully understand everything and welcomes questions. Would definitely recommend." -- Babac
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+  [REVIEW] "I saw Dr Jana Denzel for dental hygiene and whitening — incredible results. The service and professionalism were the best I've had. Highly recommend!" -- Vithya
+  [IMG] src="https://thelondondentalcentre.co.uk/s/Instagram-Post-Logo.webp" alt="Google logo"
+
+--- SECTION 5 (theme: bright) ---
+  [H2] General Dentistry Services at Denstudio
+  [P] We provide a comprehensive range of general dentistry services, with an emphasis on assessing your needs and putting you at ease.
+  [CTA BUTTON] Book Now -> /contact-us
+  [LIST]
+    - Dental Restoration General dentists restore you to full oral health using a variety of cutting-edge dental services. After a friendly consultation, the dentist will discuss a care plan with you.
+    - Tooth Fillings One of the most common types of dental treatment carried out by any general dentist is a filling. These are used to treat cavities when they form. The procedure involves your dentist removing the decayed portion of your tooth and then filling the gap to prevent further decay. We use the very best white fillings to blend in with the rest of your smile.
+    - Root Canal When the tooth’s nerve is compromised due to a crack or cavity letting infection into your tooth, you may need a root canal. In this procedure, the soft tissue inside your tooth will be completely removed, eliminating the infection and preventing further damage or decay. Our expert dentists will make the procedure as pain and stress-free as possible.
+    - Dental Crown If you have missing teeth, they can leave gaps in your smile. Not only that, but they can also put you at a greater risk of developing decay. Having dental crowns placed will help restore function to your bite and improve your confidence. At Denstudio, we specialise in precision crowns and we offer finance options if you want to pay over a longer period.
+    - Dental Bridges If you’ve got multiple gaps in your teeth, bridges can help restore your smile, confidence and ability to eat whatever you want. A dental bridge can hold between one and four teeth and will be expertly fitted at our dental clinic. We’re the only clinic in the UK to offer the cutting-edge SmileSmart™ bridge for increased strength and longevity.
+    - Dental Implants Losing a tooth can be quite traumatic, but dental implants can help you get past this. Your general dentist will recommend getting implants placed as the best course of action in this instance. We offer teeth in a day implants so you can leave the same day with strong, natural-looking teeth.
+    - Dentures For a full mouth makeover, you may need dentures or same-day implants. These are used when you have multiple teeth needing replacement. Denstudio is a centre of excellence for implantology, offering the latest procedures and sedation to put you at ease.
+    - Tooth Extraction If your tooth has become infected or has decayed past the point where it can be saved, you may need to have it extracted. Your dentist will do this to keep the neighbouring teeth healthy. Our dentists will do this in a pain-free procedure, with anaesthesia available.
+    - Wisdom Tooth Removal When your third molars start to emerge in your late teens or early twenties, it can cause considerable pain. This is particularly an issue if your molar becomes impacted. It may be necessary to have a dentist do a wisdom tooth removal, which can ease the crowding in your mouth and provide huge relief.
+    - Laser Procedures Lasers can be used in a range of circumstances. They can be used to shape gums, remove inflamed gum tissue, or smooth any rough areas on your tooth. Your dentist will talk you through the pain-free treatment options available.
+    - Teeth Straightening Straightening your teeth will help prevent cavities from forming and improve your bite and confidence. We offer Invisalign & Clear Aligners at clinic to bring your smile back into line. Many general dentists recommend this as the best way to realign your mouth and bring back the smile you want.
+    - Preventative Treatments We believe in catching issues before they worsen. For that reason, we put a lot of faith in preventative dentistry. A regular checkup with our team and visits to the hygienist will help limit the chances of decay or disease.
+  [P] Dental Restoration
+  [P] General dentists restore you to full oral health using a variety of cutting-edge dental services. After a friendly consultation, the dentist will discuss a care plan with you.
+  [P] Tooth Fillings
+  [P] One of the most common types of dental treatment carried out by any general dentist is a filling. These are used to treat cavities when they form. The procedure involves your dentist removing the decayed portion of your tooth and then filling the gap to prevent further decay. We use the very best white fillings to blend in with the rest of your smile.
+  [P] Root Canal
+  [P] When the tooth’s nerve is compromised due to a crack or cavity letting infection into your tooth, you may need a root canal. In this procedure, the soft tissue inside your tooth will be completely removed, eliminating the infection and preventing further damage or decay. Our expert dentists will make the procedure as pain and stress-free as possible.
+  [P] Dental Crown
+  [P] If you have missing teeth, they can leave gaps in your smile. Not only that, but they can also put you at a greater risk of developing decay. Having dental crowns placed will help restore function to your bite and improve your confidence. At Denstudio, we specialise in precision crowns and we offer finance options if you want to pay over a longer period.
+  [P] Dental Bridges
+  [P] If you’ve got multiple gaps in your teeth, bridges can help restore your smile, confidence and ability to eat whatever you want. A dental bridge can hold between one and four teeth and will be expertly fitted at our dental clinic. We’re the only clinic in the UK to offer the cutting-edge SmileSmart™ bridge for increased strength and longevity.
+  [P] Dental Implants
+  [P] Losing a tooth can be quite traumatic, but dental implants can help you get past this. Your general dentist will recommend getting implants placed as the best course of action in this instance. We offer teeth in a day implants so you can leave the same day with strong, natural-looking teeth.
+  [P] Dentures
+  [P] For a full mouth makeover, you may need dentures or same-day implants. These are used when you have multiple teeth needing replacement. Denstudio is a centre of excellence for implantology, offering the latest procedures and sedation to put you at ease.
+  [P] Tooth Extraction
+  [P] If your tooth has become infected or has decayed past the point where it can be saved, you may need to have it extracted. Your dentist will do this to keep the neighbouring teeth healthy. Our dentists will do this in a pain-free procedure, with anaesthesia available.
+  [P] Wisdom Tooth Removal
+  [P] When your third molars start to emerge in your late teens or early twenties, it can cause considerable pain. This is particularly an issue if your molar becomes impacted. It may be necessary to have a dentist do a wisdom tooth removal, which can ease the crowding in your mouth and provide huge relief.
+  [P] Laser Procedures
+  [P] Lasers can be used in a range of circumstances. They can be used to shape gums, remove inflamed gum tissue, or smooth any rough areas on your tooth. Your dentist will talk you through the pain-free treatment options available.
+  [P] Teeth Straightening
+  [P] Straightening your teeth will help prevent cavities from forming and improve your bite and confidence. We offer Invisalign & Clear Aligners at clinic to bring your smile back into line. Many general dentists recommend this as the best way to realign your mouth and bring back the smile you want.
+  [P] Preventative Treatments
+  [P] We believe in catching issues before they worsen. For that reason, we put a lot of faith in preventative dentistry. A regular checkup with our team and visits to the hygienist will help limit the chances of decay or disease.
+
+================================================================================
+PAGE: https://denstudio.co.uk/hygiene
+================================================================================
+TITLE: Hygiene | Schedule Your Dental Hygiene Today — DENSTUDIO
+META DESCRIPTION: Professional dental hygiene services focused on preventing gum disease and maintaining oral health through regular cleanings and patient education.
+CANONICAL: https://denstudio.co.uk/hygiene
+
+
+--- SECTION 1 (theme: bright) ---
+  [H1] Dental Hygiene
+  [P] Oral hygiene is a critical component of dental health, and the hygienist has a crucial role in helping you maintain this to ensure the gums are healthy and disease free
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 2 (theme: default) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/6f7ae04e-efd0-4db9-b1a0-822c9b49893a/Gi7+Pl4g.webp" alt=""
+  [H2] What is Dental Hygiene Treatment?
+  [P] Gum disease (gingivitis) is a very common problem, and symptoms such as inflamed gums, bleeding, sensitivity, receding gums, and pain when brushing can all be signs of this. It is the leading cause of tooth loss, which is why at Denstudio we take a preventative approach to gum disease, as it is highly treatable.
+  [P] However, if gum disease persists over a long period of time and progresses, it can eventually affect the supporting structure of the teeth which can result in pain, infections, wobbly teeth and even tooth loss. This is known as periodontitis, a more severe form of gum disease.
+  [P] At Denstudio our focus is on prevention and this is why we believe it is critical to visit the hygienist regularly to assist you in maintaining the health of your gums and prevent gum disease.
+  [P] This is provided through regular maintenance cleaning at least twice a year, oral hygiene instruction and education.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 3 (theme: bright) ---
+  [H2] Dental Hygiene. Your questions, answered.
+  [P] We’ve done our best to answer the most common questions we hear about porcelain veneers. If we’ve missed any, don’t hesistate to get in touch.
+  [CTA BUTTON] Book Now -> /contact-us
+  [LIST]
+    - How often should I have a dental hygiene appointment? We recommend a dental hygiene visit every 6 months, though some patients may benefit from more frequent cleanings depending on their oral health, gum condition, or history of gum disease.
+    - What does a dental hygiene appointment include? A typical hygiene appointment includes a professional teeth cleaning to remove plaque, tartar, and surface stains, a gum health assessment, and tailored advice on brushing, flossing, and home care.
+    - How can I Is a dental hygiene appointment painful? an appointment? Most patients find hygiene appointments comfortable. If your gums are sensitive, we can use numbing gel or tailor the cleaning approach to ensure a pain-free experience.
+    - Can a hygiene visit remove stains from my teeth? Yes, our hygiene treatments help remove surface stains caused by tea, coffee, red wine, or smoking. For deeper stains, we may recommend teeth whitening.
+    - What’s the difference between a scale and polish and an advanced hygiene clean? A scale and polish is a basic clean. Our advanced hygiene appointments go further, using airflow polishing and ultrasonic scalers for a deeper clean and brighter smile.
+    - Will a hygiene visit help with bad breath? Absolutely. One of the leading causes of bad breath is a build-up of bacteria. A hygiene clean removes this and helps keep your breath fresher for longer.
+    - Do I need to see the dentist before booking a hygiene appointment? Not necessarily. At Denstudio, we offer direct access hygiene appointments, so you can book a cleaning without seeing a dentist first.
+    - Can hygiene appointments help prevent gum disease? Yes. Regular hygiene visits are essential in preventing and managing gum disease by removing plaque and tartar build-up and monitoring gum health.
+    - How long does a hygiene appointment take? Appointments typically last between 30 to 60 minutes depending on the level of cleaning required and whether you opt for a basic or advanced hygiene clean.
+    - Is a hygiene appointment covered by dental insurance? Many dental insurance plans include hygiene treatments. We recommend checking your policy or asking our reception team for guidance.
+  [P] How often should I have a dental hygiene appointment?
+  [P] We recommend a dental hygiene visit every 6 months, though some patients may benefit from more frequent cleanings depending on their oral health, gum condition, or history of gum disease.
+  [P] What does a dental hygiene appointment include?
+  [P] A typical hygiene appointment includes a professional teeth cleaning to remove plaque, tartar, and surface stains, a gum health assessment, and tailored advice on brushing, flossing, and home care.
+  [P] How can I Is a dental hygiene appointment painful? an appointment?
+  [P] Most patients find hygiene appointments comfortable. If your gums are sensitive, we can use numbing gel or tailor the cleaning approach to ensure a pain-free experience.
+  [P] Can a hygiene visit remove stains from my teeth?
+  [P] Yes, our hygiene treatments help remove surface stains caused by tea, coffee, red wine, or smoking. For deeper stains, we may recommend teeth whitening.
+  [P] What’s the difference between a scale and polish and an advanced hygiene clean?
+  [P] A scale and polish is a basic clean. Our advanced hygiene appointments go further, using airflow polishing and ultrasonic scalers for a deeper clean and brighter smile.
+  [P] Will a hygiene visit help with bad breath?
+  [P] Absolutely. One of the leading causes of bad breath is a build-up of bacteria. A hygiene clean removes this and helps keep your breath fresher for longer.
+  [P] Do I need to see the dentist before booking a hygiene appointment?
+  [P] Not necessarily. At Denstudio, we offer direct access hygiene appointments, so you can book a cleaning without seeing a dentist first.
+  [P] Can hygiene appointments help prevent gum disease?
+  [P] Yes. Regular hygiene visits are essential in preventing and managing gum disease by removing plaque and tartar build-up and monitoring gum health.
+  [P] How long does a hygiene appointment take?
+  [P] Appointments typically last between 30 to 60 minutes depending on the level of cleaning required and whether you opt for a basic or advanced hygiene clean.
+  [P] Is a hygiene appointment covered by dental insurance?
+  [P] Many dental insurance plans include hygiene treatments. We recommend checking your policy or asking our reception team for guidance.
+
+================================================================================
+PAGE: https://denstudio.co.uk/gum-reshaping
+================================================================================
+TITLE: Gum Reshaping | Transform Your Smile Today — DENSTUDIO
+META DESCRIPTION: Discover expert gum reshaping and gummy smile treatments at DENSTUDIO London. Improve your smile with minimally invasive, tailored cosmetic procedures.
+CANONICAL: https://denstudio.co.uk/gum-reshaping
+
+
+--- SECTION 1 (theme: light) ---
+  [H1] Gum Reshaping & Gummy Smile Treatment in Harley Street, London
+  [P] At Denstudio, there are more options on offer for treating gummy smiles than just the usual laser gum lift and contouring.
+    [LINK] . -> https://maps.app.goo.gl/6Pup3CAqg12zPJp99
+  [P] A whole host of options, including gorgeous porcelain veneers and composite bonding, make Denstudio the UK’s go-to destination for gummy smiles. You could say it’s our signature treatment!
+  [CTA BUTTON] Book Now -> /contact-us
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8875f016-3947-4d87-8a83-57a1ee96f149/Photo+Feb+26+2014+%282%29.jpg" alt=""
+
+--- SECTION 2 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/cddec175-945d-48ff-8e8a-08c3306286f9/Gummy+Smiles+Types.webp" alt=""
+  [H4] Porcelain Veneers
+  [H2] Living with a Gummy Smile? We Can Help!
+  [P] If your gums feel as though they are constantly on display, it can make you feel self-conscious about your appearance. In many cases, it can stop you from living your life to the fullest.
+  [P] Help is at hand. At Denstudio Harley Street, we offer a full range of gummy smile correction treatments, including:
+  [LIST]
+    - Surgical gum lifts
+    - Laser gum lifts
+    - Botox
+  [P] The unique approach that we use for treating gummy smiles at Denstudio makes use of a combination of techniques to provide the perfect result with no pain and minimal healing time.
+  [P] In conjunction with all of these treatments, we also offer veneers and bonding to really fine-tune your smile.
+    [LINK] . -> https://maps.app.goo.gl/6Pup3CAqg12zPJp99
+
+--- SECTION 3 (theme: light) ---
+  [H2] Why We’re London’s Number-One for Gummy Smile Treatments
+  [P] Gum contouring is one of our most popular cosmetic treatments, and here’s why we’re London’s number-one for gummy smile treatments:
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 4 (theme: bright) ---
+  [H3] Surgical Gum Lift and Contouring
+  [P] When your gums cover too much of your teeth, we may carry out a gingivectomy. This cosmetic dental procedure is also referred to as gum contouring. The treatment involves removing excess gum tissue.
+  [H3] Laser Gum Lift and Contouring
+  [P] A laser gum reshaping treatment aims to contour and reshape the gums to make them look neater and smaller in proportion to the teeth. It’s a simple procedure that can usually be completed in one visit.
+  [H3] Veneers for Gummy Smiles
+  [P] Veneers can be tailor-made to improve the balance between your teeth and gums. This non-invasive cosmetic treatment makes teeth appear larger in situations where they used to look too small.
+  [H3] Composite Bonding for Gummy Smiles
+  [P] Bonding is a straightforward cosmetic procedure that enhances the appearance of your smile. Using dental composite, we’ll skillfully reshape your teeth. The materials that we’ll use will perfectly match the colour of your teeth.
+  [H3] Botox & Lip Repositioning for Gummy Smiles
+  [P] If the positioning of your lips is an issue, we can use injections of botulinum toxin type A, better known as ‘Botox.’
+  [H2] Treatment Options for Gummy Smile
+  [P] When you enter your initial consultation we’ll take the time to tailor a treatment plan to your needs. Our dentist will be able to reshape, redefine, and enhance your smile – with minimal pain involved.
+
+--- SECTION 5 (theme: bright) ---
+  [H2] Frequently Asked Questions
+  [LIST]
+    - Is Laser Gum Reshaping painful? The procedure is virtually pain-free. Most patients experience minimal discomfort, which can be managed with over-the-counter painkillers if needed.
+    - How long does the treatment take? Most laser gum reshaping treatments can be completed in a single visit to our clinic, typically lasting 1-2 hours.
+    - Are the results permanent? Yes, the results of laser gum reshaping are permanent. Your gums will not grow back to their previous shape.
+    - Is there any downtime after the procedure? Downtime is minimal. Most patients can return to their normal activities immediately after the treatment. You may experience some mild sensitivity for a few days.
+    - Am I a good candidate for Laser Gum Reshaping? If you have a gummy smile, uneven gum line, or feel that your teeth appear too short, you may be an excellent candidate for this treatment. Book a free consultation to discuss your suitability.
+  [H4] Is Laser Gum Reshaping painful?
+  [P] The procedure is virtually pain-free. Most patients experience minimal discomfort, which can be managed with over-the-counter painkillers if needed.
+  [H4] How long does the treatment take?
+  [P] Most laser gum reshaping treatments can be completed in a single visit to our clinic, typically lasting 1-2 hours.
+  [H4] Are the results permanent?
+  [P] Yes, the results of laser gum reshaping are permanent. Your gums will not grow back to their previous shape.
+  [H4] Is there any downtime after the procedure?
+  [P] Downtime is minimal. Most patients can return to their normal activities immediately after the treatment. You may experience some mild sensitivity for a few days.
+  [H4] Am I a good candidate for Laser Gum Reshaping?
+  [P] If you have a gummy smile, uneven gum line, or feel that your teeth appear too short, you may be an excellent candidate for this treatment. Book a free consultation to discuss your suitability.
+
+================================================================================
+PAGE: https://denstudio.co.uk/retainers
+================================================================================
+TITLE: Retainers | Maintain Your Smile Today — DENSTUDIO
+META DESCRIPTION: Discover effective retainer options post-Invisalign to maintain your smile's alignment and longevity. Personalized care for lasting results.
+CANONICAL: https://denstudio.co.uk/retainers
+
+
+--- SECTION 1 (theme: bright) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/8bb65646-be06-4a1d-ac10-44470e543480/Invisalign.png" alt=""
+  [H1] After Invisalign:Navigating the Retainer Phase
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 2 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/d40caee6-b26c-42a7-8266-3ebd0a9c76a7/Photo+Feb+26+2014+4+13+PM+%281%29+%281%29.jpg" alt=""
+  [P] So…finally, you’ve reached a significant milestone in your smile journey. Your Invisalign treatment has delivered the radiant smile you’ve always desired. But there’s one more step to ensure your newfound grin stays flawless – it’s time to explore the world of retainers.
+  [P] Consider this phase as the ongoing maintenance for your smile’s star performance. Fear not; it’s simpler than it might sound. In this blog, we’ll be your navigators through the ‘After Invisalign’ stage, ensuring your smile remains as stunning as ever. So, let’s dive in and uncover the secrets to maintaining your beautiful smile!
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 3 (theme: light) ---
+  [IMG] src="https://images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/1770557516142-ZN8D2375SGYBKU83BP2O/Figma+Design+Image+%285%29.webp" alt=""
+  [H2] The Purpose of Retainers
+  [P] Before using retainers, you should know their prime goal to clarify the post-treatment steps completely. After Invisalign treatment, retainers are used to maintain the new position of your teeth and prevent them from moving back to their original alignment or position. Wearing transparent retainers helps stabilize the teeth in their corrected position because they naturally shift. They are crucial in ensuring that your orthodontic treatment is successful in the long run.
+  [CTA BUTTON] Book Now -> /contact-us
+
+--- SECTION 4 (theme: default) ---
+  [H2] How long will I need to wear my retainers?
+  [LIST]
+    - Initial Usage Your orthodontist will give you new retainers once your Invisalign treatment is finished. These retainers are custom-made to fit your teeth after they have been straightened. You’ll have to wear your removable retainers for most of the day, usually 22 hours per day, just like you wear Invisalign aligners, and take them out only for meals and oral hygiene procedures.
+    - Night Time Usage Your orthodontist will gradually decrease the hours you must wear your retainers as your teeth stabilize. Usually, you will switch to wearing your retainers just at night after a few months of regular full-time wear. Wearing your aligners at night is generally advised for a prolonged duration since it helps sustain the effects of your Invisalign treatment.The duration of retainer usage also varies depending on the specific case and your orthodontist’s recommendation. Here are some factors that may affect how long you need to wear your retainers:The severity of the original dental problem: If you had a severe dental problem before starting your Invisalign treatment, you might need to wear your retainers longer to ensure your teeth retain the new position.Treatment compliance: If you wore your Invisalign trays as prescribed during treatment, you can wear your retainers for a shorter period. But again, every case varies, and your orthodontist is the best person to give you the best advice.Age: Younger patients may need to wear their retainers longer to ensure their teeth remain in their new position as the jaw grows.Evaluation of the retention phase: Your orthodontist will periodically evaluate the stability of your teeth during the retention phase. Based on these evaluations, they will determine if the schedule for wearing the retainer needs to be adjusted or if prolonged use of the retainer is required to ensure optimal alignment.Individual biology: Each person’s mouth and teeth have unique characteristics. Some naturally have teeth that are more likely to shift, while others have more stable teeth. Your orthodontist will consider these factors when determining the length of retainer use.Genetic Factors: Genetic factors can affect the stability of your teeth and the likelihood of a relapse. If you have a family history of tooth shifting, your orthodontist may advise longer retainer wear to reduce the risk.You must speak openly with your orthodontist about any concerns or changes you notice in your tooth position during the retention period. To maintain the durability of your orthodontic results, they can evaluate your case and offer tailored advice regarding how long you should wear a retainer.
+      [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] n -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] s -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] o -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] t -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] t -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] I -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] i -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+      [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [H3] Initial Usage
+  [P] Your orthodontist will give you new retainers once your Invisalign treatment is finished. These retainers are custom-made to fit your teeth after they have been straightened. You’ll have to wear your removable retainers for most of the day, usually 22 hours per day, just like you wear Invisalign aligners, and take them out only for meals and oral hygiene procedures.
+  [H3] Night Time Usage
+  [P] Your orthodontist will gradually decrease the hours you must wear your retainers as your teeth stabilize. Usually, you will switch to wearing your retainers just at night after a few months of regular full-time wear. Wearing your aligners at night is generally advised for a prolonged duration since it helps sustain the effects of your Invisalign treatment.
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [P] The duration of retainer usage also varies depending on the specific case and your orthodontist’s recommendation. Here are some factors that may affect how long you need to wear your retainers:
+    [LINK] n -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [LIST]
+    - The severity of the original dental problem: If you had a severe dental problem before starting your Invisalign treatment, you might need to wear your retainers longer to ensure your teeth retain the new position.
+      [LINK] s -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    - Treatment compliance: If you wore your Invisalign trays as prescribed during treatment, you can wear your retainers for a shorter period. But again, every case varies, and your orthodontist is the best person to give you the best advice.
+    - Age: Younger patients may need to wear their retainers longer to ensure their teeth remain in their new position as the jaw grows.
+      [LINK] o -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    - Evaluation of the retention phase: Your orthodontist will periodically evaluate the stability of your teeth during the retention phase. Based on these evaluations, they will determine if the schedule for wearing the retainer needs to be adjusted or if prolonged use of the retainer is required to ensure optimal alignment.
+      [LINK] t -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    - Individual biology: Each person’s mouth and teeth have unique characteristics. Some naturally have teeth that are more likely to shift, while others have more stable teeth. Your orthodontist will consider these factors when determining the length of retainer use.
+      [LINK] t -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    - Genetic Factors: Genetic factors can affect the stability of your teeth and the likelihood of a relapse. If you have a family history of tooth shifting, your orthodontist may advise longer retainer wear to reduce the risk.
+      [LINK] I -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [P] You must speak openly with your orthodontist about any concerns or changes you notice in your tooth position during the retention period. To maintain the durability of your orthodontic results, they can evaluate your case and offer tailored advice regarding how long you should wear a retainer.
+    [LINK] i -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [H2] Benefits of wearing retainers
+  [LIST]
+    - Ensure your teeth don’t relapse Teeth have a memory and frequently reappear where they previously were. Retainers aid in thwarting this innate propensity in order to maintain the results of Invisalign treatment and prevent relapse.
+    - Stability and comfort Regular retainer use helps your teeth realign themselves into their corrected locations, improving stability and comfort. You can ease the pain caused by shifting teeth by wearing retainers while your oral structures adjust to their new position.
+    - Investment Protection Receiving Invisalign treatment requires both time and money. Continually using retainers protects your investment by ensuring that your results are maintained. The need for subsequent orthodontic treatments is decreased by maintaining appropriate teeth alignment.
+      [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+    - Easier maintenance Having straight teeth reduces the likelihood of oral health issues, including tooth decay and gum disease. Retainers assist in preserving the long-term health and well-being of your gums and teeth by keeping your teeth in proper alignment.
+    - Boosts self-esteem and confidence With a properly positioned smile. By regularly wearing your retainers, you can keep enjoying the advantages of your Invisalign treatment, including a beautiful smile that increases your self-confidence in social and professional settings.
+  [H3] Ensure your teeth don’t relapse
+  [P] Teeth have a memory and frequently reappear where they previously were. Retainers aid in thwarting this innate propensity in order to maintain the results of Invisalign treatment and prevent relapse.
+  [H3] Stability and comfort
+  [P] Regular retainer use helps your teeth realign themselves into their corrected locations, improving stability and comfort. You can ease the pain caused by shifting teeth by wearing retainers while your oral structures adjust to their new position.
+  [H3] Investment Protection
+  [P] Receiving Invisalign treatment requires both time and money. Continually using retainers protects your investment by ensuring that your results are maintained. The need for subsequent orthodontic treatments is decreased by maintaining appropriate teeth alignment.
+    [LINK] . -> https://maps.app.goo.gl/qBR8537T7jRSaq8j8
+  [H3] Easier maintenance
+  [P] Having straight teeth reduces the likelihood of oral health issues, including tooth decay and gum disease. Retainers assist in preserving the long-term health and well-being of your gums and teeth by keeping your teeth in proper alignment.
+  [H3] Boosts self-esteem and confidence
+  [P] With a properly positioned smile. By regularly wearing your retainers, you can keep enjoying the advantages of your Invisalign treatment, including a beautiful smile that increases your self-confidence in social and professional settings.
+
+
+================================================================================
+SHARED COMPONENTS (Navigation & Footer)
+================================================================================
+
+NAVIGATION:
+  Logo: //images.squarespace-cdn.com/content/v1/69296b2ce9500b45c098c974/69a14cea-09c2-4db1-81b8-dbb9af2c9a29/Black+Dental+Aesthetic+Transparent.webp
+  Logo alt: "DENSTUDIO"
+  Nav Links:
+    - About -> /about
+    - Fees -> /fees
+    - Team -> /about-us
+    - Phone: 02038830588 -> tel:02038830588
+  CTA Button: "Book now" -> /contact-us
+
+FOOTER:
+  Brand: Denstudio
+  Tagline: Exceptional Private, General And Cosmetic Dentistry
+  Address: 139 Harley Street, London, W1G 6BG
+  Email: hello@denstudio.co.uk
+  Phone: 020 3883 0588
+  Social Links:
+    - Facebook -> https://www.facebook.com/DoctorDenzel/
+    - Twitter -> http://www.twitter.com/drjanadenzel
+    - Instagram -> https://www.instagram.com/doctor.denzel/
+    - Youtube -> https://www.youtube.com/c/doctordenzel
+  Copyright: 2025 DENSTUDIO All Rights Are Reserved | Website Maintained By Dentell Ltd
+  Legal Links:
+    - Terms and Conditions -> https://denstudio.co.uk/terms-conditions/
+    - Cookie Policy -> https://denstudio.co.uk/cookie-policy/
+    - Privacy Notice -> https://denstudio.co.uk/privacy-notice/
+    - Complaints Policy -> https://denstudio.co.uk/complaints-policy/
+    - Booking and Cancellation Policy -> https://denstudio.co.uk/booking-cancellation-policy/
+    - Regulatory Details -> https://denstudio.co.uk/regulatory-details/
+  Treatment Links:
+    - General -> /general
+    - Veneers -> /porcelain-veneers
+    - Composite Bonding -> /composite-bonding
+    - Teeth Straightening/Invisalign -> /teeth-straightening
+    - Teeth Whitening -> /teeth-whitening
+    - Hygiene -> /hygiene
+    - Gum Reshaping -> /gum-reshapening
+  About Links:
+    - Home -> https://denstudio.co.uk/
+    - About -> https://denstudio.co.uk/about/
+    - Fees -> https://denstudio.co.uk/fees/
+    - What's Your Concern? -> https://denstudio.co.uk/whats-your-concern
+    - Smile Package Offers -> https://denstudio.co.uk/fees/
+    - Smile Quiz -> https://denstudio.co.uk/smile-quiz/
+    - Contact Us -> https://denstudio.co.uk/contact-us/
+
+SHARED REVIEWS (appears on most treatment pages):
+  1. "I booked in a consultation with Dr Jana to improve my smile. The service and professionalism was amazing. He knew exactly what I needed and has a great aesthetic eye. Love the results, thanks doc." -- Sri
+  2. "Been seeing Jana regularly. The service he provides is always of the highest standard, he explains everything with complete clarity and I always leave satisfied with the results." -- Harish
+  3. "What an incredible service from start to finish. My teeth and smile have been transformed! Can't thank Dr Denzel enough for my new smile." -- James
+  4. "Had whitening here with great results - just two weeks and a huge change. Thanks Jana, will be back soon!" -- Mayuran
+  5. "Jana worked thoroughly on my teeth. He was very gentle and made me feel at ease. Very personable and professional - highly recommend!" -- Lula
+  6. "5 stars all around - Dr Jana is great and I wouldn't go anywhere else. Thanks to the team for the great service." -- Bavan
+  7. "Lives up to the great reviews - it was easy to book, the staff were professional and Dr Jana was very thorough and personable. Best dental experience I've had." -- Hishanth
+  8. "I have never received such excellent service at a dentist. The attention to detail from Dr Jana and the team was exceptional. I felt cared for and safe - and the results are amazing!" -- Diyar
+  9. "Dr Denzel is always professional, informative and calming. He ensures you fully understand everything and welcomes questions. Would definitely recommend." -- Babac
+  10. "I saw Dr Jana Denzel for dental hygiene and whitening - incredible results. The service and professionalism were the best I've had. Highly recommend!" -- Vithya
+
+
+================================================================================
+FAQ CONTENT BY PAGE
+================================================================================
