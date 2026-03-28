@@ -154,20 +154,21 @@ export default function Home() {
       </section>
 
       {/* ── Section 3: Treatment Cards ── */}
-      <section className="py-24 md:py-32 bg-[#fafafa]">
+      <section className="py-24 md:py-32 bg-[#fafafa] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">TREATMENTS</p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
             Explore our full range of Treatment options
           </h2>
+        </div>
 
-          <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory -mx-6 px-6 scrollbar-hide">
-            {treatments.map((t) => (
-              <Link
-                key={t.title}
-                href={t.href}
-                className="group w-[240px] sm:w-[220px] md:w-[200px] lg:w-[200px] bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
-              >
+        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory pl-6 md:pl-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))] scrollbar-hide">
+          {treatments.map((t) => (
+            <Link
+              key={t.title}
+              href={t.href}
+              className="group w-[260px] md:w-[280px] lg:w-[300px] bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
+            >
                 <div className="relative aspect-[3/4]">
                   <Image src={t.image} alt={t.title} fill className="object-cover" />
                 </div>
@@ -183,8 +184,7 @@ export default function Home() {
                   </span>
                 </div>
               </Link>
-            ))}
-          </div>
+          ))}
         </div>
       </section>
 
