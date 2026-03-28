@@ -23,6 +23,8 @@ const categories = [
       { title: "Will Porcelain Veneers Stain or Discolour?", href: "/will-porcelain-veneers-stain-or-discolour" },
       { title: "Porcelain vs Composite Veneers: Which Is Better?", href: "/porcelain-vs-composite-veneers-which-is-better" },
       { title: "Composite Bonding vs Porcelain Veneers", href: "/composite-bonding-vs-porcelain-veneers" },
+      { title: "Composite Bonding vs Veneers: Which Is Right for Your Lifestyle?", href: "/new-page-2", date: "28 Mar 2026" },
+      { title: "Veneers or Whitening? When Staining Needs More Than Bleach", href: "/new-page-5", date: "24 Mar 2026" },
       { title: "Porcelain Veneers Before and After: Realistic Results", href: "/porcelain-veneers-before-and-after-realistic-results" },
       { title: "Why Celebrities Choose Dr Jana Denzel", href: "/why-celebrities-choose-dr-jana-denzel-for-their-smiles" },
       { title: "Natural Veneers London: The Anti-Hollywood Smile", href: "/natural-veneers-london-biomimetic-smile" },
@@ -50,6 +52,13 @@ const categories = [
       { title: "Best Dentist for Cosmetic Dentistry: How to Choose", href: "/best-dentist-for-cosmetic-dentistry-how-to-choose" },
       { title: "Harley Street Veneers: What Makes Them Different", href: "/harley-street-veneers-what-makes-them-different" },
       { title: "Cosmetic Dentistry Procedures Explained", href: "/cosmetic-dentistry-procedures-explained" },
+      { title: "Invisalign vs Traditional Braces: Why Professionals Choose Aligners", href: "/new-page-3", date: "20 Mar 2026" },
+    ],
+  },
+  {
+    name: "Weddings & Special Events",
+    articles: [
+      { title: "The Wedding Smile Makeover Timeline: How to Plan", href: "/new-page-4", date: "16 Mar 2026" },
     ],
   },
   {
@@ -103,6 +112,36 @@ export default function BlogPage() {
           </p>
         </div>
 
+        {/* Latest Articles */}
+        <div className="mb-14">
+          <h2 className="text-2xl md:text-3xl font-light text-[#222222] mb-6 border-b border-[#e5e5e5] pb-3">
+            Latest Articles
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { title: "Composite Bonding vs Veneers: Which Is Right for Your Lifestyle?", href: "/new-page-2", date: "28 Mar 2026" },
+              { title: "Veneers or Whitening? When Staining Needs More Than Bleach", href: "/new-page-5", date: "24 Mar 2026" },
+              { title: "Invisalign vs Traditional Braces: Why Professionals Choose Aligners", href: "/new-page-3", date: "20 Mar 2026" },
+              { title: "The Wedding Smile Makeover Timeline: How to Plan", href: "/new-page-4", date: "16 Mar 2026" },
+              { title: "Professional Teeth Whitening on Harley Street", href: "/blog/professional-teeth-whitening-on-harley-street-your-guide-to-a-brighter-smile", date: "5 Jan 2026" },
+            ].map((article) => (
+              <Link
+                key={article.href}
+                href={article.href}
+                className="group block bg-[#012406] rounded-xl p-5 hover:bg-[#023a09] transition-all duration-300"
+              >
+                <span className="text-xs text-white/60 mb-2 block">{article.date}</span>
+                <h3 className="text-base font-medium text-white leading-snug mb-2">
+                  {article.title}
+                </h3>
+                <span className="text-sm font-medium text-[#C4A574]">
+                  Read more &rarr;
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Categorized Articles */}
         {categories.map((category) => (
           <div key={category.name} className="mb-14">
@@ -116,6 +155,9 @@ export default function BlogPage() {
                   href={article.href}
                   className="group block bg-white rounded-xl border border-[#e5e5e5] p-5 hover:shadow-md hover:border-[#012406]/20 transition-all duration-300"
                 >
+                  {("date" in article && article.date) && (
+                    <span className="text-xs text-[#999] mb-1.5 block">{(article as { date: string }).date}</span>
+                  )}
                   <h3 className="text-base font-medium text-[#222222] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-2">
                     {article.title}
                   </h3>
