@@ -79,11 +79,10 @@ export default function Home() {
       {/* ── Section 1: Hero ── */}
       <section className="relative min-h-[85vh] md:min-h-screen flex flex-col justify-end overflow-hidden">
         {/* 1 — Hero background image */}
-        <DevLabel id={1}>
-          <div className="absolute inset-0">
-            <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-right md:object-[65%_center]" priority />
-          </div>
-        </DevLabel>
+        <div className="absolute inset-0 dev-label-wrapper" data-dev-id={1}>
+          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-right md:object-[65%_center]" priority />
+          <span className="dev-label absolute top-2 left-2 z-[9999] bg-red-500 text-white text-[10px] font-bold leading-none w-5 h-5 rounded-full flex items-center justify-center shadow-md pointer-events-none opacity-0 transition-opacity">1</span>
+        </div>
 
         {/* Bottom content area */}
         <div className="relative z-10 w-full px-5 md:px-12 lg:px-16 pb-8 md:pb-14">
