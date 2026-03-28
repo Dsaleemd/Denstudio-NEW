@@ -109,7 +109,7 @@ export default function Home() {
       <section className="relative min-h-screen flex flex-col justify-end overflow-hidden">
         {/* Full-bleed centred background image */}
         <div className="absolute inset-0">
-          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-[50%_30%] md:object-center" priority />
+          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-[70%_20%] md:object-center" priority />
         </div>
 
         {/* Bottom content area */}
