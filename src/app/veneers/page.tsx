@@ -28,16 +28,17 @@ const patientResults = [
 export default function VeneersLandingPage() {
   return (
     <>
-      {/* ══════ HERO — Split: image left, form right ══════ */}
+      {/* ══════ HERO — Text+form left, image right (same height) ══════ */}
       <section className="relative bg-[#012406] pt-24 pb-8 md:pt-28 md:pb-12 overflow-hidden">
         <div className="mx-auto max-w-7xl px-5 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10 lg:items-stretch">
 
-            {/* Left: Value prop + social proof */}
-            <div className="text-white">
+            {/* Left: Text + form stacked */}
+            <div className="flex flex-col text-white">
+              {/* Offer badges */}
               <div className="flex flex-wrap gap-3 mb-6">
                 <span className="inline-block text-xs font-medium bg-white/15 backdrop-blur-sm px-3 py-1.5 rounded-full">Free Consultation</span>
-                <span className="inline-block text-xs font-medium bg-[#C4A574] text-white px-3 py-1.5 rounded-full">£200 OFF Each Veneer</span>
+                <span className="inline-block text-xs font-medium bg-[#C4A574] text-white px-3 py-1.5 rounded-full">&pound;200 OFF Each Veneer</span>
                 <span className="inline-block text-xs font-medium bg-white/15 backdrop-blur-sm px-3 py-1.5 rounded-full">Replacement Experts</span>
               </div>
 
@@ -65,59 +66,48 @@ export default function VeneersLandingPage() {
                 </div>
               </div>
 
-              {/* Hero image on mobile */}
-              <div className="lg:hidden relative aspect-[4/3] rounded-xl overflow-hidden mb-6">
-                <Image src="/images/veneers-landing/hero-photo-feb26.webp" alt="Porcelain veneers result" fill className="object-cover" />
-              </div>
-
-              {/* Desktop hero image */}
-              <div className="hidden lg:block relative aspect-[16/10] rounded-xl overflow-hidden">
-                <Image src="/images/veneers-landing/hero-photo-feb26.webp" alt="Porcelain veneers result" fill className="object-cover" priority />
+              {/* Form under the text */}
+              <div id="book" className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl mt-auto">
+                <h2 className="text-xl font-bold text-[#1a1a1a] mb-1">
+                  Book Your Free Consultation
+                </h2>
+                <p className="text-sm text-[#555] mb-5">
+                  Get a personalised treatment plan. No obligation.
+                </p>
+                <form className="space-y-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <input type="text" placeholder="Full Name *" required className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm text-[#1a1a1a] focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
+                    <input type="tel" placeholder="Phone Number *" required className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm text-[#1a1a1a] focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <input type="email" placeholder="Email Address *" required className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm text-[#1a1a1a] focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
+                    <select className="w-full px-4 py-3 rounded-xl border border-[#ddd] text-sm text-[#555] focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all">
+                      <option>How many teeth?</option>
+                      <option>1-4 teeth</option>
+                      <option>6-8 teeth (upper smile)</option>
+                      <option>10 teeth (full upper)</option>
+                      <option>20 teeth (full mouth)</option>
+                      <option>Not sure yet</option>
+                    </select>
+                  </div>
+                  <button type="submit" className="w-full bg-[#012406] hover:bg-[#023a09] text-white py-3.5 rounded-full font-semibold text-sm transition-all duration-300 hover:-translate-y-0.5 border-2 border-white/20">
+                    Book Free Consultation
+                  </button>
+                </form>
+                <div className="mt-4 flex items-center justify-center gap-4 text-[11px] text-[#999]">
+                  <span className="flex items-center gap-1">
+                    <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                    Secure &amp; confidential
+                  </span>
+                  <span>No obligation</span>
+                  <span>Reply within 24hrs</span>
+                </div>
               </div>
             </div>
 
-            {/* Right: Conversion form */}
-            <div id="book" className="bg-white rounded-2xl p-7 md:p-9 shadow-2xl">
-              <h2 className="text-2xl font-bold text-[#1a1a1a] mb-2">
-                Book Your Free Consultation
-              </h2>
-              <p className="text-sm text-[#555] mb-6">
-                Get a personalised treatment plan from Dr Jana Denzel. No obligation.
-              </p>
-
-              <form className="space-y-4">
-                <div>
-                  <input type="text" placeholder="Full Name *" required className="w-full px-4 py-3.5 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
-                </div>
-                <div>
-                  <input type="email" placeholder="Email Address *" required className="w-full px-4 py-3.5 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
-                </div>
-                <div>
-                  <input type="tel" placeholder="Phone Number *" required className="w-full px-4 py-3.5 rounded-xl border border-[#ddd] text-sm focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all" />
-                </div>
-                <div>
-                  <select className="w-full px-4 py-3.5 rounded-xl border border-[#ddd] text-sm text-[#555] focus:outline-none focus:border-[#012406] focus:ring-1 focus:ring-[#012406]/20 transition-all">
-                    <option>How many teeth?</option>
-                    <option>1-4 teeth</option>
-                    <option>6-8 teeth (upper smile)</option>
-                    <option>10 teeth (full upper)</option>
-                    <option>20 teeth (full mouth)</option>
-                    <option>Not sure yet</option>
-                  </select>
-                </div>
-                <button type="submit" className="w-full bg-[#012406] hover:bg-[#023a09] text-white py-4 rounded-full font-semibold text-base transition-all duration-300 hover:-translate-y-0.5">
-                  Book Free Consultation
-                </button>
-              </form>
-
-              <div className="mt-5 flex items-center justify-center gap-4 text-[11px] text-[#999]">
-                <span className="flex items-center gap-1">
-                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
-                  Secure &amp; confidential
-                </span>
-                <span>No obligation</span>
-                <span>Reply within 24hrs</span>
-              </div>
+            {/* Right: Hero image — matches left column height */}
+            <div className="relative rounded-2xl overflow-hidden min-h-[400px] lg:min-h-0">
+              <Image src="/images/veneers-landing/hero-photo-feb26.webp" alt="Porcelain veneers result at DENSTUDIO" fill className="object-cover object-center" priority />
             </div>
 
           </div>
