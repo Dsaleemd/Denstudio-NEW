@@ -163,24 +163,24 @@ export default function Home() {
             Explore our full range of Treatment options
           </h2>
 
-          <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide -mx-6 px-6">
+          <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory -mx-6 px-6 scrollbar-hide">
             {treatments.map((t) => (
               <Link
                 key={t.title}
                 href={t.href}
-                className="group min-w-[280px] md:min-w-[320px] bg-white rounded-2xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
+                className="group w-[240px] sm:w-[220px] md:w-[200px] lg:w-[200px] bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
               >
-                <div className="relative h-52">
+                <div className="relative aspect-[3/4]">
                   <Image src={t.image} alt={t.title} fill className="object-cover" />
                 </div>
-                <div className="p-6 flex flex-col flex-1">
-                  <h3 className="text-xl font-medium text-[#222222] mb-2 group-hover:text-[#012406] transition-colors">
+                <div className="p-4 flex flex-col flex-1">
+                  <h3 className="text-sm font-semibold text-[#222222] mb-1 group-hover:text-[#012406] transition-colors leading-snug">
                     {t.title}
                   </h3>
-                  <p className="text-[#555555] leading-relaxed text-sm flex-1">
+                  <p className="text-[#555555] leading-relaxed text-xs flex-1 line-clamp-2">
                     {t.description}
                   </p>
-                  <span className="mt-4 text-sm font-medium text-[#012406] group-hover:underline">
+                  <span className="mt-3 text-xs font-medium text-[#012406] group-hover:underline">
                     Learn more &rarr;
                   </span>
                 </div>
