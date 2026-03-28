@@ -113,7 +113,7 @@ export default function AboutPage() {
               </Link>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image src="/images/about/hero.webp" alt="Award winning dentistry at DENSTUDIO" fill className="object-cover" />
+              <Image src="/images/about/hero.webp" alt="Award winning dentistry at DENSTUDIO" fill className="object-cover" priority />
             </div>
           </div>
         </div>

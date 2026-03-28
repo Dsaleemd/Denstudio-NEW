@@ -1,8 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import LogoCarousel from "@/components/LogoCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import { DevLabel, DevOverlayToggle } from "@/components/DevOverlay";
+
+export const metadata: Metadata = {
+  title: "DENSTUDIO | Premium Cosmetic Dentistry in Harley Street, London",
+  description: "Award-winning cosmetic dentistry on Harley Street. Porcelain veneers, composite bonding, Invisalign and teeth whitening with Dr Jana Denzel. Book free consultation.",
+  alternates: { canonical: "https://denstudio.co.uk" },
+};
 
 const treatments = [
   {

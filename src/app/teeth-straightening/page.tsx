@@ -45,7 +45,7 @@ export default function TeethStraighteningPage() {
       {/* Hero */}
       <section className="relative bg-[#012406] pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/teeth-straightening/hero.webp" alt="Teeth Straightening" fill className="object-cover opacity-30" />
+          <Image src="/images/teeth-straightening/hero.webp" alt="Teeth Straightening" fill className="object-cover opacity-30" priority />
         </div>
         <div className="relative mx-auto max-w-7xl px-6">
           <div className="max-w-3xl">

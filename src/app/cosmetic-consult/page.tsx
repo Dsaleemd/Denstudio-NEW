@@ -160,7 +160,7 @@ export default function CosmeticConsultPage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative aspect-[3/4] rounded-2xl overflow-hidden max-w-md mx-auto lg:mx-0">
-              <Image src="/images/cosmetic-consult/dr-jana-denzel-profile.webp" alt="Dr Jana Denzel" fill className="object-cover" />
+              <Image src="/images/cosmetic-consult/dr-jana-denzel-profile.webp" alt="Dr Jana Denzel" fill className="object-cover" priority />
             </div>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">Meet Your Dentist</p>

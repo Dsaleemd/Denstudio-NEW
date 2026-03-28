@@ -58,7 +58,7 @@ export default function TeethWhiteningPage() {
             </Link>
           </div>
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover" />
+            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover" priority />
           </div>
           </div>
         </div>

@@ -92,7 +92,7 @@ export default function GumReshapingPage() {
               </Link>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image src="/images/gum-reshaping/hero.webp" alt="Gum Reshaping" fill className="object-cover" />
+              <Image src="/images/gum-reshaping/hero.webp" alt="Gum Reshaping" fill className="object-cover" priority />
             </div>
           </div>
         </div>

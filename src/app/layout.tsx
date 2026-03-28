@@ -14,17 +14,7 @@ const cabin = Cabin({
 export const metadata: Metadata = {
   title: "DENSTUDIO | Book Your Smile Transformation Today",
   description:
-    "Award-winning aesthetic dentistry in Harley Street, London. DENSTUDIO offers porcelain veneers, composite bonding, teeth whitening, Invisalign and more. Book your consultation today.",
-  keywords: [
-    "dentist",
-    "Harley Street",
-    "veneers",
-    "composite bonding",
-    "teeth whitening",
-    "Invisalign",
-    "cosmetic dentistry",
-    "London dentist",
-  ],
+    "Award-winning aesthetic dentistry in Harley Street, London. Porcelain veneers, composite bonding, whitening and Invisalign.",
   openGraph: {
     title: "DENSTUDIO | Book Your Smile Transformation Today",
     description:
@@ -32,6 +22,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_GB",
     url: "https://denstudio.co.uk",
+    images: [{ url: "/og-image.jpg" }],
   },
 };
 
@@ -72,7 +63,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cabin.variable} h-full antialiased`}>
+    <html lang="en-GB" className={`${cabin.variable} h-full antialiased`}>
       <head>
         <script
           type="application/ld+json"

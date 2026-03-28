@@ -6,6 +6,10 @@ Allow: /
 User-agent: *
 Disallow: /thank-you-cosmetic-consult
 Disallow: /schedule-cosmetic
+Disallow: /about2
+Disallow: /home
+Disallow: /mega-concerns
+Disallow: /appointments
 
 # Host
 Host: https://denstudio.co.uk

@@ -42,7 +42,7 @@ export default function ContactUsPage() {
 
             {/* Image placeholder */}
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden hidden lg:block">
-              <Image src="/images/contact/hero.webp" alt="Contact DENSTUDIO" fill className="object-cover" />
+              <Image src="/images/contact/hero.webp" alt="Contact DENSTUDIO" fill className="object-cover" priority />
             </div>
           </div>
         </div>

@@ -40,7 +40,7 @@ export default function PorcelainVeneersPage() {
               </Link>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image src="/images/porcelain-veneers/hero.webp" alt="Porcelain Veneers" fill className="object-cover" />
+              <Image src="/images/porcelain-veneers/hero.webp" alt="Porcelain Veneers" fill className="object-cover" priority />
             </div>
           </div>
         </div>
