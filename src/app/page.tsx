@@ -212,7 +212,7 @@ export default function Home() {
               </DevLabel>
               {/* 11 — Credential bullets */}
               <DevLabel id={11}>
-                <ul className="space-y-4 mb-10">
+                <ul className="space-y-4 mb-10 pl-1">
                   {[
                     "Twice awarded Best Young Dentist in the UK",
                     "Named among world's top 32 dentists",
@@ -300,7 +300,7 @@ export default function Home() {
       </section>
 
       {/* ── Section 7: Reviews ── */}
-      <section className="py-24 md:py-32 bg-[#fafafa]">
+      <section className="py-24 md:py-32 bg-[#fafafa] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
           {/* 15 — Reviews heading */}
           <DevLabel id={15}>
@@ -311,12 +311,14 @@ export default function Home() {
               </h2>
             </div>
           </DevLabel>
+        </div>
 
-          {/* 16 — Review carousel */}
-          <DevLabel id={16}>
-            <ReviewCarousel />
-          </DevLabel>
+        {/* 16 — Review carousel — left padding only, bleeds off right */}
+        <DevLabel id={16}>
+          <ReviewCarousel />
+        </DevLabel>
 
+        <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mt-14">
             <Link href="/contact-us" className={btnClasses}>Book Now</Link>
           </div>
