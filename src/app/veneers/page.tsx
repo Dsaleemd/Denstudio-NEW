@@ -119,31 +119,6 @@ export default function VeneersLandingPage() {
         <LogoCarousel />
       </section>
 
-      {/* ══════ Before/After Gallery ══════ */}
-      <section className="py-20 md:py-28">
-        <div className="mx-auto max-w-7xl px-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Real Results</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-4">
-            See the Difference
-          </h2>
-          <p className="text-[#555] text-center mb-12 max-w-xl mx-auto">
-            Every smile is unique. These are real results from real patients at Denstudio, Harley Street.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {beforeAfterImages.map((img, i) => (
-              <div key={i} className="relative aspect-[4/5] rounded-xl overflow-hidden group">
-                <Image src={img.src} alt={img.alt} fill className="object-cover object-top transition-transform duration-500 group-hover:scale-105" />
-              </div>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Link href="#book" className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300">
-              Get Your Free Consultation
-            </Link>
-          </div>
-        </div>
-      </section>
-
       {/* ══════ Meet Dr Jana Denzel ══════ */}
       <section className="py-20 md:py-28 bg-[#f8f8f6]">
         <div className="mx-auto max-w-7xl px-6">
@@ -313,6 +288,31 @@ export default function VeneersLandingPage() {
           </h2>
         </div>
         <ReviewCarousel />
+      </section>
+
+      {/* ══════ Before/After Gallery ══════ */}
+      <section className="py-20 md:py-28">
+        <div className="mx-auto max-w-7xl px-6">
+          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">Real Results</p>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-4">
+            See the Difference
+          </h2>
+          <p className="text-[#555] text-center mb-12 max-w-xl mx-auto">
+            Every smile is unique. These are real results from real patients at Denstudio, Harley Street.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {beforeAfterImages.map((img, i) => (
+              <div key={i} className="relative aspect-[4/5] rounded-xl overflow-hidden group">
+                <Image src={img.src} alt={img.alt} fill className="object-cover object-top transition-transform duration-500 group-hover:scale-105" />
+              </div>
+            ))}
+          </div>
+          <div className="text-center mt-10">
+            <Link href="#book" className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300">
+              Get Your Free Consultation
+            </Link>
+          </div>
+        </div>
       </section>
 
       {/* ══════ Urgency / Final CTA ══════ */}
