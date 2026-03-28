@@ -23,7 +23,10 @@ const aboutLinks = [
 const resourceLinks = [
   { label: "Blog", href: "/blog" },
   { label: "Treatments Hub", href: "/treatments" },
-  { label: "Veneers Landing", href: "/veneers" },
+  { label: "Veneers", href: "/veneers" },
+  { label: "Invisalign", href: "/invisalign" },
+  { label: "Composite Bonding", href: "/bonding" },
+  { label: "Teeth Whitening", href: "/whitening" },
   { label: "CPD Webinar", href: "/cpd" },
 ];
 
