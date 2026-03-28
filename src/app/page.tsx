@@ -109,14 +109,14 @@ export default function Home() {
       <section className="relative min-h-screen flex flex-col justify-end overflow-hidden">
         {/* Full-bleed centred background image */}
         <div className="absolute inset-0">
-          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-center" priority />
+          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-center md:object-center" priority />
         </div>
 
         {/* Bottom content area */}
         <div className="relative z-10 w-full px-5 md:px-12 lg:px-16 pb-8 md:pb-14">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            {/* Text on translucent card */}
-            <div className="bg-white/80 backdrop-blur-md rounded-2xl px-6 py-7 md:px-10 md:py-9 max-w-2xl shadow-sm">
+            {/* Text card — subtle on mobile, invisible on desktop */}
+            <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-7 md:bg-transparent md:backdrop-blur-none md:rounded-none md:px-0 md:py-0 md:shadow-none max-w-2xl shadow-sm">
               <h1 className="text-[2.5rem] md:text-6xl lg:text-[5.5rem] font-semibold text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
                 Redefining the future of aesthetic dentistry
               </h1>
