@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <>
       {/* ── Section 1: Hero ── */}
-      <section className="relative min-h-screen flex flex-col justify-end overflow-hidden">
+      <section className="relative min-h-[85vh] md:min-h-screen flex flex-col justify-end overflow-hidden">
         {/* Full-bleed centred background image */}
         <div className="absolute inset-0">
           <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-right md:object-center" priority />
