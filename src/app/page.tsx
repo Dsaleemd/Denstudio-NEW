@@ -291,9 +291,9 @@ export default function Home() {
             {galleryImages.map((img) => (
               <div
                 key={img.src}
-                className="relative aspect-[4/3] rounded-xl overflow-hidden"
+                className="relative aspect-[3/4] rounded-xl overflow-hidden"
               >
-                <Image src={img.src} alt={img.alt} fill className="object-cover" />
+                <Image src={img.src} alt={img.alt} fill className="object-cover object-top" />
               </div>
             ))}
           </div>
