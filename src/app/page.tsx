@@ -97,7 +97,7 @@ export default function Home() {
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-7 md:bg-transparent md:backdrop-blur-none md:rounded-none md:px-0 md:py-0 md:shadow-none max-w-2xl shadow-sm">
               {/* 2 — Hero H1 */}
               <DevLabel id={2}>
-                <h1 className="text-[2.5rem] md:text-6xl lg:text-[5.5rem] font-bold text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
+                <h1 className="text-[1.75rem] md:text-[2.6rem] lg:text-[3.85rem] font-extrabold text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
                   Redefining the future of aesthetic dentistry
                 </h1>
               </DevLabel>
@@ -149,7 +149,7 @@ export default function Home() {
           <DevLabel id={7}>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">TREATMENTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] text-center mb-14">
                 Explore our full range of Treatment options
               </h2>
             </div>
@@ -199,7 +199,7 @@ export default function Home() {
               <DevLabel id={9}>
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">ABOUT DR JANA</p>
-                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-6">
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] mb-6">
                     Transform your smile with Denstudio
                   </h2>
                 </div>
@@ -245,7 +245,7 @@ export default function Home() {
           <DevLabel id={13}>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">WHY CHOOSE US</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-16">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] text-center mb-16">
                 Brighter and more confident smiles
               </h2>
             </div>
@@ -276,7 +276,7 @@ export default function Home() {
           <DevLabel id={14}>
             <div className="text-center mb-14">
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">RESULTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-4">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] mb-4">
                 Discover how your smile changes lives
               </h2>
               <p className="text-base md:text-lg text-[#555555] leading-relaxed">Real smiles, real results</p>
@@ -306,7 +306,7 @@ export default function Home() {
           <DevLabel id={15}>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">REVIEWS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] text-center mb-14">
                 Why our patients trust Denstudio
               </h2>
             </div>
@@ -332,7 +332,7 @@ export default function Home() {
           <DevLabel id={17}>
             <div>
               <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">INSIGHTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-normal text-[#222222] leading-[1.15] text-center mb-14">
                 From Our Blog
               </h2>
             </div>
