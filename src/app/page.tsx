@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import LogoCarousel from "@/components/LogoCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
+import { DevLabel, DevOverlayToggle } from "@/components/DevOverlay";
 
 const treatments = [
   {
@@ -49,45 +50,15 @@ const treatments = [
 ];
 
 const benefits = [
-  {
-    number: "01",
-    title: "Porcelain Veneers",
-    description:
-      "Durable, bespoke veneers that blend seamlessly with existing teeth",
-  },
-  {
-    number: "02",
-    title: "Composite Bonding",
-    description:
-      "Fast, minimally invasive way to improve appearance",
-  },
-  {
-    number: "03",
-    title: "General Dentistry",
-    description:
-      "Good oral health is a major component of overall health",
-  },
+  { number: "01", title: "Porcelain Veneers", description: "Durable, bespoke veneers that blend seamlessly with existing teeth" },
+  { number: "02", title: "Composite Bonding", description: "Fast, minimally invasive way to improve appearance" },
+  { number: "03", title: "General Dentistry", description: "Good oral health is a major component of overall health" },
 ];
 
 const steps = [
-  {
-    step: "Step One",
-    description:
-      "Book your consultation with a Doctor Denzel cosmetic dental expert at Denstudio",
-    image: "/images/homepage/process/step-1.jpeg",
-  },
-  {
-    step: "Step Two",
-    description:
-      "Create your tailored treatment plan - Start your journey to your dream smile",
-    image: "/images/homepage/process/step-2.jpeg",
-  },
-  {
-    step: "Step Three",
-    description:
-      "Enjoy and maintain a healthy, lasting smile - Walk away with your stunning new smile",
-    image: "/images/homepage/gallery/photo-feb-26.webp",
-  },
+  { step: "Step One", description: "Book your consultation with a Doctor Denzel cosmetic dental expert at Denstudio", image: "/images/homepage/process/step-1.jpeg" },
+  { step: "Step Two", description: "Create your tailored treatment plan - Start your journey to your dream smile", image: "/images/homepage/process/step-2.jpeg" },
+  { step: "Step Three", description: "Enjoy and maintain a healthy, lasting smile - Walk away with your stunning new smile", image: "/images/homepage/gallery/photo-feb-26.webp" },
 ];
 
 const galleryImages = [
@@ -107,29 +78,39 @@ export default function Home() {
     <>
       {/* ── Section 1: Hero ── */}
       <section className="relative min-h-[85vh] md:min-h-screen flex flex-col justify-end overflow-hidden">
-        {/* Full-bleed centred background image */}
-        <div className="absolute inset-0">
-          <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-right md:object-[65%_center]" priority />
-        </div>
+        {/* 1 — Hero background image */}
+        <DevLabel id={1}>
+          <div className="absolute inset-0">
+            <Image src="/images/homepage/hero/hero-banner.webp" alt="Denstudio aesthetic dentistry" fill className="object-cover object-right md:object-[65%_center]" priority />
+          </div>
+        </DevLabel>
 
         {/* Bottom content area */}
         <div className="relative z-10 w-full px-5 md:px-12 lg:px-16 pb-8 md:pb-14">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-            {/* Text card — subtle on mobile, invisible on desktop */}
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-7 md:bg-transparent md:backdrop-blur-none md:rounded-none md:px-0 md:py-0 md:shadow-none max-w-2xl shadow-sm">
-              <h1 className="text-[2.5rem] md:text-6xl lg:text-[5.5rem] font-bold text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
-                Redefining the future of aesthetic dentistry
-              </h1>
-              <p className="text-sm md:text-lg text-[#444444] leading-relaxed mb-6 md:mb-8 max-w-md">
-                Porcelain veneers, composite bonding and cosmetic dentistry on Harley Street. Designed to bring out the best in you.
-              </p>
-              <Link href="/contact-us" className={btnClasses}>
-                Book Now
-              </Link>
+              {/* 2 — Hero H1 */}
+              <DevLabel id={2}>
+                <h1 className="text-[2.5rem] md:text-6xl lg:text-[5.5rem] font-bold text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
+                  Redefining the future of aesthetic dentistry
+                </h1>
+              </DevLabel>
+              {/* 3 — Hero description */}
+              <DevLabel id={3}>
+                <p className="text-sm md:text-lg text-[#444444] leading-relaxed mb-6 md:mb-8 max-w-md">
+                  Porcelain veneers, composite bonding and cosmetic dentistry on Harley Street. Designed to bring out the best in you.
+                </p>
+              </DevLabel>
+              {/* 4 — Hero CTA button */}
+              <DevLabel id={4}>
+                <Link href="/contact-us" className={btnClasses}>
+                  Book Now
+                </Link>
+              </DevLabel>
             </div>
 
-            {/* Google reviews pill */}
-            <div className="flex-shrink-0 self-start md:self-auto">
+            {/* 5 — Google reviews pill */}
+            <DevLabel id={5} className="flex-shrink-0 self-start md:self-auto">
               <div className="inline-flex items-center gap-2.5 md:gap-3 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2.5 md:px-5 md:py-3 shadow-lg">
                 <span className="text-[11px] md:text-xs font-bold uppercase tracking-wide text-[#222222]">Excellent</span>
                 <span className="text-[#fbbc04] text-sm md:text-base leading-none">★★★★★</span>
@@ -143,32 +124,39 @@ export default function Home() {
                   <path d="M35.29 41.19V32H68c.31 1.64.47 3.58.47 5.68 0 7.06-1.93 15.79-8.15 22.01-6.05 6.3-13.78 9.66-24.02 9.66C17.57 69.36 2 54.21 2 35.68S17.57 2 36.3 2c10.41 0 17.81 4.08 23.35 9.37l-6.57 6.57c-3.95-3.7-9.33-6.57-16.78-6.57-13.7 0-24.41 11.04-24.41 24.68 0 13.65 10.71 24.68 24.41 24.68 8.9 0 13.95-3.58 17.22-6.85 2.64-2.64 4.37-6.42 5.05-11.59H35.29z" fill="#4285F4"/>
                 </svg>
               </div>
-            </div>
+            </DevLabel>
           </div>
         </div>
       </section>
 
       {/* ── Section 2: Logo Carousel ── */}
-      <section className="border-y border-[#eeeeee]">
-        <LogoCarousel />
-      </section>
+      <DevLabel id={6}>
+        <section className="border-y border-[#eeeeee]">
+          <LogoCarousel />
+        </section>
+      </DevLabel>
 
       {/* ── Section 3: Treatment Cards ── */}
       <section className="py-24 md:py-32 bg-[#fafafa] overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">TREATMENTS</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
-            Explore our full range of Treatment options
-          </h2>
+          {/* 7 — Treatments heading */}
+          <DevLabel id={7}>
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">TREATMENTS</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+                Explore our full range of Treatment options
+              </h2>
+            </div>
+          </DevLabel>
         </div>
 
         <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory pl-6 md:pl-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))] scrollbar-hide">
-          {treatments.map((t) => (
-            <Link
-              key={t.title}
-              href={t.href}
-              className="group w-[260px] md:w-[280px] lg:w-[300px] bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
-            >
+          {treatments.map((t, i) => (
+            <DevLabel key={t.title} id={`T${i + 1}`}>
+              <Link
+                href={t.href}
+                className="group w-[260px] md:w-[280px] lg:w-[300px] bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 snap-start flex flex-col overflow-hidden shrink-0"
+              >
                 <div className="relative aspect-[3/4]">
                   <Image src={t.image} alt={t.title} fill className="object-cover" />
                 </div>
@@ -184,6 +172,7 @@ export default function Home() {
                   </span>
                 </div>
               </Link>
+            </DevLabel>
           ))}
         </div>
       </section>
@@ -192,49 +181,52 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
-              <Image src="/images/homepage/dr-jana/dr-jana-landing.webp" alt="Dr Jana Denzel" fill className="object-cover" />
-            </div>
+            {/* 8 — Dr Jana image */}
+            <DevLabel id={8}>
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
+                <Image src="/images/homepage/dr-jana/dr-jana-landing.webp" alt="Dr Jana Denzel" fill className="object-cover" />
+              </div>
+            </DevLabel>
 
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">ABOUT DR JANA</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-6">
-                Transform your smile with Denstudio
-              </h2>
-              <p className="text-base md:text-lg text-[#555555] mb-8 leading-relaxed">
-                Internationally recognised cosmetic dentist and breakout star of
-                BBC&apos;s The Apprentice
-              </p>
-              <ul className="space-y-4 mb-10">
-                {[
-                  "Twice awarded Best Young Dentist in the UK",
-                  "Named among world's top 32 dentists",
-                  "Worked with Grammy Award-winning artists, elite athletes, filmmakers, royal families",
-                  "Global Ambassador for Slow Dentistry",
-                  "Guest Lecturer at Oxford University",
-                ].map((point) => (
-                  <li
-                    key={point}
-                    className="flex items-start gap-3 text-[#333333]"
-                  >
-                    <svg
-                      className="w-5 h-5 text-[#012406] mt-0.5 shrink-0"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span>{point}</span>
-                  </li>
-                ))}
-              </ul>
-              <Link href="/contact-us" className={btnClasses}>
-                Book Now
-              </Link>
+              {/* 9 — About overline + heading */}
+              <DevLabel id={9}>
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">ABOUT DR JANA</p>
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-6">
+                    Transform your smile with Denstudio
+                  </h2>
+                </div>
+              </DevLabel>
+              {/* 10 — About description */}
+              <DevLabel id={10}>
+                <p className="text-base md:text-lg text-[#555555] mb-8 leading-relaxed">
+                  Internationally recognised cosmetic dentist and breakout star of BBC&apos;s The Apprentice
+                </p>
+              </DevLabel>
+              {/* 11 — Credential bullets */}
+              <DevLabel id={11}>
+                <ul className="space-y-4 mb-10">
+                  {[
+                    "Twice awarded Best Young Dentist in the UK",
+                    "Named among world's top 32 dentists",
+                    "Worked with Grammy Award-winning artists, elite athletes, filmmakers, royal families",
+                    "Global Ambassador for Slow Dentistry",
+                    "Guest Lecturer at Oxford University",
+                  ].map((point) => (
+                    <li key={point} className="flex items-start gap-3 text-[#333333]">
+                      <svg className="w-5 h-5 text-[#012406] mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </DevLabel>
+              {/* 12 — About CTA */}
+              <DevLabel id={12}>
+                <Link href="/contact-us" className={btnClasses}>Book Now</Link>
+              </DevLabel>
             </div>
           </div>
         </div>
@@ -243,31 +235,30 @@ export default function Home() {
       {/* ── Section 5: Benefits ── */}
       <section className="py-24 md:py-32 bg-[#fafafa]">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">WHY CHOOSE US</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-16">
-            Brighter and more confident smiles
-          </h2>
+          {/* 13 — Benefits heading */}
+          <DevLabel id={13}>
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">WHY CHOOSE US</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-16">
+                Brighter and more confident smiles
+              </h2>
+            </div>
+          </DevLabel>
 
           <div className="grid md:grid-cols-3 gap-10 md:gap-12">
-            {benefits.map((b) => (
-              <div key={b.number} className="text-center md:text-left">
-                <span className="text-5xl font-bold text-[#012406]/20 block mb-4">
-                  {b.number}
-                </span>
-                <h3 className="text-xl font-medium text-[#222222] mb-3">
-                  {b.title}
-                </h3>
-                <p className="text-base md:text-lg text-[#555555] leading-relaxed">
-                  {b.description}
-                </p>
-              </div>
+            {benefits.map((b, i) => (
+              <DevLabel key={b.number} id={`B${i + 1}`}>
+                <div className="text-center md:text-left">
+                  <span className="text-5xl font-bold text-[#012406]/20 block mb-4">{b.number}</span>
+                  <h3 className="text-xl font-medium text-[#222222] mb-3">{b.title}</h3>
+                  <p className="text-base md:text-lg text-[#555555] leading-relaxed">{b.description}</p>
+                </div>
+              </DevLabel>
             ))}
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>
-              Book an appointment
-            </Link>
+            <Link href="/contact-us" className={btnClasses}>Book an appointment</Link>
           </div>
         </div>
       </section>
@@ -275,31 +266,29 @@ export default function Home() {
       {/* ── Section 6: Before / After Gallery ── */}
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-14">
-            <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">RESULTS</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-4">
-              Discover how your smile changes lives
-            </h2>
-            <p className="text-base md:text-lg text-[#555555] leading-relaxed">
-              Real smiles, real results
-            </p>
-          </div>
+          {/* 14 — Gallery heading */}
+          <DevLabel id={14}>
+            <div className="text-center mb-14">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">RESULTS</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-4">
+                Discover how your smile changes lives
+              </h2>
+              <p className="text-base md:text-lg text-[#555555] leading-relaxed">Real smiles, real results</p>
+            </div>
+          </DevLabel>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-            {galleryImages.map((img) => (
-              <div
-                key={img.src}
-                className="relative aspect-[3/4] rounded-xl overflow-hidden"
-              >
-                <Image src={img.src} alt={img.alt} fill className="object-cover object-top" />
-              </div>
+            {galleryImages.map((img, i) => (
+              <DevLabel key={img.src} id={`G${i + 1}`}>
+                <div className="relative aspect-[3/4] rounded-xl overflow-hidden">
+                  <Image src={img.src} alt={img.alt} fill className="object-cover object-top" />
+                </div>
+              </DevLabel>
             ))}
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>
-              Book Now
-            </Link>
+            <Link href="/contact-us" className={btnClasses}>Book Now</Link>
           </div>
         </div>
       </section>
@@ -307,17 +296,23 @@ export default function Home() {
       {/* ── Section 7: Reviews ── */}
       <section className="py-24 md:py-32 bg-[#fafafa]">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">REVIEWS</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
-            Why our patients trust Denstudio
-          </h2>
+          {/* 15 — Reviews heading */}
+          <DevLabel id={15}>
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">REVIEWS</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+                Why our patients trust Denstudio
+              </h2>
+            </div>
+          </DevLabel>
 
-          <ReviewCarousel />
+          {/* 16 — Review carousel */}
+          <DevLabel id={16}>
+            <ReviewCarousel />
+          </DevLabel>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>
-              Book Now
-            </Link>
+            <Link href="/contact-us" className={btnClasses}>Book Now</Link>
           </div>
         </div>
       </section>
@@ -325,10 +320,15 @@ export default function Home() {
       {/* ── From Our Blog ── */}
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
-          <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">INSIGHTS</p>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
-            From Our Blog
-          </h2>
+          {/* 17 — Blog heading */}
+          <DevLabel id={17}>
+            <div>
+              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">INSIGHTS</p>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center mb-14">
+                From Our Blog
+              </h2>
+            </div>
+          </DevLabel>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
@@ -336,26 +336,21 @@ export default function Home() {
               { title: "Smile Makeover Process: Step-by-Step Guide", href: "/smile-makeover-process-step-by-step-guide" },
               { title: "Slow Dentistry in London: Denstudio Harley Street", href: "/slow-dentistry-london-harley-street" },
               { title: "Turkey Teeth: The Real Risks of Veneers Abroad", href: "/turkey-teeth-risks-veneers-abroad" },
-            ].map((post) => (
-              <Link
-                key={post.href}
-                href={post.href}
-                className="group block bg-[#fafafa] rounded-xl border border-[#e5e5e5] p-6 hover:shadow-md hover:border-[#012406]/20 transition-all duration-300"
-              >
-                <h3 className="text-base font-medium text-[#222222] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-3">
-                  {post.title}
-                </h3>
-                <span className="text-sm font-medium text-[#012406]">
-                  Read more &rarr;
-                </span>
-              </Link>
+            ].map((post, i) => (
+              <DevLabel key={post.href} id={`P${i + 1}`}>
+                <Link
+                  href={post.href}
+                  className="group block bg-[#fafafa] rounded-xl border border-[#e5e5e5] p-6 hover:shadow-md hover:border-[#012406]/20 transition-all duration-300"
+                >
+                  <h3 className="text-base font-medium text-[#222222] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-3">{post.title}</h3>
+                  <span className="text-sm font-medium text-[#012406]">Read more &rarr;</span>
+                </Link>
+              </DevLabel>
             ))}
           </div>
 
           <div className="text-center mt-10">
-            <Link href="/blog" className="text-sm font-medium text-[#012406] hover:underline">
-              View all articles &rarr;
-            </Link>
+            <Link href="/blog" className="text-sm font-medium text-[#012406] hover:underline">View all articles &rarr;</Link>
           </div>
         </div>
       </section>
@@ -364,28 +359,27 @@ export default function Home() {
       <section className="py-24 md:py-32 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-10 md:gap-12">
-            {steps.map((s) => (
-              <div key={s.step} className="text-center">
-                <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8">
-                  <Image src={s.image} alt={s.step} fill className="object-cover" />
+            {steps.map((s, i) => (
+              <DevLabel key={s.step} id={`S${i + 1}`}>
+                <div className="text-center">
+                  <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8">
+                    <Image src={s.image} alt={s.step} fill className="object-cover" />
+                  </div>
+                  <h3 className="text-xl font-medium text-[#222222] mb-3">{s.step}</h3>
+                  <p className="text-base md:text-lg text-[#555555] leading-relaxed">{s.description}</p>
                 </div>
-                <h3 className="text-xl font-medium text-[#222222] mb-3">
-                  {s.step}
-                </h3>
-                <p className="text-base md:text-lg text-[#555555] leading-relaxed">
-                  {s.description}
-                </p>
-              </div>
+              </DevLabel>
             ))}
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>
-              Book
-            </Link>
+            <Link href="/contact-us" className={btnClasses}>Book</Link>
           </div>
         </div>
       </section>
+
+      {/* Dev overlay toggle — only visible in development */}
+      <DevOverlayToggle />
     </>
   );
 }
