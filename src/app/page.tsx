@@ -156,7 +156,7 @@ export default function Home() {
           </DevLabel>
         </div>
 
-        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory pl-6 md:pl-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))] scrollbar-hide">
+        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory pl-5 sm:pl-8 md:pl-[max(2rem,calc((100vw-80rem)/2+2rem))] scrollbar-hide">
           {treatments.map((t, i) => (
             <DevLabel key={t.title} id={`T${i + 1}`}>
               <Link

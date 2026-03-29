@@ -74,7 +74,7 @@ export default function ReviewCarousel() {
       {/* Carousel */}
       <div
         ref={scrollRef}
-        className="flex gap-6 overflow-x-auto snap-x snap-mandatory py-12 pl-6 md:pl-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))] pr-0 scrollbar-hide"
+        className="flex gap-6 overflow-x-auto snap-x snap-mandatory py-12 pl-5 sm:pl-8 md:pl-[max(2rem,calc((100vw-80rem)/2+2rem))] pr-0 scrollbar-hide"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {reviews.map((review) => (
