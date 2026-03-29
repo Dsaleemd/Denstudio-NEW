@@ -156,7 +156,9 @@ export default function Home() {
           </DevLabel>
         </div>
 
-        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory pl-5 sm:pl-8 md:pl-[max(2rem,calc((100vw-80rem)/2+2rem))] scrollbar-hide">
+        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
+          {/* Left spacer to create padding inside scroll container */}
+          <div className="shrink-0 w-4 sm:w-6 md:w-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))]" />
           {treatments.map((t, i) => (
             <DevLabel key={t.title} id={`T${i + 1}`}>
               <Link
