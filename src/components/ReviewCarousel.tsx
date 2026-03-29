@@ -75,10 +75,8 @@ export default function ReviewCarousel() {
       <div
         ref={scrollRef}
         className="flex gap-6 overflow-x-auto snap-x snap-mandatory py-12 scrollbar-hide"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none", marginLeft: "clamp(12px, 4vw, max(2rem, calc((100vw - 80rem) / 2 + 2rem)))" }}
       >
-        {/* Left spacer for padding inside scroll container */}
-        <div className="shrink-0 min-w-[12px] sm:min-w-[20px] md:min-w-[max(1.5rem,calc((100vw-80rem)/2+1rem))] h-1" aria-hidden="true">&nbsp;</div>
         {reviews.map((review) => (
           <div
             key={review.name}

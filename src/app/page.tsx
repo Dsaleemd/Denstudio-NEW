@@ -156,9 +156,7 @@ export default function Home() {
           </DevLabel>
         </div>
 
-        <div className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
-          {/* Left spacer to create padding inside scroll container */}
-          <div className="shrink-0 min-w-[16px] sm:min-w-[24px] md:min-w-[max(1.5rem,calc((100vw-80rem)/2+1.5rem))] h-1" aria-hidden="true">&nbsp;</div>
+        <div style={{ marginLeft: "clamp(16px, 4vw, max(2rem, calc((100vw - 80rem) / 2 + 2rem)))" }} className="flex gap-4 md:gap-5 overflow-x-auto pb-4 snap-x snap-mandatory scrollbar-hide">
           {treatments.map((t, i) => (
             <DevLabel key={t.title} id={`T${i + 1}`}>
               <Link
