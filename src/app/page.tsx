@@ -97,13 +97,13 @@ export default function Home() {
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-7 md:bg-transparent md:backdrop-blur-none md:rounded-none md:px-0 md:py-0 md:shadow-none max-w-2xl shadow-sm">
               {/* 2 — Hero H1 */}
               <DevLabel id={2}>
-                <h1 className="text-[1.75rem] md:text-[2.6rem] lg:text-[3.85rem] font-black text-[#1a1a1a] leading-[1.05] mb-4 md:mb-6">
+                <h1 className="text-[1.93rem] md:text-[2.86rem] lg:text-[4.24rem] font-black text-[#3b3737] leading-[1.05] mb-4 md:mb-6">
                   Redefining the future of aesthetic dentistry
                 </h1>
               </DevLabel>
               {/* 3 — Hero description */}
               <DevLabel id={3}>
-                <p className="text-sm md:text-lg text-[#444444] leading-relaxed mb-6 md:mb-8 max-w-md">
+                <p className="text-sm md:text-lg text-[#333333] leading-relaxed mb-6 md:mb-8 max-w-md">
                   Porcelain veneers, composite bonding and cosmetic dentistry on Harley Street. Designed to bring out the best in you.
                 </p>
               </DevLabel>
@@ -118,9 +118,9 @@ export default function Home() {
             {/* 5 — Google reviews pill */}
             <DevLabel id={5} className="flex-shrink-0 self-start md:self-auto">
               <div className="inline-flex items-center gap-2.5 md:gap-3 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2.5 md:px-5 md:py-3 shadow-lg">
-                <span className="text-[11px] md:text-xs font-bold uppercase tracking-wide text-[#222222]">Excellent</span>
+                <span className="text-[11px] md:text-xs font-bold uppercase tracking-wide text-[#3b3737]">Excellent</span>
                 <span className="text-[#fbbc04] text-sm md:text-base leading-none">★★★★★</span>
-                <span className="text-[11px] md:text-xs text-[#555555]">72 reviews</span>
+                <span className="text-[11px] md:text-xs text-[#444444]">72 reviews</span>
                 <svg className="h-3.5 md:h-4 w-auto" viewBox="0 0 272 92" xmlns="http://www.w3.org/2000/svg">
                   <path d="M115.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.86 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44S80.99 39.2 80.99 47.18c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" fill="#EA4335"/>
                   <path d="M163.75 47.18c0 12.77-9.99 22.18-22.25 22.18s-22.25-9.41-22.25-22.18c0-12.85 9.99-22.18 22.25-22.18s22.25 9.32 22.25 22.18zm-9.74 0c0-7.98-5.79-13.44-12.51-13.44s-12.51 5.46-12.51 13.44c0 7.9 5.79 13.44 12.51 13.44s12.51-5.55 12.51-13.44z" fill="#FBBC05"/>
@@ -148,8 +148,8 @@ export default function Home() {
           {/* 7 — Treatments heading */}
           <DevLabel id={7}>
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">TREATMENTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] text-center mb-14">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3 text-center">TREATMENTS</p>
+              <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] text-center mb-14">
                 Explore our full range of Treatment options
               </h2>
             </div>
@@ -167,10 +167,10 @@ export default function Home() {
                   <Image src={t.image} alt={t.title} fill className="object-cover" />
                 </div>
                 <div className="p-4 flex flex-col flex-1">
-                  <h3 className="text-sm font-semibold text-[#222222] mb-1 group-hover:text-[#012406] transition-colors leading-snug">
+                  <h3 className="text-sm font-semibold text-[#3b3737] mb-1 group-hover:text-[#012406] transition-colors leading-snug">
                     {t.title}
                   </h3>
-                  <p className="text-[#555555] leading-relaxed text-xs flex-1 line-clamp-2">
+                  <p className="text-[#333333] leading-relaxed text-xs flex-1 line-clamp-2">
                     {t.description}
                   </p>
                   <span className="mt-3 text-xs font-medium text-[#012406] group-hover:underline">
@@ -198,15 +198,15 @@ export default function Home() {
               {/* 9 — About overline + heading */}
               <DevLabel id={9}>
                 <div>
-                  <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">ABOUT DR JANA</p>
-                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] mb-6">
+                  <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3">ABOUT DR JANA</p>
+                  <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] mb-6">
                     Transform your smile with Denstudio
                   </h2>
                 </div>
               </DevLabel>
               {/* 10 — About description */}
               <DevLabel id={10}>
-                <p className="text-base md:text-lg text-[#555555] mb-8 leading-relaxed">
+                <p className="text-base md:text-lg text-[#444444] mb-8 leading-relaxed">
                   Internationally recognised cosmetic dentist and breakout star of BBC&apos;s The Apprentice
                 </p>
               </DevLabel>
@@ -220,7 +220,7 @@ export default function Home() {
                     "Global Ambassador for Slow Dentistry",
                     "Guest Lecturer at Oxford University",
                   ].map((point) => (
-                    <li key={point} className="flex items-start gap-3 text-[#333333]">
+                    <li key={point} className="flex items-start gap-3 text-[#2a2a2a]">
                       <svg className="w-5 h-5 text-[#012406] mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
@@ -244,8 +244,8 @@ export default function Home() {
           {/* 13 — Benefits heading */}
           <DevLabel id={13}>
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">WHY CHOOSE US</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] text-center mb-16">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3 text-center">WHY CHOOSE US</p>
+              <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] text-center mb-16">
                 Brighter and more confident smiles
               </h2>
             </div>
@@ -256,8 +256,8 @@ export default function Home() {
               <DevLabel key={b.number} id={`B${i + 1}`}>
                 <div className="text-center md:text-left">
                   <span className="text-5xl font-bold text-[#012406]/20 block mb-4">{b.number}</span>
-                  <h3 className="text-xl font-medium text-[#222222] mb-3">{b.title}</h3>
-                  <p className="text-base md:text-lg text-[#555555] leading-relaxed">{b.description}</p>
+                  <h3 className="text-xl font-medium text-[#3b3737] mb-3">{b.title}</h3>
+                  <p className="text-base md:text-lg text-[#333333] leading-relaxed">{b.description}</p>
                 </div>
               </DevLabel>
             ))}
@@ -275,11 +275,11 @@ export default function Home() {
           {/* 14 — Gallery heading */}
           <DevLabel id={14}>
             <div className="text-center mb-14">
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3">RESULTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] mb-4">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3">RESULTS</p>
+              <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] mb-4">
                 Discover how your smile changes lives
               </h2>
-              <p className="text-base md:text-lg text-[#555555] leading-relaxed">Real smiles, real results</p>
+              <p className="text-base md:text-lg text-[#333333] leading-relaxed">Real smiles, real results</p>
             </div>
           </DevLabel>
 
@@ -305,8 +305,8 @@ export default function Home() {
           {/* 15 — Reviews heading */}
           <DevLabel id={15}>
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">REVIEWS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] text-center mb-14">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3 text-center">REVIEWS</p>
+              <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] text-center mb-14">
                 Why our patients trust Denstudio
               </h2>
             </div>
@@ -331,8 +331,8 @@ export default function Home() {
           {/* 17 — Blog heading */}
           <DevLabel id={17}>
             <div>
-              <p className="text-xs uppercase tracking-[0.2em] text-[#555555] mb-3 text-center">INSIGHTS</p>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-[#222222] leading-[1.15] text-center mb-14">
+              <p className="text-xs uppercase tracking-[0.2em] text-[#444444] mb-3 text-center">INSIGHTS</p>
+              <h2 className="text-[2.06rem] md:text-[2.5rem] lg:text-[3.3rem] font-bold text-[#3b3737] leading-[1.15] text-center mb-14">
                 From Our Blog
               </h2>
             </div>
@@ -350,7 +350,7 @@ export default function Home() {
                   href={post.href}
                   className="group block bg-[#fafafa] rounded-xl border border-[#e5e5e5] p-6 hover:shadow-md hover:border-[#012406]/20 transition-all duration-300"
                 >
-                  <h3 className="text-base font-medium text-[#222222] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-3">{post.title}</h3>
+                  <h3 className="text-base font-medium text-[#3b3737] group-hover:text-[#012406] transition-colors duration-300 leading-snug mb-3">{post.title}</h3>
                   <span className="text-sm font-medium text-[#012406]">Read more &rarr;</span>
                 </Link>
               </DevLabel>
@@ -373,8 +373,8 @@ export default function Home() {
                   <div className="relative w-full aspect-square rounded-2xl overflow-hidden mb-8">
                     <Image src={s.image} alt={s.step} fill className="object-cover" />
                   </div>
-                  <h3 className="text-xl font-medium text-[#222222] mb-3">{s.step}</h3>
-                  <p className="text-base md:text-lg text-[#555555] leading-relaxed">{s.description}</p>
+                  <h3 className="text-xl font-medium text-[#3b3737] mb-3">{s.step}</h3>
+                  <p className="text-base md:text-lg text-[#333333] leading-relaxed">{s.description}</p>
                 </div>
               </DevLabel>
             ))}
