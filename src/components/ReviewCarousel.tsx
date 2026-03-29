@@ -78,7 +78,7 @@ export default function ReviewCarousel() {
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         {/* Left spacer for padding inside scroll container */}
-        <div className="shrink-0 w-3 sm:w-5 md:w-[max(1.5rem,calc((100vw-80rem)/2+1rem))]" />
+        <div className="shrink-0 min-w-[12px] sm:min-w-[20px] md:min-w-[max(1.5rem,calc((100vw-80rem)/2+1rem))] h-1" aria-hidden="true">&nbsp;</div>
         {reviews.map((review) => (
           <div
             key={review.name}
