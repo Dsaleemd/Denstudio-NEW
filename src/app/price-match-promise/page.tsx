@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Price Match Promise — DENSTUDIO",
@@ -53,12 +54,11 @@ export default function PriceMatchPromisePage() {
               <p className="text-2xl md:text-3xl font-bold text-[#012406] mb-10">
                 Challenge us to BEAT YOUR QUOTE
               </p>
-              <Link
-                href="/contact-us"
+              <EnquiryButton
                 className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
               >
                 Get in Touch
-              </Link>
+              </EnquiryButton>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image src="/images/about/hero.webp" alt="DENSTUDIO Price Match Promise" fill className="object-cover" />
@@ -135,12 +135,11 @@ export default function PriceMatchPromisePage() {
             Send us your quote and let us show you what exceptional dental care
             at a competitive price looks like.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book a Consultation
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
     </>

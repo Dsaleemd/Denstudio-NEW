@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 interface BlogArticleLayoutProps {
   title: string;
@@ -104,12 +105,11 @@ export default function BlogArticleLayout({
             Take the first step towards your dream smile with a personalised
             consultation at our Harley Street practice.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book Now
-          </Link>
+          </EnquiryButton>
         </div>
 
         {/* About the Author */}

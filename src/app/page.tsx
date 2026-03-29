@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import LogoCarousel from "@/components/LogoCarousel";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import { DevLabel, DevOverlayToggle } from "@/components/DevOverlay";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "DENSTUDIO | Premium Cosmetic Dentistry in Harley Street, London",
@@ -109,9 +110,9 @@ export default function Home() {
               </DevLabel>
               {/* 4 — Hero CTA button */}
               <DevLabel id={4}>
-                <Link href="/contact-us" className={btnClasses}>
+                <EnquiryButton className={btnClasses}>
                   Book Now
-                </Link>
+                </EnquiryButton>
               </DevLabel>
             </div>
 
@@ -231,7 +232,7 @@ export default function Home() {
               </DevLabel>
               {/* 12 — About CTA */}
               <DevLabel id={12}>
-                <Link href="/contact-us" className={btnClasses}>Book Now</Link>
+                <EnquiryButton className={btnClasses}>Book Now</EnquiryButton>
               </DevLabel>
             </div>
           </div>
@@ -264,7 +265,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>Book an appointment</Link>
+            <EnquiryButton className={btnClasses}>Book an appointment</EnquiryButton>
           </div>
         </div>
       </section>
@@ -294,7 +295,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>Book Now</Link>
+            <EnquiryButton className={btnClasses}>Book Now</EnquiryButton>
           </div>
         </div>
       </section>
@@ -320,7 +321,7 @@ export default function Home() {
 
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>Book Now</Link>
+            <EnquiryButton className={btnClasses}>Book Now</EnquiryButton>
           </div>
         </div>
       </section>
@@ -381,7 +382,7 @@ export default function Home() {
           </div>
 
           <div className="text-center mt-14">
-            <Link href="/contact-us" className={btnClasses}>Book</Link>
+            <EnquiryButton className={btnClasses}>Book</EnquiryButton>
           </div>
         </div>
       </section>

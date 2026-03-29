@@ -3,6 +3,7 @@ import { Cabin } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import EnquiryModalProvider from "@/components/EnquiryModalProvider";
 
 const cabin = Cabin({
   variable: "--font-cabin-var",
@@ -71,9 +72,11 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-cabin">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        <EnquiryModalProvider>
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </EnquiryModalProvider>
       </body>
     </html>
   );

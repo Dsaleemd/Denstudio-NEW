@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 interface CTASectionProps {
   heading: string;
@@ -22,12 +23,20 @@ export default function CTASection({
         <p className="text-base md:text-lg text-medium-grey leading-relaxed mb-8">
           {description}
         </p>
-        <Link
-          href={buttonLink}
-          className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
-        >
-          {buttonText}
-        </Link>
+        {buttonLink === "/contact-us" ? (
+          <EnquiryButton
+            className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
+          >
+            {buttonText}
+          </EnquiryButton>
+        ) : (
+          <Link
+            href={buttonLink}
+            className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
+          >
+            {buttonText}
+          </Link>
+        )}
       </div>
     </section>
   );

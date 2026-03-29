@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Porcelain Veneers | Harley Street | Dentist Near Me — DENSTUDIO",
@@ -32,12 +33,11 @@ export default function PorcelainVeneersPage() {
                 complete smile makeover, our expert team will design a bespoke
                 treatment plan tailored to your goals.
               </p>
-              <Link
-                href="/contact-us"
+              <EnquiryButton
                 className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
               >
                 Book Now
-              </Link>
+              </EnquiryButton>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image src="/images/porcelain-veneers/hero.webp" alt="Porcelain Veneers" fill className="object-cover" priority />
@@ -112,12 +112,11 @@ export default function PorcelainVeneersPage() {
               approach means fewer adjustments, better aesthetics and a smile you
               will be proud to show off.
             </p>
-            <Link
-              href="/contact-us"
+            <EnquiryButton
               className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
             >
               Book a Consultation
-            </Link>
+            </EnquiryButton>
           </div>
         </div>
       </section>
@@ -143,12 +142,11 @@ export default function PorcelainVeneersPage() {
             today and take the first step towards the smile you have always
             wanted.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book Now
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
     </>

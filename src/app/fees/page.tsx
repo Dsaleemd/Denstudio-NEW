@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Fees | Schedule Your Consultation Today — DENSTUDIO",
@@ -145,12 +146,11 @@ export default function FeesPage() {
             suit your needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/contact-us"
+            <EnquiryButton
               className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
             >
               Book Now
-            </Link>
+            </EnquiryButton>
             <Link
               href="/price-match-promise"
               className="inline-block border-2 border-[#012406] text-[#012406] hover:bg-[#012406] hover:text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
@@ -282,12 +282,11 @@ export default function FeesPage() {
           <p className="text-[#555555] mb-10">
             Finance calculator coming soon.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book Now
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
 
@@ -301,12 +300,11 @@ export default function FeesPage() {
             Book your consultation today and let us create a personalised
             treatment plan tailored to your smile goals and budget.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book a Consultation
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
     </>

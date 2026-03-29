@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "About | Enhance Your Smile Today — DENSTUDIO",
@@ -105,12 +106,11 @@ export default function AboutPage() {
                 has made DENSTUDIO one of the most sought-after dental practices
                 in London.
               </p>
-              <Link
-                href="/contact-us"
+              <EnquiryButton
                 className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
               >
                 Book a consultation
-              </Link>
+              </EnquiryButton>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image src="/images/about/hero.webp" alt="Award winning dentistry at DENSTUDIO" fill className="object-cover" priority />
@@ -263,12 +263,11 @@ export default function AboutPage() {
             Book your consultation today and discover why patients from around
             the world trust us with their smiles.
           </p>
-          <Link
-            href="/contact-us"
+          <EnquiryButton
             className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
           >
             Book Now
-          </Link>
+          </EnquiryButton>
         </div>
       </section>
     </>

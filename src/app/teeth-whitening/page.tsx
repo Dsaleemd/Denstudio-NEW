@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Teeth Whitening | Achieve Dazzling Results Today — DENSTUDIO",
@@ -50,12 +51,11 @@ export default function TeethWhiteningPage() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="/contact-us"
+            <EnquiryButton
               className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
             >
               Book Now
-            </Link>
+            </EnquiryButton>
           </div>
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
             <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover" priority />
@@ -126,12 +126,11 @@ export default function TeethWhiteningPage() {
               and leaves a lasting impression. It is one of the simplest and
               most affordable ways to transform the way you look and feel.
             </p>
-            <Link
-              href="/contact-us"
+            <EnquiryButton
               className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
             >
               Book Now
-            </Link>
+            </EnquiryButton>
           </div>
         </div>
       </section>

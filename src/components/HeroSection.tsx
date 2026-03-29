@@ -1,4 +1,5 @@
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 interface HeroSectionProps {
   title: string;
@@ -55,12 +56,20 @@ export default function HeroSection({
         )}
 
         {ctaText && ctaLink && (
-          <Link
-            href={ctaLink}
-            className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
-          >
-            {ctaText}
-          </Link>
+          ctaLink === "/contact-us" ? (
+            <EnquiryButton
+              className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
+            >
+              {ctaText}
+            </EnquiryButton>
+          ) : (
+            <Link
+              href={ctaLink}
+              className="inline-block bg-brand-green text-white font-medium rounded-[50px] px-8 py-3.5 hover:bg-brand-green-hover transition-colors"
+            >
+              {ctaText}
+            </Link>
+          )
         )}
       </div>
     </section>

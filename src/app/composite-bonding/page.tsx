@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ReviewCarousel from "@/components/ReviewCarousel";
 import Accordion from "@/components/Accordion";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Composite Bonding | Transform Your Smile Today — DENSTUDIO",
@@ -84,12 +85,11 @@ export default function CompositeBondingPage() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="/contact-us"
+            <EnquiryButton
               className="inline-block bg-white text-[#012406] hover:bg-white/90 px-8 py-3.5 rounded-full font-medium transition-all duration-300"
             >
               Book Now
-            </Link>
+            </EnquiryButton>
           </div>
         </div>
       </section>

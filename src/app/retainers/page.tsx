@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import EnquiryButton from "@/components/EnquiryButton";
 
 export const metadata: Metadata = {
   title: "Retainers | Maintain Your Smile Today — DENSTUDIO",
@@ -26,12 +27,11 @@ export default function RetainersPage() {
                 position and prevent them from gradually shifting back over time.
                 They are a vital part of any orthodontic treatment plan.
               </p>
-              <Link
-                href="/contact-us"
+              <EnquiryButton
                 className="inline-block bg-[#012406] hover:bg-[#023a09] text-white px-8 py-3.5 rounded-full font-medium transition-all duration-300"
               >
                 Book Now
-              </Link>
+              </EnquiryButton>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
               <Image src="/images/teeth-straightening/hero.webp" alt="Retainers" fill className="object-cover" />
