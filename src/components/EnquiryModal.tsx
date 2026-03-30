@@ -13,20 +13,26 @@ export default function EnquiryModal({ isOpen, onClose }: EnquiryModalProps) {
   const formContainerRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
   const [showContent, setShowContent] = useState(false);
+  const [closing, setClosing] = useState(false);
 
-  // Open sequence: mount → ink flash → reveal content
+  // Open sequence
   useEffect(() => {
     if (isOpen) {
+      setClosing(false);
       setVisible(true);
-      // Small delay then show content (ink has faded by then)
       const t = setTimeout(() => setShowContent(true), 150);
       return () => clearTimeout(t);
-    } else {
+    } else if (visible) {
+      // Close sequence — no ink flash, just fade out
+      setClosing(true);
       setShowContent(false);
-      const t = setTimeout(() => setVisible(false), 350);
+      const t = setTimeout(() => {
+        setVisible(false);
+        setClosing(false);
+      }, 350);
       return () => clearTimeout(t);
     }
-  }, [isOpen]);
+  }, [isOpen]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Lock body scroll
   useEffect(() => {
@@ -77,21 +83,23 @@ export default function EnquiryModal({ isOpen, onClose }: EnquiryModalProps) {
       aria-modal="true"
       aria-label="Enquiry form"
     >
-      {/* Ink flash — dark green that appears instantly then fades out */}
-      <div
-        className="absolute inset-0 bg-[#012406] pointer-events-none"
-        style={{
-          opacity: showContent ? 0 : 1,
-          transition: "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
-        }}
-      />
+      {/* Ink flash — only on OPEN, never on close */}
+      {!closing && (
+        <div
+          className="absolute inset-0 bg-[#012406] pointer-events-none"
+          style={{
+            opacity: showContent ? 0 : 1,
+            transition: "opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
+          }}
+        />
+      )}
 
-      {/* Cream background */}
+      {/* Cream background — fades out on close */}
       <div
         className="absolute inset-0 bg-[#faf5ef]"
         style={{
-          opacity: isOpen ? 1 : 0,
-          transition: "opacity 0.3s ease",
+          opacity: closing ? 0 : 1,
+          transition: closing ? "opacity 0.3s ease" : "opacity 0.1s ease",
         }}
       />
 
@@ -99,9 +107,11 @@ export default function EnquiryModal({ isOpen, onClose }: EnquiryModalProps) {
       <div
         className="relative z-10 w-full h-full overflow-y-auto"
         style={{
-          opacity: showContent ? 1 : 0,
-          transform: showContent ? "translateY(0)" : "translateY(30px)",
-          transition: "opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s",
+          opacity: showContent && !closing ? 1 : 0,
+          transform: showContent && !closing ? "translateY(0)" : closing ? "translateY(-10px)" : "translateY(30px)",
+          transition: closing
+            ? "opacity 0.25s ease, transform 0.25s ease"
+            : "opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s, transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0.1s",
         }}
       >
         {/* Top bar */}
