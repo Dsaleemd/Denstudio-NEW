@@ -31,7 +31,8 @@ export default function LogoCarousel() {
               alt={logo.alt}
               width={logo.width}
               height={40}
-              className="object-contain opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0"
+              className="object-contain opacity-60 hover:opacity-100 transition-opacity grayscale hover:grayscale-0 h-auto w-auto"
+              style={{ maxHeight: 40, maxWidth: logo.width }}
             />
           </div>
         ))}
