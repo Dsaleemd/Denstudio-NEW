@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cabin } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -13,6 +14,7 @@ const cabin = Cabin({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://denstudio.co.uk"),
   title: "DENSTUDIO | Book Your Smile Transformation Today",
   description:
     "Award-winning aesthetic dentistry in Harley Street, London. Porcelain veneers, composite bonding, whitening and Invisalign.",
@@ -71,6 +73,16 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
+      {/* Google Analytics - replace G-XXXXXXXXXX with real ID */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XXXXXXXXXX');
+        `}
+      </Script>
       <body className="min-h-full flex flex-col font-cabin">
         <EnquiryModalProvider>
           <Header />
