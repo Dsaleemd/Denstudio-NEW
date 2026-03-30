@@ -107,7 +107,7 @@ export default function BondingLandingPage() {
 
             {/* Right: Hero image — matches left column height */}
             <div className="relative rounded-2xl overflow-hidden min-h-[400px] lg:min-h-0">
-              <Image src="/images/composite-bonding/hero.webp" alt="Composite bonding result at DENSTUDIO" fill className="object-cover object-center" priority />
+              <Image src="/images/composite-bonding/hero.webp" alt="Composite bonding result at DENSTUDIO" fill className="object-cover object-right" priority />
             </div>
 
           </div>

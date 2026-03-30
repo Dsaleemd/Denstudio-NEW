@@ -57,8 +57,8 @@ export default function TeethWhiteningPage() {
               Book Now
             </EnquiryButton>
           </div>
-          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover" priority />
+          <div className="relative rounded-2xl overflow-hidden self-end h-full">
+            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-contain object-right-bottom" priority />
           </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function TeethWhiteningPage() {
               Whiter Teeth, Brighter Life
             </h2>
             <div className="relative aspect-[16/9] rounded-2xl overflow-hidden mb-10">
-              <Image src="/images/teeth-whitening/results.webp" alt="Teeth Whitening Results" fill className="object-cover" />
+              <Image src="/images/teeth-whitening/results.webp" alt="Teeth Whitening Results" fill className="object-cover object-top" />
             </div>
             <p className="text-[#333333] leading-relaxed mb-6">
               Our FreshGel whitening formula is gentle on sensitive teeth while

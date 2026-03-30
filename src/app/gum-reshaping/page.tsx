@@ -12,29 +12,34 @@ export const metadata: Metadata = {
 
 const treatmentOptions = [
   {
-    title: "Surgical Gum Lift",
+    title: "Surgical Gum Lift and Contouring",
+    image: "/images/gum-reshaping/treatments/surgical.webp",
     description:
-      "A precise surgical procedure to remove excess gum tissue and reshape the gum line, revealing more of your natural tooth structure for a balanced, proportionate smile.",
+      "When your gums cover too much of your teeth, we may carry out a gingivectomy. This cosmetic dental procedure is also referred to as gum contouring. The treatment involves removing excess gum tissue.",
   },
   {
-    title: "Laser Gum Lift",
+    title: "Laser Gum Lift and Contouring",
+    image: "/images/gum-reshaping/treatments/laser.webp",
     description:
-      "A minimally invasive laser procedure that gently removes excess gum tissue with minimal bleeding and faster healing times compared to traditional surgery.",
+      "A laser gum reshaping treatment aims to contour and reshape the gums to make them look neater and smaller in proportion to the teeth. It\u2019s a simple procedure that can usually be completed in one visit.",
   },
   {
     title: "Veneers for Gummy Smiles",
+    image: "/images/gum-reshaping/treatments/veneers.webp",
     description:
-      "Custom porcelain veneers can be used to alter the proportions of your teeth, making them appear longer and reducing the visual impact of a gummy smile.",
+      "Veneers can be tailor-made to improve the balance between your teeth and gums. This non-invasive cosmetic treatment makes teeth appear larger in situations where they used to look too small.",
   },
   {
     title: "Composite Bonding for Gummy Smiles",
+    image: "/images/gum-reshaping/treatments/bonding.webp",
     description:
-      "Tooth-coloured composite resin is applied to reshape and lengthen the visible portion of your teeth, creating a more balanced ratio between teeth and gums.",
+      "Bonding is a straightforward cosmetic procedure that enhances the appearance of your smile. Using dental composite, we\u2019ll skillfully reshape your teeth. The materials that we\u2019ll use will perfectly match the colour of your teeth.",
   },
   {
-    title: "Botox & Lip Repositioning",
+    title: "Botox & Lip Repositioning for Gummy Smiles",
+    image: "/images/gum-reshaping/treatments/botox.webp",
     description:
-      "A non-surgical option that relaxes the muscles in your upper lip, preventing it from rising too high when you smile and reducing the amount of gum that is visible.",
+      "If the positioning of your lips is an issue, we can use injections of botulinum toxin type A, better known as \u2018Botox.\u2019",
   },
 ];
 
@@ -145,42 +150,53 @@ export default function GumReshapingPage() {
         </div>
       </section>
 
-      {/* Treatment Option Cards */}
-      <section className="py-24 md:py-32 bg-[#f8f8f6]">
-        <div className="mx-auto max-w-7xl px-6">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] mb-14 text-center">
+      {/* Treatment Option Cards – Horizontal Scroll Carousel */}
+      <section className="py-24 md:py-32 bg-[#f8f8f6] overflow-hidden">
+        <div className="mx-auto max-w-7xl px-6 mb-14">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-light text-[#222222] leading-[1.15] text-center">
             Treatment Options
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {treatmentOptions.map((option) => (
-              <div
-                key={option.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-[#eeeeee]"
-              >
-                <div className="w-12 h-12 rounded-full bg-[#012406]/10 flex items-center justify-center mb-6">
-                  <svg
-                    className="w-6 h-6 text-[#012406]"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-bold text-[#222222] mb-3">
+        </div>
+
+        <div
+          className="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide pb-4"
+          style={{
+            marginLeft:
+              "clamp(16px, 4vw, max(2rem, calc((100vw - 80rem) / 2 + 2rem)))",
+          }}
+        >
+          {treatmentOptions.map((option) => (
+            <div
+              key={option.title}
+              className="relative w-[380px] min-w-[380px] snap-start rounded-2xl overflow-hidden"
+              style={{ aspectRatio: "9 / 16" }}
+            >
+              {/* Background image */}
+              <Image
+                src={option.image}
+                alt={option.title}
+                fill
+                className="object-cover"
+                sizes="380px"
+              />
+
+              {/* Gradient overlay */}
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80" />
+
+              {/* Bottom glassmorphism content */}
+              <div className="absolute bottom-0 left-0 right-0 p-6 backdrop-blur-[14px] bg-white/10">
+                <h3 className="text-white text-[2rem] font-semibold leading-tight mb-2">
                   {option.title}
                 </h3>
-                <p className="text-[#333333] text-sm leading-relaxed">
+                <p className="text-white/90 text-[0.86rem] leading-relaxed">
                   {option.description}
                 </p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
+
+          {/* Right spacer so last card doesn't hug the edge */}
+          <div className="min-w-[1px] shrink-0" aria-hidden="true" />
         </div>
       </section>
 
