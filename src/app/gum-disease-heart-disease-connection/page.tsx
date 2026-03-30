@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
@@ -22,6 +31,12 @@ export default function GumDiseaseHeartDiseasePage() {
         division — particularly when it comes to the relationship between{" "}
         <strong>gum disease and heart disease</strong>.
       </p>
+
+      <StatBox value="2–3x" label="Higher Risk of Cardiovascular Events">
+        According to Harvard Health, people with periodontal disease are two to
+        three times more likely to experience a heart attack, stroke, or other
+        serious cardiovascular event compared to those with healthy gums.
+      </StatBox>
 
       <h2>What Is Gum Disease?</h2>
       <p>
@@ -45,6 +60,8 @@ export default function GumDiseaseHeartDiseasePage() {
         Periodontitis affects roughly 45% of UK adults to some degree, making
         it one of the most prevalent chronic diseases in the country.
       </p>
+
+      <Divider />
 
       <h2>What the Research Shows</h2>
       <p>
@@ -70,6 +87,13 @@ export default function GumDiseaseHeartDiseasePage() {
           markers — including C-reactive protein (CRP) — within weeks.
         </li>
       </ul>
+
+      <Callout variant="pine">
+        <strong>Key finding:</strong> Even after controlling for shared risk
+        factors like smoking, diabetes, and obesity, studies consistently find an
+        independent association between periodontal disease and cardiovascular
+        events — suggesting the link is biological, not merely coincidental.
+      </Callout>
 
       <h2>Three Theories: How Gums May Affect the Heart</h2>
 
@@ -102,32 +126,45 @@ export default function GumDiseaseHeartDiseasePage() {
         conditions.
       </p>
 
+      <Divider />
+
       <h2>Other Health Conditions Linked to Gum Disease</h2>
       <p>
         The heart is not the only organ affected. Research has also linked
-        periodontal disease to:
+        periodontal disease to a range of systemic conditions:
       </p>
-      <ul>
-        <li>
-          <strong>Type 2 diabetes</strong> — the relationship is bidirectional;
-          diabetes worsens gum disease, and gum disease makes blood sugar
-          harder to control.
-        </li>
-        <li>
-          <strong>Alzheimer&apos;s disease</strong> —{" "}
-          <em>P. gingivalis</em> DNA and its toxic enzymes (gingipains) have
-          been detected in the brains of Alzheimer&apos;s patients.
-        </li>
-        <li>
-          <strong>Adverse pregnancy outcomes</strong> — including pre-eclampsia,
-          preterm birth, and low birth weight.
-        </li>
-        <li>
-          <strong>Respiratory infections</strong> — aspiration of oral bacteria
-          can contribute to pneumonia, particularly in elderly or
-          immunocompromised patients.
-        </li>
-      </ul>
+
+      <DataTable
+        caption="Systemic Conditions Linked to Periodontal Disease"
+        headers={["Condition", "Nature of Association", "Key Evidence"]}
+        rows={[
+          [
+            "Type 2 Diabetes",
+            "Bidirectional — each worsens the other",
+            "Gum disease increases insulin resistance; uncontrolled glucose accelerates periodontal breakdown",
+          ],
+          [
+            "Alzheimer's Disease",
+            "P. gingivalis found in brain tissue",
+            "Gingipain enzymes detected in brains of Alzheimer's patients; linked to neuronal damage",
+          ],
+          [
+            "Adverse Pregnancy Outcomes",
+            "Inflammatory mediators cross placental barrier",
+            "Higher risk of pre-eclampsia, preterm birth, and low birth weight",
+          ],
+          [
+            "Respiratory Infections",
+            "Aspiration of oral bacteria into lungs",
+            "Significant risk factor for pneumonia in elderly and immunocompromised patients",
+          ],
+          [
+            "Rheumatoid Arthritis",
+            "Shared inflammatory pathways",
+            "Patients with periodontitis show higher rates of RA and vice versa",
+          ],
+        ]}
+      />
 
       <h2>Practical Steps You Can Take</h2>
       <ol>
@@ -157,6 +194,12 @@ export default function GumDiseaseHeartDiseasePage() {
         </li>
       </ol>
 
+      <Callout>
+        <strong>Remember:</strong> Bleeding gums are never &quot;normal.&quot;
+        They are the earliest visible sign of a disease process that, left
+        unchecked, can affect far more than your mouth.
+      </Callout>
+
       <h2>Denstudio&apos;s Approach to Gum Health</h2>
       <p>
         At{" "}
@@ -174,6 +217,21 @@ export default function GumDiseaseHeartDiseasePage() {
         <Link href="/contact-us">book a consultation</Link> at our Harley
         Street practice.
       </p>
+
+      <Divider />
+
+      <AuthorBio />
+
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "Harvard Health Publishing. \"Gum disease and heart disease: The common thread.\" Harvard Medical School, 2021.",
+          "Chang Y, et al. \"Improved oral hygiene care attenuates the cardiovascular risk of oral health disease.\" European Heart Journal, 2019; 40(14): 1138–1145.",
+          "Sanz M, et al. \"Periodontitis and cardiovascular diseases: Consensus report.\" Journal of Clinical Periodontology, 2020; 47(3): 268–288.",
+          "Dominy SS, et al. \"Porphyromonas gingivalis in Alzheimer's disease brains: Evidence for disease causation and treatment with small-molecule inhibitors.\" Science Advances, 2019; 5(1): eaau3333.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

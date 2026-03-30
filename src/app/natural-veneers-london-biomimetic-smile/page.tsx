@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
@@ -24,7 +33,49 @@ export default function NaturalVeneersLondonPage() {
         <strong>veneers that nobody can tell are veneers</strong>.
       </p>
 
+      <StatBox value="15–20 years" label="Expected Lifespan of Biomimetic Veneers">
+        When crafted from high-quality lithium disilicate or layered feldspathic
+        porcelain and bonded using evidence-based adhesive protocols, biomimetic
+        veneers have an expected lifespan of 15 to 20 years — often exceeding
+        conventional veneers due to conservative preparation preserving more
+        enamel for a stronger bond.
+      </StatBox>
+
       <h2>What Was Wrong With the Hollywood Smile</h2>
+
+      <ComparisonTable
+        title1="Hollywood Approach"
+        title2="Biomimetic Approach"
+        rows={[
+          [
+            "Shade",
+            "BL1 or whiter — unnaturally white, uniform across all teeth",
+            "A1 or warmer — varies from gum line to incisal edge, canine to incisor",
+          ],
+          [
+            "Symmetry",
+            "Mathematical mirror-image symmetry — identical widths and heights",
+            "Controlled asymmetry — subtle rotations and length variations mimic nature",
+          ],
+          [
+            "Translucency",
+            "Opaque — blocks light, producing a flat, lifeless appearance",
+            "Semi-translucent — light passes through and scatters, creating depth and vitality",
+          ],
+          [
+            "Surface texture",
+            "High-gloss polish — eliminates all natural features",
+            "Hand-crafted micro-anatomy — perikymata, concavities, and texture that catch light",
+          ],
+          [
+            "Ageing appropriateness",
+            "Same result for 25 and 55-year-olds — jarring disconnect with face",
+            "Age-matched character — incisal translucency and wear patterns suit the patient",
+          ],
+        ]}
+      />
+
+      <Divider />
 
       <h3>Shade</h3>
       <p>
@@ -70,6 +121,15 @@ export default function NaturalVeneersLondonPage() {
         veneers create a jarring disconnect between the smile and the rest of
         the face.
       </p>
+
+      <Callout variant="pine">
+        <strong>The ultimate test:</strong> The highest compliment a biomimetic
+        veneer can receive is not &quot;your veneers look amazing&quot; — it is
+        &quot;you have beautiful teeth.&quot; When nobody suspects dental work,
+        the ceramist has succeeded.
+      </Callout>
+
+      <Divider />
 
       <h2>The Biomimetic Standard</h2>
       <p>
@@ -137,16 +197,6 @@ export default function NaturalVeneersLondonPage() {
         </li>
       </ul>
 
-      <h2>Longevity: 15–20 Years</h2>
-      <p>
-        When crafted from high-quality lithium disilicate or layered feldspathic
-        porcelain and bonded using evidence-based adhesive protocols, biomimetic
-        veneers have an expected lifespan of{" "}
-        <strong>15 to 20 years</strong>. This is comparable to — and often
-        exceeds — the lifespan of conventional veneers, because the
-        conservative preparation preserves more enamel for a stronger bond.
-      </p>
-
       <h2>Frequently Asked Questions</h2>
 
       <h3>Will natural-looking veneers still make a noticeable difference?</h3>
@@ -183,6 +233,21 @@ export default function NaturalVeneersLondonPage() {
         overriding it,{" "}
         <Link href="/contact-us">book a consultation at Denstudio</Link>.
       </p>
+
+      <Divider />
+
+      <AuthorBio />
+
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "Fradeani M. \"Esthetic Rehabilitation in Fixed Prosthodontics: Esthetic Analysis.\" Quintessence Publishing, 2004.",
+          "Beier US, et al. \"Clinical performance of porcelain laminate veneers for up to 20 years.\" International Journal of Prosthodontics, 2012; 25(1): 79–85.",
+          "Lombardi RE. \"The principles of visual perception and their clinical application to denture aesthetics.\" Journal of Prosthetic Dentistry, 1973; 29(4): 358–382.",
+          "Magne P, Belser U. \"Bonded Porcelain Restorations in the Anterior Dentition: A Biomimetic Approach.\" Quintessence Publishing, 2002.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
-    "How to Go Back to the Dentist After a Long Gap — DENSTUDIO",
+    "How to Go Back to the Dentist After a Long Gap (Without the Dread) — DENSTUDIO",
   description:
     "Nervous about returning to the dentist after years? Learn what to expect, why there is no judgement, and how slow dentistry at Denstudio Harley Street makes it easier.",
 };
@@ -11,7 +20,7 @@ export const metadata: Metadata = {
 export default function HowToGoBackToDentistPage() {
   return (
     <BlogArticleLayout
-      title="How to Go Back to the Dentist After a Long Gap"
+      title="How to Go Back to the Dentist After a Long Gap (Without the Dread)"
       publishDate="March 2026"
     >
       <p>
@@ -21,6 +30,13 @@ export default function HowToGoBackToDentistPage() {
         always understandable. This article is for you: a gentle,
         non-judgemental guide to taking that first step back.
       </p>
+
+      <StatBox value="27 million" label="UK adults have avoided the dentist">
+        According to the Oral Health Foundation, approximately 27 million
+        adults in the UK have delayed or avoided dental visits. You are far
+        from alone — and your reasons for staying away are valid, whatever
+        they are.
+      </StatBox>
 
       <h2>Why People Avoid the Dentist for Years</h2>
       <p>
@@ -46,12 +62,13 @@ export default function HowToGoBackToDentistPage() {
         are embarrassed, and the longer you stay away, the more embarrassed
         you become.
       </p>
-      <p>
-        We want you to know something important: dentists who work with
-        returning patients see this every day. We have seen everything, and we
-        judge nothing. Your courage in making the appointment matters far more
-        than the current state of your teeth.
-      </p>
+
+      <Callout variant="pine">
+        <strong>We want you to know something important:</strong> dentists who
+        work with returning patients see this every day. We have seen
+        everything, and we judge nothing. Your courage in making the
+        appointment matters far more than the current state of your teeth.
+      </Callout>
 
       <h3>Anxiety and Fear</h3>
       <p>
@@ -70,38 +87,46 @@ export default function HowToGoBackToDentistPage() {
         have passed.
       </p>
 
+      <Divider />
+
       <h2>What Actually Happens at Your First Visit Back</h2>
       <p>
         This is perhaps the most important thing to understand: your first
         appointment after a long gap is a consultation, not a treatment
         session. At Denstudio, here is what you can expect:
       </p>
-      <ul>
-        <li>
-          <strong>A conversation first</strong> — Dr Denzel will sit down with
-          you, listen to your concerns, and understand your history. This is
-          your appointment, and your voice matters most.
-        </li>
-        <li>
-          <strong>A gentle examination</strong> — we will assess the current
-          state of your teeth and gums, but this is done carefully and
-          compassionately. If anything is uncomfortable, we stop.
-        </li>
-        <li>
-          <strong>No treatment on the first visit</strong> — unless you
-          specifically want it. The first appointment is about understanding
-          where you are and discussing where you want to go.
-        </li>
-        <li>
-          <strong>A clear, honest plan</strong> — if treatment is needed, we
-          will explain everything clearly, including what is urgent, what can
-          wait, and what the costs will be. There are no surprises.
-        </li>
-        <li>
-          <strong>No judgement, ever</strong> — whether it has been 2 years or
-          20 years, you will be treated with warmth and respect.
-        </li>
-      </ul>
+
+      <DataTable
+        caption="Your First Appointment at Denstudio — Step by Step"
+        headers={["Step", "What Happens", "Why It Matters"]}
+        rows={[
+          [
+            "1. Conversation",
+            "Dr Denzel sits down, listens to your concerns, and understands your history",
+            "Your voice matters most — this is your appointment",
+          ],
+          [
+            "2. Gentle examination",
+            "We assess teeth and gums carefully and compassionately",
+            "If anything is uncomfortable, we stop immediately",
+          ],
+          [
+            "3. No treatment on day one",
+            "Unless you specifically want it, the first visit is assessment only",
+            "Removes pressure and gives you time to process",
+          ],
+          [
+            "4. Clear, honest plan",
+            "We explain what is urgent, what can wait, and costs involved",
+            "No surprises, no hidden fees, complete transparency",
+          ],
+          [
+            "5. Zero judgement",
+            "Whether it has been 2 years or 20 years, you are treated with warmth",
+            "Shame has no place in healthcare",
+          ],
+        ]}
+      />
 
       <h2>Tips for Making Your First Appointment Easier</h2>
       <p>
@@ -136,6 +161,14 @@ export default function HowToGoBackToDentistPage() {
           understanding and consent.
         </li>
       </ol>
+
+      <Callout>
+        <strong>The hardest part is making the appointment.</strong> Our
+        patients who returned after long gaps consistently tell us that the
+        anticipation was far worse than the reality. Once you are here, the
+        slow dentistry approach means there is no rush, no judgement, and no
+        pressure.
+      </Callout>
 
       <h2>Why Slow Dentistry Helps</h2>
       <p>
@@ -200,6 +233,8 @@ export default function HowToGoBackToDentistPage() {
         with a genuine commitment to making your experience a positive one.
       </p>
 
+      <Divider />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Will the dentist judge me for not visiting in years?</h3>
@@ -238,6 +273,17 @@ export default function HowToGoBackToDentistPage() {
         process is simple and can be completed when you book your first
         appointment. We will guide you through every step.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "Oral Health Foundation. National Smile Month statistics on dental attendance in the UK.",
+          "Adult Dental Health Survey (2009). NHS Digital.",
+          "British Dental Association. Patient anxiety and access to dental care.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

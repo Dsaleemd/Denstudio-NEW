@@ -20,7 +20,7 @@ export default function BlogArticleLayout({
       <div className="mx-auto max-w-4xl px-6">
         {/* Header */}
         <header className="mb-10">
-          <h1 className="text-4xl md:text-5xl font-light text-[#222222] leading-[1.1] mb-4">
+          <h1 className="text-[2rem] md:text-[2.6rem] font-bold text-[#111315] leading-[1.08] mb-4 tracking-[-0.02em]">
             {title}
           </h1>
           {(author || publishDate) && (
@@ -35,7 +35,7 @@ export default function BlogArticleLayout({
         </header>
 
         {/* Article Body */}
-        <div className="prose prose-lg max-w-none text-[#333333] text-lg leading-relaxed [&_h2]:text-3xl [&_h2]:md:text-4xl [&_h2]:font-light [&_h2]:text-[#222222] [&_h2]:leading-[1.15] [&_h2]:mt-12 [&_h2]:mb-4 [&_h3]:text-2xl [&_h3]:font-normal [&_h3]:text-[#222222] [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:mb-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-4 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-4 [&_li]:mb-2 [&_a]:text-[#012406] [&_a]:underline [&_a]:hover:text-[#023a09]">
+        <div className="max-w-none text-[#333] text-[16px] leading-[1.75] [&_h2]:text-[1.7rem] [&_h2]:md:text-[2rem] [&_h2]:font-bold [&_h2]:text-[#1a1a1a] [&_h2]:leading-[1.2] [&_h2]:mt-12 [&_h2]:mb-4 [&_h3]:text-[1.25rem] [&_h3]:md:text-[1.4rem] [&_h3]:font-semibold [&_h3]:text-[#1a1a1a] [&_h3]:mt-8 [&_h3]:mb-3 [&_h4]:text-[1.05rem] [&_h4]:font-semibold [&_h4]:text-[#0b3b3b] [&_h4]:mt-6 [&_h4]:mb-2 [&_h4]:uppercase [&_h4]:tracking-wide [&_h4]:text-xs [&_p]:mb-5 [&_p]:text-[#333] [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:mb-5 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:mb-5 [&_li]:mb-2 [&_li]:text-[#444] [&_a]:text-[#0b3b3b] [&_a]:underline [&_a]:hover:text-[#012406] [&_strong]:text-[#1a1a1a] [&_blockquote]:border-l-4 [&_blockquote]:border-[#c8a85a] [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:text-[#555] [&_blockquote]:my-6">
           {children}
         </div>
 

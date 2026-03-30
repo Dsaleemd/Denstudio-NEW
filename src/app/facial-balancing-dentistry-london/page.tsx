@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
-  title: "Facial Balancing Dentistry London — DENSTUDIO",
+  title:
+    "What Is Facial Balancing? How Cosmetic Dentistry Can Transform Your Appearance — DENSTUDIO",
   description:
     "Discover how facial balancing dentistry at Denstudio Harley Street uses teeth, gum line, and smile design to create harmony across your entire face.",
 };
@@ -10,7 +20,7 @@ export const metadata: Metadata = {
 export default function FacialBalancingDentistryLondonPage() {
   return (
     <BlogArticleLayout
-      title="Facial Balancing Dentistry London"
+      title="What Is Facial Balancing? How Cosmetic Dentistry Can Transform Your Appearance"
       publishDate="March 2026"
     >
       <p>
@@ -22,6 +32,13 @@ export default function FacialBalancingDentistryLondonPage() {
         and your facial structure to create results that enhance your
         appearance as a whole, not just your smile in isolation.
       </p>
+
+      <Callout variant="pine">
+        <strong>Your teeth form the foundation of the lower third of your face.</strong>{" "}
+        Changes to tooth size, shape, position, and colour can visibly alter lip
+        fullness, jawline definition, and facial symmetry — often more
+        dramatically than people expect.
+      </Callout>
 
       <h2>What Is Facial Balancing?</h2>
       <p>
@@ -40,8 +57,40 @@ export default function FacialBalancingDentistryLondonPage() {
       <h2>The Role Teeth Play in Facial Harmony</h2>
       <p>
         Your teeth influence your facial appearance in ways that may surprise
-        you:
+        you. Each facial zone is affected by specific dental characteristics:
       </p>
+
+      <DataTable
+        caption="How Your Teeth Affect Each Facial Zone"
+        headers={["Facial Zone", "Dental Influence", "What Can Be Improved"]}
+        rows={[
+          [
+            "Upper lip & philtrum",
+            "Upper front tooth position and size provide lip support",
+            "Veneers, bonding — restoring fullness and youthful lip posture",
+          ],
+          [
+            "Lower face & jawline",
+            "Bite height and alignment determine jaw position",
+            "Bite reconstruction, worn tooth restoration — improved definition",
+          ],
+          [
+            "Mid-face & cheeks",
+            "Smile width relative to face width creates visual balance",
+            "Smile widening with veneers or bonding on premolars",
+          ],
+          [
+            "Facial symmetry",
+            "Tooth size, shape, and gum-line asymmetry draw the eye",
+            "Bonding, gum recontouring, veneer reshaping",
+          ],
+          [
+            "Overall brightness",
+            "Tooth colour affects perceived skin tone and vitality",
+            "Professional whitening calibrated to skin tone",
+          ],
+        ]}
+      />
 
       <h3>Lip Support</h3>
       <p>
@@ -76,6 +125,8 @@ export default function FacialBalancingDentistryLondonPage() {
         Subtle adjustments to tooth size, shape, or position can dramatically
         improve the visual symmetry of the face.
       </p>
+
+      <Divider />
 
       <h2>Denstudio&apos;s Approach to Facial Balancing</h2>
       <p>
@@ -124,6 +175,13 @@ export default function FacialBalancingDentistryLondonPage() {
         and feels.
       </p>
 
+      <StatBox value="Lower ⅓" label="of your face">
+        The lower third of the face — from the base of the nose to the chin —
+        is almost entirely shaped by your teeth, bite, and jaw position. This
+        is why cosmetic dentistry can have such a visible impact on overall
+        facial appearance.
+      </StatBox>
+
       <h2>Who Is Facial Balancing Dentistry For?</h2>
       <p>
         Facial balancing dentistry is relevant for a wide range of patients:
@@ -167,6 +225,8 @@ export default function FacialBalancingDentistryLondonPage() {
         the mirror.
       </p>
 
+      <Divider />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Is facial balancing dentistry a specific treatment?</h3>
@@ -205,6 +265,17 @@ export default function FacialBalancingDentistryLondonPage() {
         and lip support can have a rejuvenating effect on your overall
         appearance.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "Lombardi, R.E. (1973). The principles of visual perception and their clinical application to denture aesthetics. The Journal of Prosthetic Dentistry, 29(4), 358–382.",
+          "Sarver, D.M. (2001). The importance of incisor positioning in the esthetic smile: the smile arc. American Journal of Orthodontics and Dentofacial Orthopedics, 120(2), 98–111.",
+          "Slow Dentistry Global Network — slowdentistry.com",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

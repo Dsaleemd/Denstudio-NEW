@@ -1,240 +1,321 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Veneers vs Teeth Whitening | Harley Street London | Dr. Jana Denzel — DENSTUDIO",
+    "Veneers or Whitening? A Harley Street Expert Explains When Staining Requires More — DENSTUDIO",
   description:
-    "Should you choose veneers or teeth whitening? Dr. Jana Denzel at Denstudio, Harley Street, explains when staining requires more than a chemical bleach and what your options are.",
+    "Extrinsic vs intrinsic staining, when whitening works, when veneers are needed, and honest cost comparison. Harley Street cosmetic dentistry at Denstudio.",
 };
 
 export default function VeneersOrWhiteningPage() {
   return (
-    <BlogArticleLayout title="Veneers or Whitening? When Staining Requires More Than a Chemical Bleach">
+    <BlogArticleLayout
+      title="Veneers or Whitening? A Harley Street Expert Explains When Staining Requires More Than a Chemical Bleach"
+      publishDate="27 March 2026"
+    >
       <p>
-        Not all tooth discolouration responds to whitening. Understanding the
-        difference between surface staining and deep, structural discolouration
-        is the first step toward choosing the right treatment. At Denstudio, Dr.
-        Jana Denzel uses a diagnostic-first approach to determine exactly what
-        is causing your tooth colour concerns and which treatment — or
-        combination of treatments — will deliver the result you want.
+        Tooth discolouration is one of the most common reasons patients walk
+        through our door at <Link href="/">Denstudio</Link>. But not all
+        staining is created equal — and the difference between staining that
+        responds to whitening and staining that does not is the difference
+        between a simple chemical process and a structural restoration. Getting
+        the diagnosis right saves time, money, and disappointment.
       </p>
 
-      <h2>Understanding Tooth Discolouration</h2>
+      <Divider />
+
+      <h2>Extrinsic vs Intrinsic Staining: The Fundamental Distinction</h2>
       <p>
-        Tooth discolouration falls into two distinct categories, and the
-        distinction is critical when deciding between whitening and veneers.
+        Every case of tooth discolouration falls into one of two categories.
+        Understanding which one applies to you determines the entire treatment
+        pathway.
+      </p>
+      <p>
+        <strong>Extrinsic staining</strong> sits on or within the outer enamel
+        surface. It is caused by external agents — food, drink, tobacco — that
+        deposit chromogens (colour molecules) onto the tooth. These stains
+        respond well to professional cleaning and chemical bleaching because
+        the bleaching agent can reach and oxidise the chromogens.
+      </p>
+      <p>
+        <strong>Intrinsic staining</strong> originates from within the tooth
+        structure itself — in the dentine or even the pulp. It is caused by
+        factors such as tetracycline antibiotics, fluorosis, dental trauma,
+        root canal treatment, or the natural darkening of dentine with age.
+        Because the discolouration is embedded within the tooth, surface-level
+        bleaching cannot reach it.
       </p>
 
-      <h3>Extrinsic Staining (Surface)</h3>
+      <ComparisonTable
+        title1="Extrinsic Staining"
+        title2="Intrinsic Staining"
+        rows={[
+          [
+            "Coffee & tea",
+            "Brown/yellow surface deposits, typically uniform",
+            "Not applicable — does not cause intrinsic discolouration",
+          ],
+          [
+            "Red wine & berries",
+            "Purple-grey surface staining, especially between teeth",
+            "Not applicable",
+          ],
+          [
+            "Tobacco / smoking",
+            "Yellow-brown tar deposits on enamel",
+            "Not applicable",
+          ],
+          [
+            "Tetracycline antibiotics",
+            "Not applicable",
+            "Grey-brown horizontal banding within dentine; permanent",
+          ],
+          [
+            "Fluorosis",
+            "Not applicable",
+            "White spots or brown pitting from excess fluoride during development",
+          ],
+          [
+            "Dental trauma",
+            "Not applicable",
+            "Grey or dark discolouration from pulp necrosis or internal bleeding",
+          ],
+          [
+            "Root canal treatment",
+            "Not applicable",
+            "Gradual darkening as devitalised tooth loses hydration",
+          ],
+          [
+            "Ageing",
+            "Cumulative surface staining over decades",
+            "Dentine naturally yellows and thins enamel becomes more translucent",
+          ],
+          [
+            "Poor oral hygiene",
+            "Plaque and calculus deposits create yellow-brown coating",
+            "Not applicable — oral hygiene does not cause intrinsic change",
+          ],
+        ]}
+      />
+
+      <Divider />
+
+      <h2>When Whitening Works — and When It Does Not</h2>
       <p>
-        Extrinsic stains sit on the outer enamel surface and are caused by
-        external factors:
+        Professional tooth whitening uses hydrogen peroxide or carbamide
+        peroxide to break down chromogenic molecules through oxidation. When
+        the staining is extrinsic, the results can be dramatic — often
+        lifting teeth by six to eight shades in a single session.
+      </p>
+      <p>
+        Whitening works well for:
       </p>
       <ul>
-        <li>Coffee, tea, and red wine consumption</li>
-        <li>Tobacco use — both smoking and chewing</li>
-        <li>Highly pigmented foods such as berries, curry, and soy sauce</li>
-        <li>Poor oral hygiene allowing plaque and tartar build-up</li>
-        <li>Chlorhexidine mouthwash and iron supplements</li>
+        <li>Coffee, tea, and red wine staining</li>
+        <li>Tobacco discolouration</li>
+        <li>General age-related yellowing (where the enamel is intact)</li>
+        <li>Mild, uniform surface staining from food and drink</li>
       </ul>
-
-      <h3>Intrinsic Staining (Structural)</h3>
       <p>
-        Intrinsic stains originate from within the tooth structure and are
-        significantly more difficult — or impossible — to remove with
-        whitening alone:
-      </p>
-      <ul>
-        <li>
-          <strong>Tetracycline antibiotics:</strong> Taken during childhood,
-          these can cause deep grey, brown, or blue-grey banding within the
-          tooth.
-        </li>
-        <li>
-          <strong>Fluorosis:</strong> Excessive fluoride exposure during
-          development causes white spots or brown mottling.
-        </li>
-        <li>
-          <strong>Dental trauma:</strong> A knocked or damaged tooth can darken
-          over time as the nerve tissue breaks down.
-        </li>
-        <li>
-          <strong>Root canal treatment:</strong> Teeth that have had root canal
-          therapy often darken gradually due to changes in the internal
-          structure.
-        </li>
-        <li>
-          <strong>Ageing:</strong> The enamel thins naturally over time,
-          revealing more of the yellower dentine beneath.
-        </li>
-        <li>
-          <strong>Genetic factors:</strong> Some people are born with naturally
-          thinner or more translucent enamel, resulting in a darker appearance.
-        </li>
-      </ul>
-
-      <h2>Teeth Whitening: What it Can and Cannot Do</h2>
-
-      <h3>When Whitening Works Well</h3>
-      <p>
-        Professional teeth whitening is highly effective in the following
-        situations:
-      </p>
-      <ul>
-        <li>Uniform yellowing caused by food and drink staining</li>
-        <li>Age-related yellowing where enamel is still of reasonable thickness</li>
-        <li>Mild extrinsic staining from tea, coffee, or wine</li>
-        <li>Patients with no previous dental restorations on visible teeth</li>
-        <li>Those seeking a subtle, natural-looking brightness boost</li>
-      </ul>
-
-      <h3>When Whitening Will Not Work</h3>
-      <p>
-        Whitening has clear limitations. It will not be effective for:
-      </p>
-      <ul>
-        <li>Tetracycline or antibiotic staining — the discolouration is embedded within the tooth structure</li>
-        <li>Grey or blue-grey teeth — these shades do not respond to peroxide-based bleaching agents</li>
-        <li>Teeth with large existing restorations — crowns, veneers, and fillings do not whiten</li>
-        <li>Severe fluorosis with brown or pitted enamel</li>
-        <li>Teeth darkened by trauma or root canal treatment</li>
-      </ul>
-
-      <h2>Porcelain Veneers: The Solution for Deep Discolouration</h2>
-      <p>
-        When whitening reaches its limits, porcelain veneers offer a
-        definitive solution. Custom-crafted by our ceramist Alan Domingues,
-        each veneer is designed to achieve the precise shade, translucency, and
-        surface texture you desire.
-      </p>
-      <ul>
-        <li>
-          <strong>Complete colour control:</strong> Veneers can mask any
-          underlying discolouration, including tetracycline banding and
-          grey teeth.
-        </li>
-        <li>
-          <strong>Permanent stain resistance:</strong> Porcelain does not
-          absorb stains the way natural enamel or composite resin does.
-        </li>
-        <li>
-          <strong>Natural light dynamics:</strong> High-quality porcelain
-          mimics the way natural teeth interact with light, creating a
-          lifelike appearance.
-        </li>
-        <li>
-          <strong>Shape correction included:</strong> Veneers simultaneously
-          address colour, shape, size, and minor alignment issues.
-        </li>
-        <li>
-          <strong>Long-lasting results:</strong> With proper care, porcelain
-          veneers last 15–20+ years without discolouration.
-        </li>
-      </ul>
-
-      <h2>Understanding the Cost Difference</h2>
-      <p>
-        Both treatments represent an investment in your confidence and
-        appearance, but they sit at different price points:
+        Whitening does <strong>not</strong> work well for:
       </p>
       <ul>
         <li>
-          <strong>Professional teeth whitening:</strong> £395–£795 at
-          Denstudio. We offer a white teeth or money back guarantee — if you
-          are not satisfied with the shade improvement, we will refund your
-          treatment cost.
+          Tetracycline banding — the stain is within the dentine and cannot be
+          reached by surface bleaching agents
         </li>
         <li>
-          <strong>Porcelain veneers:</strong> £1,200 per tooth, hand-crafted
-          by Alan Domingues to your exact specifications.
+          Fluorosis — white spots may become more conspicuous after whitening,
+          as the surrounding enamel lightens but the fluorotic areas remain
         </li>
         <li>
-          <strong>Porcelain Smile Makeover:</strong> From £9,990 for 10
-          veneers — a comprehensive transformation for patients seeking a
-          complete new smile.
+          Trauma-related greying — discolouration from pulp necrosis or
+          internal resorption does not respond to external bleaching
+        </li>
+        <li>
+          Root-treated teeth — internal bleaching can help in some cases, but
+          external whitening alone is rarely sufficient
+        </li>
+        <li>
+          Existing restorations — crowns, veneers, and composite bonding do
+          not change colour with bleaching, creating a mismatch
         </li>
       </ul>
 
-      <h2>How Dr. Denzel Decides: The 6-Step Diagnostic Process</h2>
+      <Callout variant="pine">
+        <strong>Denstudio Whitening Guarantee:</strong> We offer a
+        money-back guarantee on our professional whitening treatments. If
+        your teeth do not lighten by the agreed number of shades, we will
+        refund the treatment fee in full. This is only possible because we
+        diagnose the type of staining before recommending whitening — we
+        never recommend it when we know it will not work.
+      </Callout>
+
+      <Divider />
+
+      <h2>When Porcelain Veneers Are the Answer</h2>
       <p>
-        At Denstudio, the recommendation is never made on assumption. Dr.
-        Denzel follows a rigorous six-step diagnostic process:
+        For intrinsic staining that does not respond to whitening, porcelain
+        veneers offer a definitive solution. A veneer is a thin shell of
+        ceramic — typically 0.3 to 0.5 mm thick — that is bonded to the
+        front surface of the tooth, completely masking the underlying
+        discolouration.
       </p>
-      <ol>
+      <p>
+        Veneers are the treatment of choice when:
+      </p>
+      <ul>
         <li>
-          <strong>Visual examination:</strong> Assessing the type, pattern,
-          and severity of discolouration under clinical lighting.
+          The staining is intrinsic and will not respond to bleaching
         </li>
         <li>
-          <strong>Dental history review:</strong> Understanding any history of
-          medication, trauma, or previous dental treatment that may have
-          caused the staining.
+          The patient wants to address both colour and shape simultaneously
         </li>
         <li>
-          <strong>Shade analysis:</strong> Using a professional shade guide
-          and digital photography to document your current tooth colour
-          precisely.
+          Existing restorations create a colour mismatch that whitening would
+          worsen
         </li>
         <li>
-          <strong>Enamel assessment:</strong> Evaluating enamel thickness and
-          quality to determine whether whitening can achieve a meaningful
-          result.
+          The tooth structure is compromised (worn, chipped, or uneven) and
+          needs both aesthetic and structural rehabilitation
+        </li>
+      </ul>
+      <p>
+        At Denstudio, Dr Denzel uses hand-layered feldspathic porcelain for
+        anterior veneers, building colour, translucency, and surface texture
+        layer by layer to replicate the optical properties of natural enamel.
+        The result is a restoration that looks like a tooth — not like a
+        restoration.
+      </p>
+
+      <Divider />
+
+      <h2>Cost Comparison: Whitening vs Veneers</h2>
+      <p>
+        Cost is always a factor, and transparency matters. Here is an honest
+        comparison of what each treatment costs at Denstudio, along with what
+        you can expect in terms of longevity and maintenance.
+      </p>
+
+      <DataTable
+        caption="Pricing and Value Comparison"
+        headers={["Factor", "Professional Whitening", "Porcelain Veneers"]}
+        rows={[
+          [
+            "Cost",
+            "\u00a3395 \u2013 \u00a3795 (depending on system)",
+            "From \u00a31,200 per tooth",
+          ],
+          [
+            "Treatment time",
+            "1 \u2013 2 appointments",
+            "2 \u2013 3 appointments over 2 \u2013 3 weeks",
+          ],
+          [
+            "Longevity",
+            "12 \u2013 24 months before touch-up needed",
+            "15 \u2013 25 years with proper care",
+          ],
+          [
+            "What it corrects",
+            "Extrinsic staining and mild yellowing only",
+            "Any discolouration, plus shape, alignment, and proportion",
+          ],
+          [
+            "Tooth preparation",
+            "None \u2014 completely non-invasive",
+            "Minimal \u2014 0.3 to 0.5 mm of enamel removed",
+          ],
+          [
+            "Reversibility",
+            "Fully reversible",
+            "Not reversible \u2014 tooth is permanently altered",
+          ],
+          [
+            "Maintenance",
+            "Periodic top-up trays; avoid staining agents for 48 hours post-treatment",
+            "Normal oral hygiene; avoid biting hard objects directly",
+          ],
+          [
+            "Best for",
+            "Healthy teeth with surface staining and no structural concerns",
+            "Intrinsic staining, worn or damaged teeth, or patients wanting a comprehensive smile transformation",
+          ],
+        ]}
+      />
+
+      <Divider />
+
+      <h2>The Diagnostic Process at Denstudio</h2>
+      <p>
+        We never recommend a treatment until we have diagnosed the problem.
+        Every new patient presenting with discolouration receives:
+      </p>
+      <ul>
+        <li>
+          <strong>Shade assessment</strong> — using a calibrated digital shade
+          guide under standardised lighting to objectively measure current
+          tooth colour
         </li>
         <li>
-          <strong>Treatment simulation:</strong> Showing you predicted
-          outcomes for both whitening and veneer options using digital smile
-          design.
+          <strong>Staining classification</strong> — determining whether
+          discolouration is extrinsic, intrinsic, or a combination
         </li>
         <li>
-          <strong>Personalised recommendation:</strong> Presenting a clear,
-          honest assessment of which treatment — or combination — will deliver
-          the result you are looking for.
+          <strong>Periapical radiographs</strong> — to check for root canal
+          status, internal resorption, or other pathology causing
+          discolouration
         </li>
-      </ol>
-
-      <h2>Frequently Asked Questions</h2>
-
-      <h3>Can whitening help with tetracycline staining?</h3>
+        <li>
+          <strong>Existing restoration mapping</strong> — identifying any
+          crowns, veneers, or bonding that will not respond to whitening
+        </li>
+        <li>
+          <strong>Treatment simulation</strong> — showing the patient a
+          digital preview of the expected whitening result or veneer outcome
+          before any commitment is made
+        </li>
+      </ul>
       <p>
-        In mild cases, extended whitening protocols can lighten tetracycline
-        staining to some degree, but the results are often uneven and limited.
-        For moderate to severe tetracycline discolouration, porcelain veneers
-        remain the most reliable and predictable solution.
+        This diagnostic rigour is why our whitening patients get the results
+        they expect, and why our veneer patients are never surprised by the
+        outcome.
       </p>
 
-      <h3>I have one grey tooth — do I need veneers on all my teeth?</h3>
+      <Divider />
+
       <p>
-        Not necessarily. A single porcelain veneer can be colour-matched to
-        your surrounding teeth to blend seamlessly. Alternatively, internal
-        bleaching may be an option if the discolouration is due to a previous
-        root canal treatment. Dr. Denzel will assess the best approach for
-        your specific situation.
+        Not sure whether whitening or veneers is right for you? The answer
+        starts with a proper diagnosis.{" "}
+        <Link href="/contact-us">Book a consultation</Link> at Denstudio on
+        Harley Street and find out exactly what your teeth need — no guesswork,
+        no wasted money.
       </p>
 
-      <h3>Is teeth whitening safe for enamel?</h3>
-      <p>
-        Yes. Professional whitening performed under dental supervision is safe
-        and does not damage healthy enamel. The hydrogen peroxide or carbamide
-        peroxide gels used at Denstudio are clinically proven and applied at
-        concentrations that are effective yet gentle.
-      </p>
+      <AuthorBio />
+      <ClinicalDisclaimer />
 
-      <h3>How long do porcelain veneers last?</h3>
-      <p>
-        With good oral hygiene and regular dental check-ups, porcelain veneers
-        typically last 15–20+ years. Many patients at Denstudio have veneers
-        that are well over a decade old and still look beautiful.
-      </p>
-
-      <h3>Can I whiten my teeth first and then decide about veneers?</h3>
-      <p>
-        This is a common and sensible approach. Whitening your natural teeth
-        first establishes the lightest shade achievable. If you are happy with
-        the result, no further treatment is needed. If certain teeth remain
-        discoloured, veneers can then be placed and matched to your newly
-        whitened shade. Dr. Denzel often recommends this sequential approach.
-      </p>
+      <Sources
+        items={[
+          "Joiner, A. 'The bleaching of teeth: a review of the literature.' Journal of Dentistry, 2006.",
+          "Carey, C.M. 'Tooth whitening: what we now know.' Journal of Evidence-Based Dental Practice, 2014.",
+          "Pini, N.I.P. et al. 'Enamel microabrasion: an overview of clinical and scientific considerations.' World Journal of Clinical Cases, 2015.",
+          "Lopes, G.C. et al. 'Dental adhesion to enamel and dentin: a review.' Dental Materials, 2019.",
+          "Sadowsky, S.J. 'An overview of treatment considerations for esthetic restorations: a review of the literature.' Journal of Prosthetic Dentistry, 2006.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

@@ -1,6 +1,16 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
@@ -23,6 +33,13 @@ export default function TurkeyTeethRisksPage() {
         — both financial and dental — is often devastating.
       </p>
 
+      <StatBox value="86%" label="needed corrective treatment back in the UK">
+        According to the British Dental Association, 86% of patients who had
+        dental work carried out abroad required corrective treatment once they
+        returned to the UK — often at a cost that far exceeded what they
+        originally saved.
+      </StatBox>
+
       <h2>What Are Turkey Teeth?</h2>
       <p>
         Turkey teeth refers to the overly uniform, bright-white dental crowns
@@ -34,10 +51,30 @@ export default function TurkeyTeethRisksPage() {
       <p>
         In many cases, what patients believe are &quot;veneers&quot; are
         actually <strong>full-coverage crowns</strong>. This distinction matters
-        enormously: a veneer requires removing 0.3–0.5 mm of enamel, while a
-        crown demands removing 1.5–2 mm of tooth structure from{" "}
-        <em>all surfaces</em>. That level of reduction is irreversible.
+        enormously:
       </p>
+
+      <ComparisonTable
+        title1="Porcelain Veneer"
+        title2="Full Crown (commonly used abroad)"
+        rows={[
+          ["Tooth reduction", "0.3–0.5 mm from front surface only", "1.5–2 mm from all surfaces"],
+          ["Enamel preserved", "Most enamel retained", "All enamel removed — tooth filed to a peg"],
+          ["Reversibility", "Mostly reversible with bonding", "Completely irreversible"],
+          ["Nerve risk", "Very low", "Significant — can breach pulp chamber"],
+          ["Lifespan", "15–20 years with proper care", "5–15 years, often less with poor fit"],
+          ["When appropriate", "Cosmetic improvement of front teeth", "Structurally damaged or heavily restored teeth"],
+          ["Typical UK cost", "£600–£1,200 per tooth", "£400–£900 per tooth"],
+        ]}
+      />
+
+      <Callout variant="warning">
+        <strong>Veneers vs crowns — why it matters:</strong> A veneer requires
+        removing a thin layer from the front of the tooth. A crown demands
+        removing tooth structure from <em>all surfaces</em>, reducing the tooth
+        to a small peg. Once that structure is gone, it cannot be replaced. The
+        patient is committed to a lifetime of restorative cycles.
+      </Callout>
 
       <h2>Why the Risks Are Serious</h2>
       <h3>Aggressive Enamel Removal</h3>
@@ -50,34 +87,43 @@ export default function TurkeyTeethRisksPage() {
       </p>
 
       <h2>What Can Go Wrong</h2>
-      <ul>
-        <li>
-          <strong>Poor fit and open margins</strong> — allowing bacteria to
-          enter beneath the restoration, causing decay that is difficult to
-          detect until it becomes severe.
-        </li>
-        <li>
-          <strong>Nerve damage and tooth death</strong> — aggressive preparation
-          can breach the pulp chamber or cause irreversible pulpitis, leading to
-          root canal treatment or extraction.
-        </li>
-        <li>
-          <strong>Veneers and crowns falling off</strong> — substandard bonding
-          protocols and poor-quality materials result in restorations that
-          debond within months.
-        </li>
-        <li>
-          <strong>Bite problems</strong> — rushed treatment without proper
-          occlusal analysis can leave the bite unbalanced, causing jaw pain,
-          headaches, and accelerated wear.
-        </li>
-        <li>
-          <strong>No follow-up care</strong> — when complications arise back in
-          the UK, patients have no recourse with the overseas clinic. UK
-          dentists are then left to manage problems they did not create, often
-          at significant cost.
-        </li>
-      </ul>
+
+      <DataTable
+        caption="Common Problems After Dental Work Abroad"
+        headers={["Problem", "What Happens", "Consequence"]}
+        rows={[
+          [
+            "Poor fit and open margins",
+            "Bacteria enter beneath the restoration through gaps",
+            "Hidden decay, infection, and bad breath that is difficult to detect until severe",
+          ],
+          [
+            "Nerve damage and tooth death",
+            "Aggressive preparation breaches the pulp chamber or causes irreversible pulpitis",
+            "Root canal treatment required or tooth must be extracted",
+          ],
+          [
+            "Debonding",
+            "Substandard bonding protocols and poor-quality materials",
+            "Crowns and veneers fall off within months, exposing damaged tooth underneath",
+          ],
+          [
+            "Bite problems",
+            "Rushed treatment without proper occlusal analysis",
+            "Jaw pain, headaches, TMJ dysfunction, and accelerated wear on remaining teeth",
+          ],
+          [
+            "No follow-up care",
+            "Overseas clinic offers no ongoing support once patient returns to UK",
+            "UK dentist must manage problems they did not create, often at significant cost",
+          ],
+          [
+            "Gum recession",
+            "Over-contoured crowns irritate and push back the gum tissue",
+            "Exposed margins, aesthetic deterioration, and increased sensitivity",
+          ],
+        ]}
+      />
 
       <h2>What the BDA Found</h2>
       <p>
@@ -100,6 +146,16 @@ export default function TurkeyTeethRisksPage() {
           preparation.
         </li>
       </ul>
+
+      <Callout>
+        <strong>The hidden cost:</strong> Patients who travel abroad for dental
+        work often end up spending significantly more in total — once the cost
+        of flights, accommodation, corrective treatment in the UK, and
+        potential emergency care is factored in — than they would have spent on
+        properly planned treatment at home.
+      </Callout>
+
+      <Divider />
 
       <h2>What to Do If You Already Have Turkey Teeth</h2>
       <p>
@@ -166,6 +222,18 @@ export default function TurkeyTeethRisksPage() {
         second opinion,{" "}
         <Link href="/contact-us">book a consultation at Denstudio</Link>.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "British Dental Association. Dental tourism: risks and realities (2023).",
+          "BDA survey: 86% of patients who had dental work abroad needed corrective treatment in the UK.",
+          "General Dental Council. Standards for the Dental Team — informed consent guidance.",
+          "Completion of laboratory-fabricated restorations. British Dental Journal (2019).",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

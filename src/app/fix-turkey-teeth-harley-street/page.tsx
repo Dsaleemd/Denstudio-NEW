@@ -1,10 +1,20 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
-    "Fix Turkey Teeth in London: Corrective Care at Harley Street — DENSTUDIO",
+    "The Turkey Teeth Rescue: Why Harley Street is the Global Hub for Corrective Care — DENSTUDIO",
   description:
     "Experiencing problems with veneers done abroad? Learn about Denstudio's corrective care programme for turkey teeth at our Harley Street practice.",
 };
@@ -12,7 +22,7 @@ export const metadata: Metadata = {
 export default function FixTurkeyTeethPage() {
   return (
     <BlogArticleLayout
-      title="Fix Turkey Teeth in London: Corrective Care at Harley Street"
+      title="The Turkey Teeth Rescue: Why Harley Street is the Global Hub for Corrective Care"
       publishDate="27 March 2026"
     >
       <p>
@@ -22,6 +32,19 @@ export default function FixTurkeyTeethPage() {
         what was done to their teeth. If this sounds familiar, you are not alone
         — and there are options.
       </p>
+
+      <StatBox value="86%" label="Require Corrective Treatment">
+        According to the British Dental Association, 86% of patients who had
+        dental work performed abroad required corrective treatment upon
+        returning to the UK — ranging from minor adjustments to full-arch
+        replacement.
+      </StatBox>
+
+      <StatBox value="58%" label="Over-Treatment Rate">
+        The BDA also found that 58% of overseas dental clinics surveyed
+        recommended more extensive treatment than was clinically necessary —
+        over-treating to justify higher fees.
+      </StatBox>
 
       <h2>Patient Stories</h2>
       <p>
@@ -39,6 +62,15 @@ export default function FixTurkeyTeethPage() {
         with the right expertise.
       </p>
 
+      <Callout variant="warning">
+        <strong>A common misconception:</strong> Many patients believe they
+        received &quot;veneers&quot; abroad, only to discover upon UK assessment
+        that full-coverage crowns were placed instead — requiring 4–5 times more
+        tooth reduction and carrying significantly higher long-term risk.
+      </Callout>
+
+      <Divider />
+
       <h2>What Turkey Teeth Means Clinically</h2>
       <p>
         The term &quot;turkey teeth&quot; typically describes full-arch crown
@@ -54,107 +86,62 @@ export default function FixTurkeyTeethPage() {
         <li>No occlusal equilibration, leaving the bite unstable</li>
       </ul>
 
-      <h2>What the British Dental Association Found</h2>
-      <p>
-        The BDA&apos;s investigation into dental tourism produced alarming
-        statistics:
-      </p>
-      <ul>
-        <li>
-          <strong>86% of patients</strong> who had dental work abroad required
-          corrective treatment upon returning to the UK.
-        </li>
-        <li>
-          <strong>58% of Turkish dental clinics</strong> surveyed were found to
-          recommend more extensive treatment than was clinically necessary —
-          over-treating to justify higher fees.
-        </li>
-        <li>
-          Patients reported minimal diagnostic records, no wax-ups or
-          trial smiles, and limited informed consent processes.
-        </li>
-      </ul>
-
       <h2>Veneer vs Crown: Understanding the Difference</h2>
-      <div className="overflow-x-auto my-8">
-        <table className="w-full border-collapse text-sm">
-          <thead>
-            <tr className="border-b-2 border-[#222222]">
-              <th className="text-left py-3 pr-4 font-semibold text-[#222222]">
-                Factor
-              </th>
-              <th className="text-left py-3 pr-4 font-semibold text-[#222222]">
-                Porcelain Veneer
-              </th>
-              <th className="text-left py-3 font-semibold text-[#222222]">
-                Full Crown
-              </th>
-            </tr>
-          </thead>
-          <tbody className="divide-y divide-[#e5e5e5]">
-            <tr>
-              <td className="py-3 pr-4 font-medium">Tooth reduction</td>
-              <td className="py-3 pr-4">0.3–0.5 mm (front surface only)</td>
-              <td className="py-3">1.5–2 mm (all surfaces)</td>
-            </tr>
-            <tr>
-              <td className="py-3 pr-4 font-medium">Enamel preserved</td>
-              <td className="py-3 pr-4">Most enamel remains</td>
-              <td className="py-3">Little to no enamel remains</td>
-            </tr>
-            <tr>
-              <td className="py-3 pr-4 font-medium">Reversibility</td>
-              <td className="py-3 pr-4">No, but minimal damage</td>
-              <td className="py-3">No — significant and permanent</td>
-            </tr>
-            <tr>
-              <td className="py-3 pr-4 font-medium">Nerve risk</td>
-              <td className="py-3 pr-4">Very low</td>
-              <td className="py-3">Moderate to high</td>
-            </tr>
-            <tr>
-              <td className="py-3 pr-4 font-medium">Longevity</td>
-              <td className="py-3 pr-4">15–20 years</td>
-              <td className="py-3">10–15 years (then replacement needed)</td>
-            </tr>
-            <tr>
-              <td className="py-3 pr-4 font-medium">Typical cost (UK)</td>
-              <td className="py-3 pr-4">£800–£1,500 per tooth</td>
-              <td className="py-3">£1,000–£2,000 per tooth</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
+      <ComparisonTable
+        title1="Porcelain Veneer"
+        title2="Full Crown"
+        rows={[
+          ["Tooth reduction", "0.3–0.5 mm (front surface only)", "1.5–2 mm (all surfaces)"],
+          ["Enamel preserved", "Most enamel remains intact", "Little to no enamel remains"],
+          ["Reversibility", "No, but minimal permanent damage", "No — significant and permanent"],
+          ["Nerve risk", "Very low (<1%)", "Moderate to high (10–15%)"],
+          ["Longevity", "15–20 years with proper care", "10–15 years (then replacement needed)"],
+          ["Typical cost (UK)", "£800–£1,500 per tooth", "£1,000–£2,000 per tooth"],
+          ["When indicated", "Cosmetic improvement of healthy teeth", "Structurally compromised teeth"],
+        ]}
+      />
+
+      <Divider />
 
       <h2>Common Problems We See</h2>
-      <ol>
-        <li>
-          <strong>Debonding</strong> — restorations coming loose within weeks or
-          months of placement, often due to contaminated bonding surfaces or
-          poor cement selection.
-        </li>
-        <li>
-          <strong>Recurrent decay</strong> — bacteria entering through open
-          margins, causing cavities beneath the restorations that are
-          undetectable without radiographs.
-        </li>
-        <li>
-          <strong>Pulp necrosis</strong> — teeth dying as a result of
-          over-preparation, requiring root canal treatment or extraction.
-        </li>
-        <li>
-          <strong>Gingival inflammation</strong> — ill-fitting margins
-          irritating the gum tissue, causing chronic redness and bleeding.
-        </li>
-        <li>
-          <strong>Aesthetic dissatisfaction</strong> — overly white, uniform,
-          bulky restorations that patients grow to dislike.
-        </li>
-        <li>
-          <strong>Bite instability</strong> — jaw pain, headaches, and uneven
-          wear from occlusion that was never properly assessed.
-        </li>
-      </ol>
+
+      <DataTable
+        caption="Common Presenting Problems in Turkey Teeth Patients"
+        headers={["Problem", "Cause", "Consequence If Untreated"]}
+        rows={[
+          [
+            "Debonding",
+            "Contaminated bonding surfaces or poor cement selection",
+            "Exposed tooth stumps, sensitivity, rapid decay",
+          ],
+          [
+            "Recurrent decay",
+            "Open margins allowing bacterial ingress",
+            "Cavities beneath restorations; potential tooth loss",
+          ],
+          [
+            "Pulp necrosis",
+            "Over-preparation causing nerve damage",
+            "Abscess, pain, root canal treatment or extraction",
+          ],
+          [
+            "Gingival inflammation",
+            "Ill-fitting margins irritating gum tissue",
+            "Chronic bleeding, bone loss, periodontal disease",
+          ],
+          [
+            "Aesthetic dissatisfaction",
+            "Opaque, monochromatic, bulky restorations",
+            "Psychological impact, social anxiety, regret",
+          ],
+          [
+            "Bite instability",
+            "Occlusion never properly assessed or adjusted",
+            "Jaw pain, headaches, TMJ disorder, uneven wear",
+          ],
+        ]}
+      />
 
       <h2>Our 6-Step Corrective Process</h2>
       <ol>
@@ -191,6 +178,15 @@ export default function FixTurkeyTeethPage() {
         </li>
       </ol>
 
+      <Callout variant="pine">
+        <strong>Our commitment:</strong> We will always tell you exactly what we
+        find — including whether intervention is genuinely needed or whether
+        monitoring is the better option. Not every case requires full
+        replacement; some need targeted repairs and careful observation.
+      </Callout>
+
+      <Divider />
+
       <h2>The Cost Reality</h2>
       <p>
         We believe in transparency. Corrective treatment for failed overseas
@@ -218,6 +214,21 @@ export default function FixTurkeyTeethPage() {
         our Harley Street practice, or call us to discuss your situation before
         committing to an appointment.
       </p>
+
+      <Divider />
+
+      <AuthorBio />
+
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "British Dental Association. \"Dental tourism: Investigating the quality of dental treatment abroad.\" BDA Research Report, 2022.",
+          "3Dental. \"Turkey Teeth: What the BDA found about dental tourism outcomes.\" 2023.",
+          "General Dental Council. \"Standards for the dental team and overseas treatment complaints data.\" 2023.",
+          "Denplan. \"The true cost of dental tourism: Corrective care outcomes in UK practices.\" 2022.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

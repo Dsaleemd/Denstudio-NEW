@@ -1,5 +1,15 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
@@ -23,33 +33,46 @@ export default function NhsVsPrivateDentistPage() {
         what is right for you.
       </p>
 
+      <StatBox value="90%" label="of NHS dentists not accepting new adult patients">
+        The British Dental Association has reported that in many areas of
+        England, the vast majority of NHS dental practices are unable to take
+        on new adult patients — creating a growing access crisis that affects
+        millions.
+      </StatBox>
+
       <h2>How NHS Dentistry Works</h2>
       <p>
         NHS dental care is subsidised by the government and designed to
         provide essential treatments at an affordable cost. It operates on a
-        banding system with three price tiers:
+        banding system with three price tiers (England, as of 2024/25):
       </p>
 
-      <h3>Band 1 — Approximately £26.80</h3>
-      <p>
-        Covers an examination, diagnosis, and advice. This may also include
-        X-rays, scale and polish if clinically necessary, and planning for
-        further treatment. This is your standard check-up appointment.
-      </p>
-
-      <h3>Band 2 — Approximately £73.50</h3>
-      <p>
-        Includes everything in Band 1 plus additional treatment such as
-        fillings, root canal treatment, or tooth extractions. This is the
-        most common band for patients who need active treatment.
-      </p>
-
-      <h3>Band 3 — Approximately £319.10</h3>
-      <p>
-        Includes everything in Bands 1 and 2 plus more complex procedures
-        such as crowns, dentures, and bridges. This is the highest charge
-        under the NHS system.
-      </p>
+      <DataTable
+        caption="NHS Dental Banding System (England 2024/25)"
+        headers={["Band", "Cost", "What It Covers"]}
+        rows={[
+          [
+            "Band 1",
+            "~£26.80",
+            "Examination, diagnosis, advice, X-rays, scale and polish if clinically necessary, treatment planning",
+          ],
+          [
+            "Band 2",
+            "~£73.50",
+            "Everything in Band 1 plus fillings, root canal treatment, extractions",
+          ],
+          [
+            "Band 3",
+            "~£319.10",
+            "Everything in Bands 1 and 2 plus crowns, dentures, bridges",
+          ],
+          [
+            "Urgent",
+            "~£26.80",
+            "Emergency examination and treatment to address immediate pain or infection",
+          ],
+        ]}
+      />
 
       <p>
         Certain groups are exempt from NHS charges, including children under
@@ -58,11 +81,6 @@ export default function NhsVsPrivateDentistPage() {
       </p>
 
       <h2>The Real Limitations of NHS Dentistry</h2>
-      <p>
-        While NHS dentistry serves an essential role in providing affordable
-        basic care, it has well-documented limitations that affect the
-        patient experience:
-      </p>
 
       <h3>Availability</h3>
       <p>
@@ -97,12 +115,30 @@ export default function NhsVsPrivateDentistPage() {
         affect the continuity of your care over time.
       </p>
 
+      <Divider />
+
       <h2>What Private Dentistry Offers</h2>
       <p>
         Private dental care operates outside the NHS system and is funded
         entirely by the patient (or through dental insurance or finance
         plans). The key advantages include:
       </p>
+
+      <ComparisonTable
+        title1="NHS Dentistry"
+        title2="Private Dentistry"
+        rows={[
+          ["Appointment length", "10–15 minutes", "45–90 minutes"],
+          ["Waiting time for new patients", "Weeks to months (if available)", "Usually within days"],
+          ["Treatment range", "Clinically necessary only", "Full range including cosmetic"],
+          ["Materials", "Standard (e.g. amalgam fillings)", "Premium (e.g. porcelain, composite)"],
+          ["Continuity", "May see different dentists", "Same clinician every visit"],
+          ["Cosmetic options", "Not available", "Veneers, whitening, bonding, aligners"],
+          ["Technology", "Basic imaging", "Digital scanning, smile design software"],
+          ["Environment", "Clinical, high-throughput", "Private, calm, patient-centred"],
+          ["Cost (check-up)", "~£26.80", "£50–£200 depending on practice"],
+        ]}
+      />
 
       <h3>Time and Attention</h3>
       <p>
@@ -151,19 +187,14 @@ export default function NhsVsPrivateDentistPage() {
         enhances diagnostic accuracy and treatment precision.
       </p>
 
-      <h2>Can You Use Both NHS and Private?</h2>
-      <p>
-        Yes. Many patients use NHS dentistry for routine check-ups and basic
-        treatments while choosing a private dentist for cosmetic work or more
-        complex care. There is no rule preventing you from being registered
-        with an NHS dentist and also seeing a private dentist.
-      </p>
-      <p>
-        However, it is important to understand that you cannot mix NHS and
-        private care within the same course of treatment. If a treatment is
-        started under the NHS, it must be completed under the NHS; and vice
-        versa.
-      </p>
+      <Callout>
+        <strong>You can use both.</strong> Many patients use NHS dentistry for
+        routine check-ups and basic treatments while choosing a private dentist
+        for cosmetic work or more complex care. There is no rule preventing you
+        from being registered with an NHS dentist and also seeing a private
+        dentist. However, you cannot mix NHS and private care within the same
+        course of treatment.
+      </Callout>
 
       <h2>Why Patients Choose Denstudio</h2>
       <p>
@@ -214,6 +245,8 @@ export default function NhsVsPrivateDentistPage() {
         been.
       </p>
 
+      <Divider />
+
       <h2>Frequently Asked Questions</h2>
 
       <h3>Is private dentistry better than NHS?</h3>
@@ -258,6 +291,18 @@ export default function NhsVsPrivateDentistPage() {
         practice, which allows us to dedicate the time and resources needed
         to deliver the highest standard of care to every patient.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "NHS England. NHS dental charges from April 2024.",
+          "British Dental Association. Access to NHS dental care — survey findings (2023–2024).",
+          "Healthwatch England. Dentistry During COVID-19 and Beyond: The patient perspective.",
+          "NHS Digital. NHS Dental Statistics for England, 2023–24.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

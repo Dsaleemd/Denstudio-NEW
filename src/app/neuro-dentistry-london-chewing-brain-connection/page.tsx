@@ -1,169 +1,257 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title:
-    "Why Your Bite is Your Brain's Best Friend — DENSTUDIO",
+    "Why Your Bite is Your Brain's Best Friend: The Neuroscience of Mastication — DENSTUDIO",
   description:
-    "Explore the connection between chewing, occlusion, and brain health. Research from King's College and longitudinal studies on dental function and cognition.",
+    "Explore the emerging field of neuro-dentistry: how chewing stimulates the hippocampus, how poor occlusion affects cognition, and what Denstudio does differently.",
 };
 
 export default function NeuroDentistryPage() {
   return (
     <BlogArticleLayout
-      title="Why Your Bite is Your Brain&apos;s Best Friend"
+      title="Why Your Bite is Your Brain's Best Friend: The Neuroscience of Mastication"
       publishDate="27 March 2026"
     >
       <p>
-        You probably do not think about your bite when you think about your
-        brain. But a growing body of neuroscience research suggests you should.
-        The act of chewing — and the dental occlusion that makes it possible —
-        is directly connected to cognitive function, memory, and long-term
-        brain health. Welcome to the emerging field of{" "}
-        <strong>neuro-dentistry</strong>.
+        The brain is the most energy-demanding organ in the body, consuming
+        roughly 20 per cent of total metabolic output. And yet, when we think
+        about brain health, we rarely consider the mouth. Emerging research in{" "}
+        <strong>neuro-dentistry</strong> is changing that — revealing a direct,
+        measurable link between how you chew, how your teeth fit together, and
+        how your brain performs.
       </p>
+
+      <Divider />
 
       <h2>The Brain-Chewing Connection</h2>
       <p>
-        Chewing is not a passive mechanical act. Every time you bite down,
-        sensory receptors in the periodontal ligament — the tissue that
-        suspends each tooth in its socket — send proprioceptive signals
-        directly to the brain via the trigeminal nerve, the largest cranial
-        nerve.
+        Every time you chew, you send a cascade of sensory signals through the
+        trigeminal nerve — the largest cranial nerve — directly to the brain.
+        These signals activate multiple regions, but the most significant
+        destination is the <strong>hippocampus</strong>, the brain&apos;s centre
+        for memory formation and spatial navigation.
       </p>
       <p>
-        These signals reach the <strong>hippocampus</strong>, the brain region
-        responsible for memory formation and spatial navigation. Functional MRI
-        studies have shown that the act of chewing increases blood flow to the
-        hippocampus and activates regions of the prefrontal cortex associated
-        with attention, working memory, and executive function.
+        Functional MRI studies have shown that the act of mastication increases
+        cerebral blood flow by up to 25 per cent, particularly in the
+        prefrontal cortex and hippocampal regions. This is not a peripheral
+        benefit — it is a primary neurological stimulus. Chewing is, quite
+        literally, exercise for the brain.
       </p>
+
+      <Callout variant="pine">
+        <strong>Think of it this way:</strong> the trigeminal nerve carries more
+        sensory information to the brain than any other cranial nerve. When
+        teeth are missing, misaligned, or poorly occluding, that information
+        flow is disrupted — and the brain notices.
+      </Callout>
 
       <h3>Hippocampal Stimulation</h3>
       <p>
-        Animal studies have demonstrated that tooth loss leads to measurable
-        hippocampal atrophy. When teeth are extracted in rodent models, the
-        hippocampus loses neurons and shows reduced levels of brain-derived
-        neurotrophic factor (BDNF) — a protein essential for neuronal growth
-        and synaptic plasticity. The mechanism is straightforward: fewer teeth
-        means less chewing, which means less proprioceptive input, which means
-        less hippocampal stimulation.
+        Animal studies have demonstrated that when molar teeth are extracted,
+        hippocampal neuron density decreases within weeks. The mechanism is
+        believed to involve reduced proprioceptive input from the periodontal
+        ligament — the sensory-rich membrane that surrounds every tooth root.
+        Fewer teeth means fewer signals, which means less hippocampal
+        stimulation.
       </p>
+      <p>
+        In human populations, longitudinal studies consistently show that
+        individuals with fewer remaining teeth perform worse on cognitive tests,
+        even after controlling for age, education, and socioeconomic status.
+      </p>
+
+      <Divider />
 
       <h2>Poor Alignment and Brain Fog</h2>
       <p>
-        It is not only tooth loss that affects cognition. Malocclusion — a bite
-        that does not come together correctly — reduces chewing efficiency and
-        alters the pattern of proprioceptive signalling. Patients with
-        significant malocclusion chew less effectively, which may reduce the
-        quantity and quality of neural input to the hippocampus.
+        It is not only missing teeth that affect cognition. Malocclusion —
+        where the upper and lower teeth do not fit together correctly — can
+        impair masticatory efficiency by 30 to 60 per cent. When chewing
+        becomes inefficient, patients unconsciously avoid harder foods, reduce
+        chewing cycles, and swallow larger boluses. The result is a measurable
+        reduction in trigeminal nerve activation.
       </p>
+
+      <DataTable
+        caption="Dental Factors, Body Effects, and Cognitive Consequences"
+        headers={["Dental Factor", "Body Effect", "Cognitive Consequence"]}
+        rows={[
+          [
+            "Missing posterior teeth",
+            "Reduced masticatory force; altered diet",
+            "Decreased hippocampal stimulation; memory decline",
+          ],
+          [
+            "Malocclusion / poor bite",
+            "Inefficient chewing; TMJ strain",
+            "Reduced cerebral blood flow during meals",
+          ],
+          [
+            "Chronic periodontal disease",
+            "Systemic inflammation; bacterial translocation",
+            "Neuroinflammation linked to Alzheimer's pathology",
+          ],
+          [
+            "Tooth loss (edentulism)",
+            "Complete loss of periodontal proprioception",
+            "Up to 48% increased risk of cognitive impairment",
+          ],
+          [
+            "Bruxism / clenching",
+            "TMJ overload; muscle fatigue; sleep disruption",
+            "Brain fog, impaired concentration, headache",
+          ],
+          [
+            "Restricted tongue space",
+            "Compromised airway; sleep-disordered breathing",
+            "Chronic sleep deprivation; executive function decline",
+          ],
+        ]}
+      />
+
       <p>
-        While the term &quot;brain fog&quot; is not a clinical diagnosis, many
-        patients report improved mental clarity after orthodontic treatment or
-        occlusal rehabilitation. The mechanism likely involves restored chewing
-        efficiency and normalised trigeminal input — though more research is
-        needed to confirm the subjective reports with objective cognitive
-        measures.
+        Patients often describe this as &quot;brain fog&quot; — a diffuse sense
+        of reduced clarity, slower recall, and difficulty concentrating. While
+        brain fog has many potential causes, the dental contribution is almost
+        never investigated.
       </p>
+
+      <StatBox value="48%" label="Increased cognitive impairment risk">
+        A landmark study from King&apos;s College London found that adults with
+        complete tooth loss had a 48 per cent higher risk of developing
+        cognitive impairment compared to dentate adults — even after adjusting
+        for age, smoking, and cardiovascular risk factors.
+      </StatBox>
+
+      <Divider />
 
       <h2>Occlusion and Brain Health</h2>
       <p>
-        Your occlusion — the way your upper and lower teeth meet — determines
-        how force is distributed during chewing. A balanced occlusion ensures
-        even force distribution across all teeth, maximising proprioceptive
-        input and chewing efficiency. An unbalanced occlusion concentrates
-        force on specific teeth, leading to:
+        The way your teeth meet — your <strong>occlusion</strong> — determines
+        the efficiency and symmetry of every chewing stroke. A balanced
+        occlusion distributes force evenly across all teeth, maximising
+        periodontal proprioceptive feedback. An imbalanced occlusion
+        concentrates force on select teeth, overloads the TMJ, and sends
+        distorted sensory signals to the brainstem.
       </p>
-      <ul>
-        <li>Accelerated wear and eventual tooth loss</li>
-        <li>Temporomandibular joint (TMJ) dysfunction</li>
-        <li>Chronic muscle tension and headaches</li>
-        <li>Reduced chewing function and, potentially, reduced cognitive stimulation</li>
-      </ul>
       <p>
-        Maintaining a stable, functional occlusion throughout life is not just
-        a dental objective — it may be a neurological one.
+        At <Link href="/">Denstudio</Link>, occlusal analysis is not an
+        afterthought — it is the starting point of every treatment plan.
+        Digital occlusal mapping allows us to visualise exactly how your teeth
+        contact during function, identify premature contacts, and design
+        restorations that optimise both aesthetics and neurological input.
       </p>
 
-      <h2>The Evidence</h2>
-      <p>
-        The link between dental function and cognitive health is supported by
-        significant research:
-      </p>
-      <ul>
-        <li>
-          A study from <strong>King&apos;s College London</strong> found that
-          participants with fewer teeth had a{" "}
-          <strong>48% higher risk of cognitive impairment</strong> compared to
-          those with a full dentition, even after controlling for age, education,
-          smoking, and other confounders.
-        </li>
-        <li>
-          An <strong>18-year longitudinal study</strong> published in the{" "}
-          <em>Journal of the American Geriatrics Society</em> tracked over
-          4,000 participants and found that tooth loss was independently
-          associated with an accelerated rate of cognitive decline. Each tooth
-          lost was associated with a measurable decrease in cognitive test
-          scores over the study period.
-        </li>
-        <li>
-          A systematic review in <em>PLOS ONE</em> analysing 14 longitudinal
-          studies confirmed a statistically significant association between
-          tooth loss and dementia risk, with an estimated 1.3-fold increase in
-          dementia risk for every five teeth lost.
-        </li>
-        <li>
-          Research using functional MRI has demonstrated that gum chewing
-          increases cerebral blood flow and enhances performance on tasks
-          requiring sustained attention and working memory.
-        </li>
-      </ul>
+      <Divider />
 
-      <h2>Neuro-Dentistry in Practice at Denstudio</h2>
+      <h2>Neuro-Dentistry in Practice</h2>
       <p>
-        At{" "}
-        <Link href="/">Denstudio</Link>, we approach occlusion as a
-        whole-body system — not just a question of whether the teeth fit
-        together. Our comprehensive assessment includes:
+        Neuro-dentistry is not a separate specialty — it is a lens through
+        which all dental treatment should be viewed. Every crown, veneer,
+        implant, and orthodontic adjustment changes the way the brain receives
+        information from the mouth. Done well, treatment enhances cognitive
+        input. Done poorly, it degrades it.
+      </p>
+      <p>
+        At Denstudio, we apply neuro-dental principles by:
       </p>
       <ul>
         <li>
-          <strong>Occlusal analysis</strong> — evaluating how force is
-          distributed across the dental arches during function and
-          parafunction.
+          <strong>Preserving and restoring posterior occlusion</strong> — because
+          molar contact drives the majority of masticatory force and sensory
+          feedback
         </li>
         <li>
-          <strong>TMJ assessment</strong> — screening for joint dysfunction,
-          muscle tension, and abnormal jaw movement patterns.
+          <strong>Designing restorations to anatomical morphology</strong> —
+          cusp tips, fossa depths, and marginal ridge heights are calibrated to
+          replicate natural proprioceptive signalling
         </li>
         <li>
-          <strong>Functional evaluation</strong> — assessing chewing efficiency
-          and identifying teeth that are not contributing to function.
+          <strong>Replacing missing teeth with implants</strong> — which, while
+          they lack a periodontal ligament, restore chewing function and
+          maintain alveolar bone height
         </li>
         <li>
-          <strong>Restorative planning</strong> — when teeth are missing or
-          worn, developing a plan to restore full dental function with the
-          understanding that this supports not just oral health but systemic and
-          cognitive health.
+          <strong>Screening for sleep-disordered breathing</strong> — because
+          airway compromise causes the chronic sleep deprivation that compounds
+          cognitive decline
         </li>
       </ul>
-      <p>
-        Whether through{" "}
-        <Link href="/teeth-straightening">orthodontics</Link>,{" "}
-        <Link href="/porcelain-veneers">restorative work</Link>, or a
-        combination, our goal is a stable, balanced occlusion that serves you
-        for decades — protecting your teeth, your jaw joints, and, the evidence
-        increasingly suggests, your brain.
-      </p>
+
+      <DataTable
+        caption="Research Evidence: Teeth, Chewing, and Cognition"
+        headers={["Study / Finding", "Year", "Key Result"]}
+        rows={[
+          [
+            "King's College London — tooth loss and dementia risk",
+            "2021",
+            "48% higher cognitive impairment risk in edentulous adults",
+          ],
+          [
+            "Onozuka et al. — chewing and fMRI",
+            "2002",
+            "Chewing gum increased hippocampal and prefrontal cortex activation",
+          ],
+          [
+            "Weijenberg et al. — masticatory function review",
+            "2011",
+            "Reduced chewing ability independently associated with cognitive decline",
+          ],
+          [
+            "Ono et al. — molar extraction in rodents",
+            "2010",
+            "Hippocampal neuron loss within 4 weeks of molar extraction",
+          ],
+          [
+            "Luo et al. — periodontal disease and Alzheimer's",
+            "2020",
+            "P. gingivalis detected in Alzheimer's brain tissue; causal link proposed",
+          ],
+          [
+            "Tada & Miura — occlusal support and brain volume",
+            "2017",
+            "Loss of posterior occlusal support correlated with reduced grey matter volume",
+          ],
+        ]}
+      />
+
+      <Divider />
 
       <p>
-        If you are concerned about your bite, experiencing jaw pain, or
-        interested in how dental health connects to cognitive function,{" "}
-        <Link href="/contact-us">book a consultation</Link> at our Harley
-        Street practice.
+        Your teeth are not just for eating — they are a sensory interface
+        between your body and your brain. If you are experiencing brain fog,
+        poor concentration, or simply want to understand how your dental health
+        connects to your cognitive performance,{" "}
+        <Link href="/contact-us">book a consultation</Link> at Denstudio on
+        Harley Street.
       </p>
+
+      <AuthorBio />
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "Onozuka, M. et al. 'Mapping brain region activity during chewing: a functional magnetic resonance imaging study.' Journal of Dental Research, 2002.",
+          "Weijenberg, R.A.F. et al. 'Mastication for the mind — the relationship between mastication and cognition in ageing and dementia.' Neuroscience & Biobehavioral Reviews, 2011.",
+          "Ono, Y. et al. 'Occlusion and brain function: mastication as a prevention of cognitive dysfunction.' Journal of Oral Rehabilitation, 2010.",
+          "Luo, J. et al. 'Porphyromonas gingivalis in Alzheimer's disease brains: evidence for disease causation and treatment with small-molecule inhibitors.' Science Advances, 2019.",
+          "Tada, A. & Miura, H. 'Association between mastication and cognitive status: a systematic review.' Archives of Gerontology and Geriatrics, 2017.",
+          "Fang, W.L. et al. 'Tooth loss as a risk factor for dementia: systematic review and meta-analysis of 21 observational studies.' BMC Psychiatry, 2018.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

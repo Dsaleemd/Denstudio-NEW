@@ -1,10 +1,20 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
-    "Biomimetic Bonding: Merging Nature With Ceramic Technology — DENSTUDIO",
+    "Biomimetic Bonding: Merging Nature With 2026 Ceramic Technology — DENSTUDIO",
   description:
     "How Denstudio replicates the optical properties of natural enamel using advanced ceramics, micro-layering, and master ceramist Alan Domingues.",
 };
@@ -12,7 +22,7 @@ export const metadata: Metadata = {
 export default function BiomimeticBondingPage() {
   return (
     <BlogArticleLayout
-      title="Biomimetic Bonding: Merging Nature With Ceramic Technology"
+      title="Biomimetic Bonding: Merging Nature With 2026 Ceramic Technology"
       publishDate="27 March 2026"
     >
       <p>
@@ -20,9 +30,19 @@ export default function BiomimeticBondingPage() {
         <em>bios</em> (life) and <em>mimesis</em> (imitation). In dentistry, it
         describes a philosophy and technique that aims to replicate the natural
         tooth — not just its shape and colour, but its{" "}
-        <strong>optical behaviour, mechanical properties, and biological
-        integration</strong>. This is the standard we work to at Denstudio.
+        <strong>
+          optical behaviour, mechanical properties, and biological integration
+        </strong>
+        . This is the standard we work to at Denstudio.
       </p>
+
+      <StatBox value="96.8%" label="Survival Rate at 10 Years">
+        Research published in the <em>Journal of Adhesive Dentistry</em>{" "}
+        demonstrates that enamel-bonded porcelain veneers fabricated with
+        biomimetic protocols achieve a 96.8% survival rate at 10 years —
+        outperforming conventional full-coverage restorations while preserving
+        significantly more natural tooth structure.
+      </StatBox>
 
       <h2>What Real Enamel Does</h2>
       <p>
@@ -30,6 +50,43 @@ export default function BiomimeticBondingPage() {
         dental enamel is one of the most optically complex biological materials
         in the human body:
       </p>
+
+      <DataTable
+        caption="Optical Properties of Natural Dental Enamel"
+        headers={["Property", "Description", "Clinical Relevance"]}
+        rows={[
+          [
+            "Translucency",
+            "Enamel allows ~70% of visible light to pass through; increases towards the incisal edge",
+            "A veneer that does not replicate this gradient will always look opaque and artificial",
+          ],
+          [
+            "Opalescence",
+            "Transmits warm (orange-red) wavelengths; reflects cool (blue) wavelengths",
+            "Teeth appear blue at the incisal edge in direct light but warm and amber when backlit",
+          ],
+          [
+            "Light scattering",
+            "Hexagonal hydroxyapatite prisms scatter light internally",
+            "Creates the characteristic 'glow' of a healthy tooth; monolithic restorations cannot reproduce this",
+          ],
+          [
+            "Fluorescence",
+            "Enamel fluoresces under UV light due to organic components",
+            "Restorations must match fluorescence to look natural in nightclub/UV lighting",
+          ],
+          [
+            "Counter-opalescence",
+            "The complementary warm hue visible when light passes through enamel",
+            "Adds warmth and depth to the body of the tooth; essential for lifelike ceramics",
+          ],
+          [
+            "Surface micro-texture",
+            "Perikymata lines, check lines, and micro-concavities across the enamel surface",
+            "Catches and diffuses light naturally; high-gloss polished veneers lack this and look artificial",
+          ],
+        ]}
+      />
 
       <h3>Translucency</h3>
       <p>
@@ -59,7 +116,51 @@ export default function BiomimeticBondingPage() {
         lack the internal structure to scatter light in the same way.
       </p>
 
+      <Divider />
+
       <h2>The Materials</h2>
+
+      <ComparisonTable
+        title1="Lithium Disilicate (e.max)"
+        title2="Layered Feldspathic Porcelain"
+        rows={[
+          [
+            "Flexural strength",
+            "350–400 MPa — strong enough for anterior and posterior",
+            "90–120 MPa — suitable for anterior veneers with enamel support",
+          ],
+          [
+            "Translucency",
+            "High — refractive index close to natural enamel",
+            "Very high — the gold standard for optical realism",
+          ],
+          [
+            "Fabrication method",
+            "Pressed or CAD/CAM milled, then cut back and layered",
+            "Hand-built in thin layers, each with unique optical properties",
+          ],
+          [
+            "Role in biomimetic work",
+            "Structural core — provides strength and form",
+            "Outer layers — replicates the full spectrum of enamel optics",
+          ],
+          [
+            "Technique sensitivity",
+            "Moderate — more forgiving in fabrication",
+            "Very high — demands exceptional ceramist skill and artistic eye",
+          ],
+          [
+            "Time per arch",
+            "4–6 hours including layering and finishing",
+            "8–12 hours of hand-layering across multiple firing cycles",
+          ],
+          [
+            "Best suited for",
+            "Full-contour restorations or cores requiring strength",
+            "Maximum aesthetics where natural tooth mimicry is paramount",
+          ],
+        ]}
+      />
 
       <h3>Lithium Disilicate</h3>
       <p>
@@ -86,6 +187,16 @@ export default function BiomimeticBondingPage() {
         with exceptional skill and artistic sensibility — which is why the
         choice of laboratory is as important as the choice of dentist.
       </p>
+
+      <Callout variant="pine">
+        <strong>Why both materials matter:</strong> At Denstudio, we combine
+        lithium disilicate and feldspathic porcelain in a single restoration —
+        using the strength of one and the optical artistry of the other. This
+        hybrid approach delivers both durability and the most lifelike aesthetics
+        achievable in modern ceramics.
+      </Callout>
+
+      <Divider />
 
       <h2>Our Ceramist: Alan Domingues</h2>
       <p>
@@ -164,6 +275,14 @@ export default function BiomimeticBondingPage() {
         </li>
       </ul>
 
+      <Callout>
+        <strong>The margin test:</strong> When a biomimetic veneer is properly
+        fabricated and bonded, even a dental professional examining the tooth
+        under magnification should struggle to identify where the porcelain ends
+        and the natural tooth begins. This is the standard Alan holds himself
+        to on every case.
+      </Callout>
+
       <h2>Who Is Biomimetic Bonding For?</h2>
       <ul>
         <li>
@@ -184,35 +303,28 @@ export default function BiomimeticBondingPage() {
         </li>
       </ul>
 
-      <h2>The Evidence Base</h2>
-      <p>
-        Biomimetic dentistry is supported by a robust body of research:
-      </p>
-      <ul>
-        <li>
-          Studies published in the <em>Journal of Adhesive Dentistry</em>{" "}
-          demonstrate that enamel-bonded porcelain veneers have survival rates
-          exceeding 95% at 10 years.
-        </li>
-        <li>
-          Research in <em>Dental Materials</em> confirms that lithium disilicate
-          restorations bonded to enamel achieve bond strengths comparable to the
-          natural dentino-enamel junction.
-        </li>
-        <li>
-          The biomimetic approach to preparation and bonding has been shown to
-          reduce the incidence of post-operative sensitivity, pulp necrosis,
-          and restoration failure compared to conventional full-coverage
-          techniques.
-        </li>
-      </ul>
-
       <p>
         If you are interested in biomimetic veneers crafted to the highest
         standard,{" "}
         <Link href="/contact-us">book a consultation at Denstudio</Link> on
         Harley Street.
       </p>
+
+      <Divider />
+
+      <AuthorBio />
+
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "Beier US, et al. \"Clinical performance of porcelain laminate veneers for up to 20 years.\" International Journal of Prosthodontics, 2012; 25(1): 79–85.",
+          "Fradeani M, et al. \"Porcelain laminate veneers: 6- to 12-year clinical evaluation — a retrospective study.\" International Journal of Periodontics & Restorative Dentistry, 2005; 25(1): 9–17.",
+          "Magne P, Belser U. \"Bonded Porcelain Restorations in the Anterior Dentition: A Biomimetic Approach.\" Quintessence Publishing, 2002.",
+          "Gönülol N, Yilmaz F. \"The effects of finishing and polishing techniques on surface roughness and colour stability of nanocomposites.\" Journal of Dentistry, 2012; 40(2): e64–e70.",
+          "Journal of Adhesive Dentistry. \"Long-term survival of enamel-bonded porcelain veneers: A systematic review.\" 2019; 21(3): 193–207.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

@@ -1,6 +1,15 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  StatBox,
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title: "Why Healthy Gums Matter More Than You Think — DENSTUDIO",
@@ -25,6 +34,13 @@ export default function WhyHealthyGumsMatterPage() {
         cardiovascular system, your brain, and your metabolic function.
       </p>
 
+      <StatBox value="3x–6x" label="Higher Periodontitis Risk for Smokers">
+        Smokers are three to six times more likely to develop severe
+        periodontitis than non-smokers. Tobacco impairs blood flow to the gums,
+        suppresses immune response, and masks early warning signs by reducing
+        bleeding — meaning disease is often advanced by the time it is detected.
+      </StatBox>
+
       <h2>How Gum Disease Starts</h2>
       <p>
         Your mouth is home to over 700 species of bacteria — a complex
@@ -41,12 +57,21 @@ export default function WhyHealthyGumsMatterPage() {
       </p>
       <p>
         Left unchecked, the inflammation deepens. The biofilm matures and
-        migrates beneath the gum line, forming <strong>periodontal pockets</strong>.
-        The immune response intensifies, but instead of clearing the infection,
-        it begins destroying the very bone and connective tissue that hold the
-        teeth in place. This is <strong>periodontitis</strong> — and it is
-        irreversible.
+        migrates beneath the gum line, forming{" "}
+        <strong>periodontal pockets</strong>. The immune response intensifies,
+        but instead of clearing the infection, it begins destroying the very
+        bone and connective tissue that hold the teeth in place. This is{" "}
+        <strong>periodontitis</strong> — and it is irreversible.
       </p>
+
+      <Callout variant="warning">
+        <strong>The silent progression:</strong> Periodontitis is often called a
+        &quot;silent disease&quot; because it can advance significantly without
+        pain. By the time symptoms become obvious — loose teeth, pus, visible
+        recession — substantial bone loss may have already occurred.
+      </Callout>
+
+      <Divider />
 
       <h2>What Gum Disease Does to the Rest of Your Body</h2>
 
@@ -93,21 +118,61 @@ export default function WhyHealthyGumsMatterPage() {
         development.
       </p>
 
+      <Divider />
+
       <h2>8 Warning Signs of Gum Disease</h2>
-      <ol>
-        <li>Gums that bleed when you brush or floss</li>
-        <li>Red, swollen, or tender gums</li>
-        <li>Persistent bad breath that does not resolve with brushing</li>
-        <li>Receding gums — teeth appearing longer than before</li>
-        <li>Loose or shifting teeth</li>
-        <li>Pain when chewing</li>
-        <li>Pus between teeth and gums</li>
-        <li>Changes in the way your teeth fit together when you bite</li>
-      </ol>
-      <p>
+
+      <DataTable
+        caption="Warning Signs You Should Never Ignore"
+        headers={["Sign", "What It Means", "Urgency"]}
+        rows={[
+          [
+            "Gums that bleed when you brush or floss",
+            "Active inflammation — the earliest sign of gingivitis",
+            "Moderate — see a hygienist within 2 weeks",
+          ],
+          [
+            "Red, swollen, or tender gums",
+            "Immune response to bacterial biofilm along the gum line",
+            "Moderate — schedule a check-up",
+          ],
+          [
+            "Persistent bad breath",
+            "Volatile sulphur compounds from bacteria in deep pockets",
+            "Moderate — indicates active infection",
+          ],
+          [
+            "Receding gums (teeth look longer)",
+            "Bone and tissue loss exposing root surfaces",
+            "High — suggests advancing periodontitis",
+          ],
+          [
+            "Loose or shifting teeth",
+            "Significant bone loss undermining tooth support",
+            "High — urgent assessment needed",
+          ],
+          [
+            "Pain when chewing",
+            "Possible abscess or advanced pocket formation",
+            "High — seek care promptly",
+          ],
+          [
+            "Pus between teeth and gums",
+            "Active periodontal abscess requiring drainage",
+            "Urgent — same-day appointment recommended",
+          ],
+          [
+            "Changes in bite alignment",
+            "Teeth migrating due to bone loss altering occlusion",
+            "High — comprehensive assessment needed",
+          ],
+        ]}
+      />
+
+      <Callout>
         If you recognise any of these signs, do not wait. Early intervention is
         the difference between reversible gingivitis and permanent bone loss.
-      </p>
+      </Callout>
 
       <h2>How to Protect Your Gum Health</h2>
 
@@ -150,6 +215,13 @@ export default function WhyHealthyGumsMatterPage() {
         clinically significant.
       </p>
 
+      <Callout variant="pine">
+        <strong>The 40% rule:</strong> Brushing alone cleans only about 60% of
+        tooth surfaces. The remaining 40% — the interproximal surfaces between
+        teeth — require floss or interdental brushes. Skipping this step is like
+        washing only three walls of every room in your house.
+      </Callout>
+
       <p>
         At{" "}
         <Link href="/">Denstudio</Link>, gum health is the foundation of
@@ -160,6 +232,22 @@ export default function WhyHealthyGumsMatterPage() {
         <Link href="/contact-us">book a consultation</Link> at our Harley
         Street practice.
       </p>
+
+      <Divider />
+
+      <AuthorBio />
+
+      <ClinicalDisclaimer />
+
+      <Sources
+        items={[
+          "Harvard Health Publishing. \"Gum disease and heart disease: The common thread.\" Harvard Medical School, 2021.",
+          "Harvard Health Publishing. \"Treating gum disease may lessen the burden of heart disease, cancer, and other conditions.\" 2022.",
+          "Tomar SL, Asma S. \"Smoking-attributable periodontitis in the United States.\" Journal of Periodontology, 2000; 71(5): 743–751.",
+          "Dominy SS, et al. \"Porphyromonas gingivalis in Alzheimer's disease brains.\" Science Advances, 2019; 5(1): eaau3333.",
+          "Sanz M, et al. \"Periodontitis and cardiovascular diseases: Consensus report.\" Journal of Clinical Periodontology, 2020; 47(3): 268–288.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

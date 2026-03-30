@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
+import {
+  StatBox,
+  Callout,
+  ComparisonTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
-  title: "Slow Dentistry in London: Denstudio Harley Street — DENSTUDIO",
+  title:
+    "Slow Dentistry in London: How Denstudio Is Changing the Way People Feel About the Dentist — DENSTUDIO",
   description:
     "Learn about slow dentistry at Denstudio Harley Street. Discover how unhurried, patient-centred care transforms the dental experience for anxious patients and everyone.",
 };
@@ -10,7 +20,7 @@ export const metadata: Metadata = {
 export default function SlowDentistryLondonPage() {
   return (
     <BlogArticleLayout
-      title="Slow Dentistry in London: Denstudio Harley Street"
+      title="Slow Dentistry in London: How Denstudio Is Changing the Way People Feel About the Dentist"
       publishDate="March 2026"
     >
       <p>
@@ -21,6 +31,13 @@ export default function SlowDentistryLondonPage() {
         other way — and at Denstudio, it is the foundation of everything we
         do.
       </p>
+
+      <Callout variant="warning">
+        <strong>Between 30% and 40% of UK adults</strong> experience some degree
+        of dental anxiety. For many, the fear is severe enough to prevent them
+        from seeking care at all. Slow dentistry was developed specifically to
+        address this — by removing the time pressure that fuels anxiety.
+      </Callout>
 
       <h2>What Is Slow Dentistry?</h2>
       <p>
@@ -51,44 +68,36 @@ export default function SlowDentistryLondonPage() {
         <li>Corners being cut to stay on schedule</li>
         <li>Anxiety building because the patient does not feel in control</li>
       </ul>
-      <p>
-        Slow dentistry removes these pressures. At Denstudio:
-      </p>
-      <ul>
-        <li>
-          <strong>Appointments are longer</strong> — we schedule generous time
-          slots so there is never any rush
-        </li>
-        <li>
-          <strong>Fewer patients per day</strong> — this allows us to give
-          each person our full attention
-        </li>
-        <li>
-          <strong>Communication comes first</strong> — we explain everything
-          clearly and answer every question before beginning any treatment
-        </li>
-        <li>
-          <strong>Consent is informed and unhurried</strong> — you will never
-          feel pressured to agree to something you are not comfortable with
-        </li>
-        <li>
-          <strong>Precision is prioritised</strong> — taking time leads to
-          better clinical outcomes, particularly in cosmetic treatments where
-          detail matters enormously
-        </li>
-      </ul>
+
+      <ComparisonTable
+        title1="Conventional / NHS Dentistry"
+        title2="Slow Dentistry at Denstudio"
+        rows={[
+          ["Appointment length", "10–15 minutes typical", "45–90 minutes per visit"],
+          ["Patients per day", "25–40 patients", "6–8 patients maximum"],
+          ["Communication style", "Brief, often clinical", "Thorough, jargon-free explanation"],
+          ["Consent process", "Often rushed or assumed", "Unhurried, fully informed consent"],
+          ["Treatment planning", "May begin same day", "Collaborative planning before any work"],
+          ["Continuity of care", "May see different clinicians", "Same dentist at every visit"],
+          ["Environment", "Clinical, high-throughput", "Calm, private, wellness-focused"],
+          ["Precision focus", "Efficiency-driven", "Detail and quality-driven"],
+        ]}
+      />
 
       <h2>Why Slow Dentistry Works for Anxious Patients</h2>
       <p>
-        Dental anxiety is incredibly common. Studies suggest that between 30
-        and 40 per cent of adults in the UK experience some degree of anxiety
-        about dental visits, and for many, the fear is severe enough to prevent
-        them from seeking care at all.
+        Dental anxiety is incredibly common. Slow dentistry is particularly
+        effective for anxious patients because it addresses the root causes of
+        dental fear:
       </p>
-      <p>
-        Slow dentistry is particularly effective for anxious patients because
-        it addresses the root causes of dental fear:
-      </p>
+
+      <StatBox value="36%" label="of UK adults report dental anxiety">
+        According to the Adult Dental Health Survey, over a third of adults in
+        England, Wales, and Northern Ireland experience moderate to extreme
+        dental anxiety — making it one of the most common healthcare-related
+        fears in the country.
+      </StatBox>
+
       <ul>
         <li>
           <strong>Loss of control</strong> — slow dentistry gives you control.
@@ -111,6 +120,8 @@ export default function SlowDentistryLondonPage() {
           met with warmth and understanding, not criticism.
         </li>
       </ul>
+
+      <Divider />
 
       <h2>The Patient Experience at Denstudio</h2>
       <p>
@@ -136,6 +147,13 @@ export default function SlowDentistryLondonPage() {
         a break. If you have a question, we stop and answer it. The goal is
         for you to feel safe, comfortable, and in control at every moment.
       </p>
+
+      <Callout>
+        <strong>The Denstudio signal:</strong> Before treatment begins, we agree
+        on a simple signal — such as raising your hand — that lets Dr Denzel
+        know you need a pause. There is never any pressure to continue if you
+        are not comfortable.
+      </Callout>
 
       <h2>Slow Dentistry and Cosmetic Excellence</h2>
       <p>
@@ -178,10 +196,12 @@ export default function SlowDentistryLondonPage() {
           and want fewer, longer appointments rather than many short ones
         </li>
         <li>
-          <strong>Anyone who has ever felt rushed, dismissed, or anxious</strong>
+          <strong>Anyone who has ever felt rushed, dismissed, or anxious</strong>{" "}
           at a dental practice and wants a fundamentally different experience
         </li>
       </ul>
+
+      <Divider />
 
       <h2>Frequently Asked Questions</h2>
 
@@ -222,6 +242,17 @@ export default function SlowDentistryLondonPage() {
         Denstudio. Whether you are a new patient or returning after many
         years, you are welcome to contact us and begin the conversation.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "Adult Dental Health Survey (2009). NHS Digital.",
+          "Slow Dentistry Global Network — slowdentistry.com",
+          "British Dental Association. Dental anxiety statistics and patient care guidance.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }

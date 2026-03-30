@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import BlogArticleLayout from "@/components/BlogArticleLayout";
 import Link from "next/link";
+import {
+  Callout,
+  DataTable,
+  Divider,
+  AuthorBio,
+  ClinicalDisclaimer,
+  Sources,
+} from "@/components/BlogComponents";
 
 export const metadata: Metadata = {
   title:
@@ -23,6 +31,14 @@ export default function DoVeneersSmellPage() {
         gone wrong, the odour can be a sign that needs attention.
       </p>
 
+      <Callout variant="pine">
+        <strong>Short answer: no.</strong> Properly fitted porcelain veneers are
+        made from non-porous, biologically inert materials that do not harbour
+        bacteria or produce odour. If you notice a smell around your veneers,
+        the veneer itself is not the cause — but something else may need
+        attention.
+      </Callout>
+
       <h2>Why Veneers Themselves Don&apos;t Smell</h2>
       <p>
         Modern porcelain and composite veneers are made from{" "}
@@ -42,6 +58,38 @@ export default function DoVeneersSmellPage() {
         While the veneer material is not the problem, several clinical issues
         can create conditions for bad breath:
       </p>
+
+      <DataTable
+        caption="Common Causes of Bad Breath With Veneers — and How to Fix Them"
+        headers={["Cause", "What Happens", "Solution"]}
+        rows={[
+          [
+            "Poorly fitted veneers / micro-gaps",
+            "Food debris and bacteria collect in the gap between veneer and tooth, producing volatile sulphur compounds",
+            "Have margins assessed under magnification; replace veneer if fit is compromised",
+          ],
+          [
+            "Untreated decay underneath",
+            "Cavity develops beneath or around the veneer, causing the tooth structure to decay and produce odour",
+            "Radiographs to detect hidden decay; treatment of cavity and possible veneer replacement",
+          ],
+          [
+            "Inadequate oral hygiene",
+            "Plaque accumulates at gum line and between teeth, leading to gum inflammation and halitosis",
+            "Twice-daily brushing, daily flossing, regular hygiene appointments every 3–6 months",
+          ],
+          [
+            "Temporary veneers (acrylic)",
+            "Acrylic resin is porous and absorbs odours during the fabrication period",
+            "This is temporary and resolves once permanent porcelain veneers are fitted",
+          ],
+          [
+            "Gum disease (gingivitis/periodontitis)",
+            "Inflamed or infected gums around veneers produce a persistent bad taste and smell",
+            "Professional cleaning, gum treatment, improved home care routine",
+          ],
+        ]}
+      />
 
       <h3>1. Poorly Fitted Veneers and Micro-Gaps</h3>
       <p>
@@ -77,6 +125,8 @@ export default function DoVeneersSmellPage() {
         permanent veneers are fitted.
       </p>
 
+      <Divider />
+
       <h2>How to Prevent Bad Breath With Veneers</h2>
       <ul>
         <li>
@@ -100,6 +150,13 @@ export default function DoVeneersSmellPage() {
           and worsens halitosis.
         </li>
       </ul>
+
+      <Callout>
+        <strong>The floss test:</strong> If you floss around a specific veneer
+        and notice a persistent unpleasant smell on the floss, book an
+        assessment as soon as possible. This is often the earliest sign of a
+        margin gap or decay developing underneath.
+      </Callout>
 
       <h2>What to Do If You Already Have Smelly Veneers</h2>
       <p>
@@ -139,6 +196,17 @@ export default function DoVeneersSmellPage() {
         <Link href="/contact-us">book a consultation</Link> and we will give
         you an honest assessment of your options.
       </p>
+
+      <Divider />
+      <AuthorBio />
+      <ClinicalDisclaimer />
+      <Sources
+        items={[
+          "Qualtrough, A.J.E. & Piddock, V. (1997). Ceramics update. Journal of Dentistry, 25(2), 91–95.",
+          "Peumans, M. et al. (2004). Porcelain veneers: a review of the literature. Journal of Dentistry, 28(3), 163–177.",
+          "British Dental Association. Oral hygiene guidance for patients with dental restorations.",
+        ]}
+      />
     </BlogArticleLayout>
   );
 }
