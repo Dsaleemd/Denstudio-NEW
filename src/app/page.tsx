@@ -98,7 +98,7 @@ export default function Home() {
             <div className="bg-white/30 backdrop-blur-sm rounded-2xl px-6 py-7 md:bg-transparent md:backdrop-blur-none md:rounded-none md:px-0 md:py-0 md:shadow-none max-w-2xl shadow-sm">
               {/* 2 — Hero H1 */}
               <DevLabel id={2}>
-                <h1 className="text-[1.93rem] md:text-[2.86rem] lg:text-[4.24rem] font-black text-[#3b3737] leading-[1.05] mb-4 md:mb-6">
+                <h1 className="text-[2.12rem] md:text-[3.15rem] lg:text-[4.66rem] font-black text-[#3b3737] leading-[1.05] mb-4 md:mb-6">
                   Redefining the future of aesthetic dentistry
                 </h1>
               </DevLabel>
