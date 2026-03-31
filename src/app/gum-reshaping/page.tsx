@@ -97,7 +97,7 @@ export default function GumReshapingPage() {
               </EnquiryButton>
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image src="/images/gum-reshaping/hero.webp" alt="Gum Reshaping" fill className="object-cover" priority />
+              <Image src="/images/gum-reshaping/hero.webp" alt="Gum Reshaping" fill className="object-cover object-top" priority />
             </div>
           </div>
         </div>

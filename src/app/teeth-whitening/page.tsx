@@ -58,7 +58,7 @@ export default function TeethWhiteningPage() {
             </EnquiryButton>
           </div>
           <div className="relative rounded-2xl overflow-hidden self-end h-full">
-            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-contain object-right-bottom" priority />
+            <Image src="/images/teeth-whitening/hero.webp" alt="Teeth Whitening" fill className="object-cover object-right-bottom" style={{ transform: "scale(1.3)" }} priority />
           </div>
           </div>
         </div>
