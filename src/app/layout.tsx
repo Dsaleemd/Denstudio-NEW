@@ -73,14 +73,14 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      {/* Google Analytics - replace G-XXXXXXXXXX with real ID */}
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+      {/* Google Analytics - replace G-ZGV7D03B7Z with real ID */}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-ZGV7D03B7Z" strategy="afterInteractive" />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX');
+          gtag('config', 'G-ZGV7D03B7Z');
         `}
       </Script>
       <body className="min-h-full flex flex-col font-cabin">
