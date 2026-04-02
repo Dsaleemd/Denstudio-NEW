@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const treatmentLinks = [
   { label: "General", href: "/general" },
@@ -209,9 +210,31 @@ export default function Footer() {
           </a>
         </div>
 
+        {/* HSDC Partnership */}
+        <div className="mt-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Image
+            src="/images/logos/hsdc-logo.png"
+            alt="Harley Street Dental Clinic"
+            width={120}
+            height={49}
+            className="brightness-0 invert opacity-70"
+          />
+          <p className="text-sm text-white/60">
+            Proud to operate within{" "}
+            <a
+              href="https://www.harleystreetdentalclinic.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white/80 hover:text-gold underline underline-offset-2 transition-colors"
+            >
+              HSDC
+            </a>
+          </p>
+        </div>
+
         {/* Copyright */}
-        <p className="mt-8 text-xs text-white/40 text-center">
-          &copy; 2025 &ndash; DENSTUDIO &ndash; All Rights Reserved | Website
+        <p className="mt-6 text-xs text-white/40 text-center">
+          &copy; {new Date().getFullYear()} &ndash; DENSTUDIO &ndash; All Rights Reserved | Website
           Maintained By Dentell Ltd
         </p>
       </div>
