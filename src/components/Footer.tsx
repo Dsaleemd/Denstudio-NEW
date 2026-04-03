@@ -13,7 +13,7 @@ const treatmentLinks = [
 
 const aboutLinks = [
   { label: "Home", href: "/" },
-  { label: "About", href: "/about" },
+  // { label: "About", href: "/about" }, // Hidden temporarily
   { label: "Fees", href: "/fees" },
   { label: "What's Your Concern?", href: "/whats-your-concern" },
   { label: "Smile Package Offers", href: "/cosmetic-consult" },

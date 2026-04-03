@@ -102,9 +102,7 @@ export default function Header() {
               <Link href="/fees" className="hover:text-[#012406] transition-colors" onClick={() => setTrayOpen(false)}>
                 Fees
               </Link>
-              <Link href="/about" className="hover:text-[#012406] transition-colors" onClick={() => setTrayOpen(false)}>
-                Team
-              </Link>
+              {/* Team link hidden temporarily */}
             </nav>
 
             {/* Right */}
@@ -255,9 +253,7 @@ export default function Header() {
           <Link href="/fees" onClick={() => setMobileOpen(false)} className="py-4 text-lg font-medium text-[#222] border-b border-[#eee]">
             Fees
           </Link>
-          <Link href="/about" onClick={() => setMobileOpen(false)} className="py-4 text-lg font-medium text-[#222] border-b border-[#eee]">
-            Team
-          </Link>
+          {/* Team link hidden temporarily */}
           <Link href="/whats-your-concern" onClick={() => setMobileOpen(false)} className="py-4 text-lg font-medium text-[#222] border-b border-[#eee]">
             What&apos;s Your Concern?
           </Link>

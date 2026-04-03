@@ -10,6 +10,7 @@ Disallow: /about2
 Disallow: /home
 Disallow: /mega-concerns
 Disallow: /appointments
+Disallow: /about
 
 # Host
 Host: https://denstudio.co.uk

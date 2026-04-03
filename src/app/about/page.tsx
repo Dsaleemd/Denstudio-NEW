@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "About | Enhance Your Smile Today — DENSTUDIO",
   description:
     "Discover award-winning, personalized dentistry at DENSTUDIO in London, specializing in cosmetic, general, and transformative dental treatments.",
+  robots: { index: false, follow: false },
 };
 
 const teamMembers = [

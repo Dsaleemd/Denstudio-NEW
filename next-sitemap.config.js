@@ -13,11 +13,12 @@ module.exports = {
     '/new-page-3',
     '/new-page-4',
     '/new-page-5',
+    '/about',
   ],
   robotsTxtOptions: {
     policies: [
       { userAgent: '*', allow: '/' },
-      { userAgent: '*', disallow: ['/thank-you-cosmetic-consult', '/schedule-cosmetic', '/about2', '/home', '/mega-concerns', '/appointments'] },
+      { userAgent: '*', disallow: ['/thank-you-cosmetic-consult', '/schedule-cosmetic', '/about2', '/home', '/mega-concerns', '/appointments', '/about'] },
     ],
   },
 }
