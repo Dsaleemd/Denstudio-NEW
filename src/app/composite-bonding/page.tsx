@@ -122,7 +122,7 @@ export default function CompositeBondingPage() {
                 src="/images/composite-bonding/hero.webp"
                 alt="Composite bonding smile transformation at Denstudio"
                 fill
-                className="object-cover"
+                className="object-cover object-right"
                 priority
               />
             </div>
