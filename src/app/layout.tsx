@@ -3,9 +3,7 @@ import { Cabin } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import EnquiryModalProvider from "@/components/EnquiryModalProvider";
+import PublicShell from "@/components/PublicShell";
 
 const cabin = Cabin({
   variable: "--font-cabin-var",
@@ -85,11 +83,7 @@ export default function RootLayout({
         `}
       </Script>
       <body className="min-h-full flex flex-col font-cabin">
-        <EnquiryModalProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </EnquiryModalProvider>
+        <PublicShell>{children}</PublicShell>
         <Analytics />
       </body>
     </html>

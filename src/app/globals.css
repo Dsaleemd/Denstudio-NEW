@@ -13,6 +13,20 @@
   --color-star-gold: #fbbc04;
   --color-teal: #20c997;
 
+  /* Admin CRM Colors — muted emerald */
+  --color-admin-bg: #f4f6f5;
+  --color-admin-surface: #ffffff;
+  --color-admin-border: #d9e2dc;
+  --color-admin-sidebar: #1a3a2a;
+  --color-admin-sidebar-hover: rgba(255, 255, 255, 0.08);
+  --color-admin-sidebar-active: rgba(255, 255, 255, 0.14);
+  --color-admin-primary: #2d6a4f;
+  --color-admin-primary-hover: #245a42;
+  --color-admin-accent: #40916c;
+  --color-admin-muted: #74917e;
+  --color-admin-text: #1b2e22;
+  --color-admin-text-secondary: #5a6e60;
+
   /* Fonts */
   --font-cabin: var(--font-cabin-var);
 
