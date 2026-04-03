@@ -103,6 +103,12 @@ export default function Header() {
                 Fees
               </Link>
               {/* Team link hidden temporarily */}
+              <Link href="/blog" className="hover:text-[#012406] transition-colors" onClick={() => setTrayOpen(false)}>
+                Blog
+              </Link>
+              <Link href="/contact-us" className="hover:text-[#012406] transition-colors" onClick={() => setTrayOpen(false)}>
+                Contact
+              </Link>
             </nav>
 
             {/* Right */}
@@ -259,6 +265,9 @@ export default function Header() {
           </Link>
           <Link href="/blog" onClick={() => setMobileOpen(false)} className="py-4 text-lg font-medium text-[#222] border-b border-[#eee]">
             Blog
+          </Link>
+          <Link href="/contact-us" onClick={() => setMobileOpen(false)} className="py-4 text-lg font-medium text-[#222] border-b border-[#eee]">
+            Contact
           </Link>
 
           {/* CTA area */}
